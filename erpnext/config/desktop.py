@@ -149,15 +149,6 @@ def get_data():
 			"type": "module",
 			"hidden": 1
 		},
-		"""{
-			"module_name": "Learn",
-			"color": "#FF888B",
-			"icon": "octicon octicon-device-camera-video",
-			"type": "module",
-			"is_help": True,
-			"label": _("Learn"),
-			"hidden": 1
-		},"""
 		{
 			"module_name": "Maintenance",
 			"color": "#FF888B",
