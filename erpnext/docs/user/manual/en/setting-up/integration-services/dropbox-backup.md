@@ -1,8 +1,8 @@
 #Setting Up Dropbox Backups
 
-We always recommend customers to maintain backup of their data in Revalue. he database backup is downloaded in the form of an SQL file. If needed, this SQL file of backup can be restored in the another Revalue account as well.
+We always recommend customers to maintain backup of their data in ERPNext. he database backup is downloaded in the form of an SQL file. If needed, this SQL file of backup can be restored in the another ERPNext account as well.
 
-You can automate database backup download of your Revalue account into your Dropbox account.
+You can automate database backup download of your ERPNext account into your Dropbox account.
 
 ####Step 1: Create Dropbox service
 
@@ -24,7 +24,7 @@ Set Frequency to download backup in your Dropbox account.
 
 ####Step 4: Allow Dropbox Access
 
-After setting frequency and updating other details, click on `Allow Dropbox access`. On clicking this button, the Dropbox login page will open in the new tab. This might require you to allow pop-up for your Revalue account.
+After setting frequency and updating other details, click on `Allow Dropbox access`. On clicking this button, the Dropbox login page will open in the new tab. This might require you to allow pop-up for your ERPNext account.
 
 ####Step 5: Login to Dropbox
 
@@ -34,14 +34,14 @@ Login to your Dropbox account by entering login credentials.
 
 ####Step 6: Allow
 
-On successfull login, you will find a confirmation message as following. Click on "Allow" to let your Revalue account have access to your Dropbox account.
+On successfull login, you will find a confirmation message as following. Click on "Allow" to let your ERPNext account have access to your Dropbox account.
 
 <img class="screenshot" alt="Allow" src="{{docs_base_url}}/assets/img/setup/integration-service/dropbox-3.png">
 
 ####Step 7: Enable Service
 After generating access token, go back to Dropbox Integration Service record and check `enable`. This will enable backup auto-download.
 
-With this, a folder called "Revalue" will be created in your Dropbox account, and database backup will start to auto-download in it.
+With this, a folder called "ERPNext" will be created in your Dropbox account, and database backup will start to auto-download in it.
 
 ##Open Source Users
 

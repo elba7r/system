@@ -1,7 +1,7 @@
 One of the primary motivator for compulsory use of accounting tools is
 calculation of Taxes. You may or may not make money but your government will
 (to help your country be safe and prosperous). And if you don’t calculate your
-taxes correctly, they get very unhappy. Ok, philosophy aside, Revalue allows
+taxes correctly, they get very unhappy. Ok, philosophy aside, ERPNext allows
 you to make configurable tax templates that you can apply to your sales or
 purchase.
 
@@ -24,7 +24,7 @@ Item Tax table can be found as a section within the Item Master document.
 
 <img class="screenshot" alt="Item Tax" src="{{docs_base_url}}/assets/img/taxes/item-tax.png">
 
-  * **Inclusive and Exclusive Tax**: Revalue allows you to enter Item rates which are tax inclusive.
+  * **Inclusive and Exclusive Tax**: ERPNext allows you to enter Item rates which are tax inclusive.
 
 <img class="screenshot" alt="Inclusive Tax" src="{{docs_base_url}}/assets/img/taxes/inclusive-tax.png">
 
@@ -38,7 +38,7 @@ government. At times, you may have to pay multiple taxes to multiple
 government bodies like local government, state or provincial and federal or
 central government.
 
-The way Revalue sets up taxes is via templates. Other types of charges that
+The way ERPNext sets up taxes is via templates. Other types of charges that
 may apply to your invoices (like shipping, insurance etc.) can also be
 configured as taxes.
 

@@ -3,7 +3,7 @@
 
 Fremdvergabe ist eine Art Arbeitsvertrag bei dem bestimmte Arbeiten an andere Unternehmen ausgelagert werden. Das ermöglicht es mehr als eine Phase eines Projektes zum selben Zeitpunkt abzuarbeiten, was oftmals zu einer schnelleren Fertigstellung führt. Fremdvergabe von Arbeiten wird in vielen Industriebranchen praktiziert. So vergeben z. B. Hersteller, die eine Vielzahl von Produkten aus anspruchsvollen Bestandteilen erstellen, Unteraufträge zur Herstellung von Komponenten und verarbeiten diese dann in Ihren Fabrikationsanlagen.
 
-Wenn Sie bei Ihrer Tätigkeit bestimmte Prozesse an eine Drittpartei, bei der Sie Rohmateriel einkaufen, unterbeauftragen. können Sie das über die Option "Fremdvergabe" in Revalue nachverfolgen.
+Wenn Sie bei Ihrer Tätigkeit bestimmte Prozesse an eine Drittpartei, bei der Sie Rohmateriel einkaufen, unterbeauftragen. können Sie das über die Option "Fremdvergabe" in ERPNext nachverfolgen.
 
 ### Fremdvergabe einstellen
 
@@ -23,6 +23,6 @@ Wenn Sie bei Ihrer Tätigkeit bestimmte Prozesse an eine Drittpartei, bei der Si
 
 > Anmerkung 1: Stellen Sie sicher, dass der Preis des verarbeiteten Artikels der Preis der Bearbeitung ist (ohne den Preis des Rohmaterials).
 
-> Anmerkung 2: Revalue fügt zur Bewertung automatisch den Wert des Rohmaterials hinzu, wenn die fertigen Erzeugnisse in Ihrem Lager ankommen.
+> Anmerkung 2: ERPNext fügt zur Bewertung automatisch den Wert des Rohmaterials hinzu, wenn die fertigen Erzeugnisse in Ihrem Lager ankommen.
 
 {next}

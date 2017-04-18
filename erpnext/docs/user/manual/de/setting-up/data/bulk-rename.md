@@ -1,7 +1,7 @@
 # Massenweises Umbenennen von Datensätzen
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Sie können in Revalue (sofern es erlaubt ist) ein Dokument umbenennen, indem Sie im Dokument zu **Menü > Umbenennen** gehen.
+Sie können in ERPNext (sofern es erlaubt ist) ein Dokument umbenennen, indem Sie im Dokument zu **Menü > Umbenennen** gehen.
 
 Alternativ können Sie auch folgenden Weg wählen, wenn Sie eine größere Menge von Datensätzen umbenennen wollen:
 

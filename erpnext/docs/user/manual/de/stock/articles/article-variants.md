@@ -4,7 +4,7 @@
 
 Eine Artikelvariante ist eine Version eines Artikels, die sich zum Beispiel durch eine andere Größe oder eine andere Farbe vom eigentlichen Artikel unterscheidet. Ohne Varianten müssten Sie die kleinen, mittleren und großen Versionen eines T-Shirts jeweils als eigenständigen Artikel anlegen. Artikelvarianten versetzen Sie in die Lage, kleine, mittlere und große Versionen des T-Shirts als Abwandlungen des selben Artikels zu verwalten.
 
-Um Artikelvarianten in Revalue zu verwalten, erstellen Sie einen Artikel und aktivieren in den Artikeldaten den Punkt "Hat Varianten".
+Um Artikelvarianten in ERPNext zu verwalten, erstellen Sie einen Artikel und aktivieren in den Artikeldaten den Punkt "Hat Varianten".
 
 Ab diesem Zeitpunkt wird der Artikel dann als "Vorlage" bezeichnet.
 

@@ -1,6 +1,6 @@
 #Set Precision
 
-In Revalue, default precision for `Float`, `Currency` and `Percent` field is three. It allows you to enter value having value upto three decimal places.
+In ERPNext, default precision for `Float`, `Currency` and `Percent` field is three. It allows you to enter value having value upto three decimal places.
 
 You can also change/customize the precision settings globally or for a specific field.
 

@@ -1,7 +1,7 @@
 # Steuern einrichten
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Eine der hauptsächlichen Antriebskräfte für die zwingende Verwendung des Buchhaltungswerkzeuges ist die Kalkulation von Steuern. Egal ob Sie Geld verdienen oder nicht, Ihre Regierung tut es (und hilft damit Ihrem Land sicher und wohlhabend zu sein). Und wenn Sie Ihre Steuern nicht richtig berechnen, dann ist sie sehr unglücklich. Gut, lassen wir die Philosophie mal beiseite. Revalue ermöglicht es Ihnen konfigurierbare Steuervorlagen zu erstellen, die Sie bei Ihren Ver- und Einkäufen verwenden können.
+Eine der hauptsächlichen Antriebskräfte für die zwingende Verwendung des Buchhaltungswerkzeuges ist die Kalkulation von Steuern. Egal ob Sie Geld verdienen oder nicht, Ihre Regierung tut es (und hilft damit Ihrem Land sicher und wohlhabend zu sein). Und wenn Sie Ihre Steuern nicht richtig berechnen, dann ist sie sehr unglücklich. Gut, lassen wir die Philosophie mal beiseite. ERPNext ermöglicht es Ihnen konfigurierbare Steuervorlagen zu erstellen, die Sie bei Ihren Ver- und Einkäufen verwenden können.
 
 ### Steuerkonten
 
@@ -15,7 +15,7 @@ Die Tabelle zu den Artikelsteuern ist ein Abschnitt in den Artikelstammdaten.
 
 <img class="screenshot" alt="Artikelsteuer" src="{{docs_base_url}}/assets/img/taxes/item-tax.png">
 
-* **Inklusive oder Exklusive Steuer:** Revalue erlaubt es Ihnen Artikelpreise inklusive Steuer einzugeben.
+* **Inklusive oder Exklusive Steuer:** ERPNext erlaubt es Ihnen Artikelpreise inklusive Steuer einzugeben.
 
 <img class="screenshot" alt="Steuer inklusive" src="{{docs_base_url}}/assets/img/taxes/inclusive-tax.png">
 
@@ -26,7 +26,7 @@ Die Tabelle zu den Artikelsteuern ist ein Abschnitt in den Artikelstammdaten.
 
 Normalerweise müssen Sie die von Ihren Kunden an Sie gezahlten Steuern sammeln und an den Staat abführen. Manchmal kann es vorkommen, dass Sie mehrere unterschiedliche Steuern an verschiedene Staatsorgane abführen müssen, wie z. B. an Gemeinden, Bund, Länder oder europäische Organisationen.
 
-Revalue ermittelt Steuern über Vorlagen. Andere Arten von Abgaben, die für Ihre Rechnungen Relevanz haben (wie Versandgebühren, Versicherung, etc.) können genauso wie Steuern eingestellt werden.
+ERPNext ermittelt Steuern über Vorlagen. Andere Arten von Abgaben, die für Ihre Rechnungen Relevanz haben (wie Versandgebühren, Versicherung, etc.) können genauso wie Steuern eingestellt werden.
 
 Wählen Sie eine Vorlage und passen Sie diese gemäß Ihren Wünschen an.
 

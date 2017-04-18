@@ -1,4 +1,4 @@
-Project management in Revalue is Task driven. You can create Project and assign multiple Tasks against it.
+Project management in ERPNext is Task driven. You can create Project and assign multiple Tasks against it.
 
 <img class="screenshot" alt="Project" src="{{docs_base_url}}/assets/img/project/project.png">
 
@@ -40,7 +40,7 @@ Task can be created via Project document itself or can be created via  [Task]({{
 
 ### Managing time
 
-Revalue uses [Time Log]({{docs_base_url}}/user/manual/en/projects/time-log.html) to track the progress of a Project.
+ERPNext uses [Time Log]({{docs_base_url}}/user/manual/en/projects/time-log.html) to track the progress of a Project.
 You can create Time Logs against each task.
 The Actual Start and End Time along with the costing shall then be updated based on the Time Log.
 
@@ -96,7 +96,7 @@ You can make/link a [Sales Order]({{docs_base_url}}/user/manual/en/selling/sales
 ###Gantt Chart
 
 A Gantt Chart illustrates a project schedule.
-Revalue gives you a illustrated view of tasks scheduled against that project in Gantt Chart View.
+ERPNext gives you a illustrated view of tasks scheduled against that project in Gantt Chart View.
 
 * To view gantt chart against a project, go to that project and click on 'Gantt Chart'
 

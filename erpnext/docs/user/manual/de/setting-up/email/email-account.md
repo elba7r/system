@@ -1,13 +1,13 @@
 # E-Mail-Konto
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Sie können in Revalue viele verschiedene E-Mail-Konten für eingehende und ausgehende E-Mails verwalten. Es muss mindestens ein Standard-Konto für ausgehende E-Mails und eines für eingehende E-Mails geben. Wenn Sie sich in der Revalue-Cloud befinden, dann werden die Einstellungen für ausgehende E-Mails von uns getroffen.
+Sie können in ERPNext viele verschiedene E-Mail-Konten für eingehende und ausgehende E-Mails verwalten. Es muss mindestens ein Standard-Konto für ausgehende E-Mails und eines für eingehende E-Mails geben. Wenn Sie sich in der ERPNext-Cloud befinden, dann werden die Einstellungen für ausgehende E-Mails von uns getroffen.
 
 **Anmerkung, wenn Sie das System selbst einrichten:** Für ausgehende E-Mails sollten Sie Ihren eigenen SMTP-Server einrichten oder sich bei einem SMTP Relay Service wie mandrill.com oder sendgrid.com, der den Versand einer größeren Menge von Transaktions-E-Mails erlaubt, registrieren. Standard-E-Mail-Services wie GMail beschränken Sie auf eine Höchstgrenze an E-Mails pro Tag.
 
 ### Standard-E-Mail-Konten
 
-Revalue erstellt standardmäßig Vorlagen für einige E-Mail-Konten. Nicht alle sind aktiviert. Um sie zu aktivieren, müssen Sie Ihre Konteneinstellungen bearbeiten.
+ERPNext erstellt standardmäßig Vorlagen für einige E-Mail-Konten. Nicht alle sind aktiviert. Um sie zu aktivieren, müssen Sie Ihre Konteneinstellungen bearbeiten.
 
 Es gibt zwei Arten von E-Mail-Konten, ausgehend und eingehend. E-Mail-Konten für ausgehende E-Mails verwenden einen SMTP-Service, eingehende E-Mails verwenden einen POP-Service. Die meisten E-Mail-Anbieter wie GMail, Outlook oder Yahoo bieten diese Seriveleistungen an.
 
@@ -27,13 +27,13 @@ Um ein Konto für eingehende E-Mails einzurichten, markieren Sie die Option **Ei
 
 <img class="screenshot" alt="Eingehende E-Mails" src="{{docs_base_url}}/assets/img/setup/email/email-account-incoming.png">
 
-### Wie Revalue Antworten handhabt
+### Wie ERPNext Antworten handhabt
 
-Wenn Sie aus Revalue heraus eine E-Mail an einen Kontakt wie z. B. einen Kunden versenden, dann ist der Absender gleich dem Benutzer, der die E-Mail versendet. In den Einstellungen zu **Antworten an** steht die E-Mail-ID des Standardkontos für den Posteingang (z. B. replies@yourcompany.com). Revalue entnimmt diese E-Mails automatisch aus dem Posteingang und hängt Sie an die betreffende Kommunikation an.
+Wenn Sie aus ERPNext heraus eine E-Mail an einen Kontakt wie z. B. einen Kunden versenden, dann ist der Absender gleich dem Benutzer, der die E-Mail versendet. In den Einstellungen zu **Antworten an** steht die E-Mail-ID des Standardkontos für den Posteingang (z. B. replies@yourcompany.com). ERPNext entnimmt diese E-Mails automatisch aus dem Posteingang und hängt Sie an die betreffende Kommunikation an.
 
 ### Benachrichtigung über unbeantwortete Nachrichten
 
-Wenn Sie möchten, dass Revalue Sie benachrichtigt, wenn eine E-Mail für eine bestimmte Zeit unbeantwortet bleibt, dann können Sie die Option **Benachrichtigen, wenn unbeantwortet** markieren. Hier können Sie die Anzahl der Minuten einstellen, die das System warten soll, bevor eine Benachrichtigung gesendet wird, und den Empfänger.
+Wenn Sie möchten, dass ERPNext Sie benachrichtigt, wenn eine E-Mail für eine bestimmte Zeit unbeantwortet bleibt, dann können Sie die Option **Benachrichtigen, wenn unbeantwortet** markieren. Hier können Sie die Anzahl der Minuten einstellen, die das System warten soll, bevor eine Benachrichtigung gesendet wird, und den Empfänger.
 
 <img class="screenshot" alt="Eingehende Email" src="{{docs_base_url}}/assets/img/setup/email/email-account-unreplied.png">
 

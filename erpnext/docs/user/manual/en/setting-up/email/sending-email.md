@@ -1,6 +1,6 @@
 # Sending Email from any Document
 
-In Revalue you can send any document as email (with a PDF attachment) by clicking on `Menu > Email` from any open document.
+In ERPNext you can send any document as email (with a PDF attachment) by clicking on `Menu > Email` from any open document.
 
 <img class="screenshot" alt="Send Email" src="{{docs_base_url}}/assets/img/setup/email/send-email.gif">
 

@@ -11,7 +11,7 @@ Lassen Sie uns die verschiedenen Optionen durckgehen.
 
 Wenn ein Lieferant abgespeichert wird, erstellt das System eine eindeutige Kennung bzw. einen eindeutigen Namen für diesen Lieferanten, auf den in verschiedenen Einkaufstransaktionen Bezug genommen wird.
 
-Wenn nicht anders eingestellt, verwendet Revalue den Lieferantennamen als eindeutige Kennung. Wenn Sie Lieferanten nach Namen wir SUPP-00001, SUP-00002 unterscheiden wollen, oder nach Serien eines bestimmten Musters, stellen Sie die Benahmung der Lieferanten auf "Nummernkreis" ein.
+Wenn nicht anders eingestellt, verwendet ERPNext den Lieferantennamen als eindeutige Kennung. Wenn Sie Lieferanten nach Namen wir SUPP-00001, SUP-00002 unterscheiden wollen, oder nach Serien eines bestimmten Musters, stellen Sie die Benahmung der Lieferanten auf "Nummernkreis" ein.
 
 Sie können den Nummernkreis selbst definieren oder einstellen:
 
@@ -29,14 +29,14 @@ Geben Sie an, was der Standardwert für die Einkaufspreisliste ist, wenn eine ne
 
 ### 4. Selben Preis während des gesamten Einkaufszyklus beibeihalten
 
-Wenn diese Option aktiviert ist, wird Sie Revalue unterbrechen, wenn Sie den Artikelpreis in einer Lieferantenbestellung oder in einem auf einer Lieferantenbestellung basierenden Kaufbeleg ändern wollen, d. h. das System behält den selben Preis während des gesamten Einkaufszyklus bei. Wenn Sie den Artikelpreis unbedingt ändern müssen, sollten Sie diese Option deaktivieren.
+Wenn diese Option aktiviert ist, wird Sie ERPNext unterbrechen, wenn Sie den Artikelpreis in einer Lieferantenbestellung oder in einem auf einer Lieferantenbestellung basierenden Kaufbeleg ändern wollen, d. h. das System behält den selben Preis während des gesamten Einkaufszyklus bei. Wenn Sie den Artikelpreis unbedingt ändern müssen, sollten Sie diese Option deaktivieren.
 
 ### 5. Lieferantenbestellung benötigt
 
-Wenn diese Option auf "JA" eingestellt ist, hält Sie Revalue davon ab, eine Eingangsrechnung oder einen Kaufbeleg zu erstellen ohne vorher einen Lieferantenauftrag erstellt zu haben.
+Wenn diese Option auf "JA" eingestellt ist, hält Sie ERPNext davon ab, eine Eingangsrechnung oder einen Kaufbeleg zu erstellen ohne vorher einen Lieferantenauftrag erstellt zu haben.
 
 ### 6. Kaufbeleg benötigt
 
-Wenn diese Option aUf "JA" eingestellt ist, hält Sie Revalue davon ab, eine Eingangsrechnung zu erstelln, ohne vorher einen Kaufbeleg erstellt zu haben.
+Wenn diese Option aUf "JA" eingestellt ist, hält Sie ERPNext davon ab, eine Eingangsrechnung zu erstelln, ohne vorher einen Kaufbeleg erstellt zu haben.
 
 {next}

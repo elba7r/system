@@ -11,7 +11,7 @@ Es sei denn Sie sind selbst Webentwickler.
 
 Wäre es nicht toll, wenn es einen Weg gäbe, Ihren Produktkatalog auf Ihrer Webseite automatisch aus dem ERP-System aktualiseren zu können?
 
-Wir haben uns genau das gleiche gedacht und haben deshalb eine kleine aber feine App zur Webseitenentwicklung gebaut, direkt in Revalue! Wenn Sie das Webseitenmodul von Revalue nutzen, können Sie:
+Wir haben uns genau das gleiche gedacht und haben deshalb eine kleine aber feine App zur Webseitenentwicklung gebaut, direkt in ERPNext! Wenn Sie das Webseitenmodul von ERPNext nutzen, können Sie:
 
 1. Webseiten erstellen
 2. Einen Blog schreiben

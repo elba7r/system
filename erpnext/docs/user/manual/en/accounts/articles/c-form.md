@@ -6,9 +6,9 @@ C-Form functionality is only applicable for Indian customers.
 
 C-Form is issued by the Customer. If Customer Issues C-Form, supplier applies discounted CST (central sales tax) in the invoice. C-Form is only applicable on the inter-state transactions.
 
-C-Form functionality in Revalue allows Supplier to update C-Form No. as received from Customer in the submitted Sales Invoice. Also you can create report on Sales Invoice and track invoices for which C-Form has not yet been received from Customer.
+C-Form functionality in ERPNext allows Supplier to update C-Form No. as received from Customer in the submitted Sales Invoice. Also you can create report on Sales Invoice and track invoices for which C-Form has not yet been received from Customer.
 
-Following are step to manage C-Form related sales in Revalue.
+Following are step to manage C-Form related sales in ERPNext.
 
 ####Set C-Form Applicability
 

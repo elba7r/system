@@ -6,7 +6,7 @@ On receipt of items in a particular warehouse, the balance in the Warehouse Acco
 
 ##Activation
 
-  1. Setup the following default accounts for each Company. These accounts are created automatically in the new Revalue accounts.
+  1. Setup the following default accounts for each Company. These accounts are created automatically in the new ERPNext accounts.
 
     * Stock Received But Not Billed
     * Stock Adjustment Account
@@ -144,7 +144,7 @@ On receiving Bill from supplier, for the above Purchase Receipt, you will make P
 
 **General Ledger**
 
-<img alt="General" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-4.png">
+<img alt="General" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-4.png">
 
 Here "Stock Received But Not Billed" account is debited and nullified the
 effect of Purchase Receipt.
@@ -202,11 +202,11 @@ at $300. Following are the details of Delivery Note:
 
 **Stock Ledger**
 
-<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-5.png">
+<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-5.png">
 
 **General Ledger**
 
-<img alt="General" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-6.png">
+<img alt="General" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-6.png">
 
 As item is delivered from "Stores" warehouse, "Stores" account is credited and
 equal amount is debited to the expense account "Cost of Goods Sold". The
@@ -236,11 +236,11 @@ of the Sales Invoice are same as the above Delivery Note.
 
 **Stock Ledger**
 
-<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-7.png">
+<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-7.png">
 
 **General Ledger**
 
-<img alt="General" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-8.png">
+<img alt="General" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-8.png">
 
 Here, apart from normal account entries for invoice, "Stores" and "Cost of
 Goods Sold" accounts are also affected based on the valuation amount.
@@ -274,11 +274,11 @@ Goods Sold" accounts are also affected based on the valuation amount.
 
 **Stock Ledger**
 
-<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-9.png">
+<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-9.png">
 
 **General Ledger**
 
-<img alt="General" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-10.png">
+<img alt="General" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-10.png">
 
 * * *
 
@@ -309,11 +309,11 @@ Goods Sold" accounts are also affected based on the valuation amount.
 
 **Stock Ledger**
 
-<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-11.png">
+<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-11.png">
 
 **General Ledger**
 
-<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-12.png">
+<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-12.png">
 
 * * *
 
@@ -346,10 +346,10 @@ Goods Sold" accounts are also affected based on the valuation amount.
 
 **Stock Ledger**
 
-<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-13.png">
+<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-13.png">
 
 **General Ledger**
 
-<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/Revalue/accounting-for-stock-14.png">
+<img alt="Stock" class="screenshot" src="{{docs_base_url}}/assets/old_images/erpnext/accounting-for-stock-14.png">
 
 {next}

@@ -1,7 +1,7 @@
 # Projekte
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Revalue unterstützt Sie dabei Ihre Projekte abzuwickeln, indem es diese in Aufgaben aufteilt und diese unterschiedlichen Personen zuteilt.
+ERPNext unterstützt Sie dabei Ihre Projekte abzuwickeln, indem es diese in Aufgaben aufteilt und diese unterschiedlichen Personen zuteilt.
 
 Zudem können Einkauf und Vertrieb zu Projekten nachverfolgt werden und das hilft dem Unternehmen dabei das Budget eines Projektes, die Liefersituation und die Profitabilität unter Kontrolle zu halten.
 

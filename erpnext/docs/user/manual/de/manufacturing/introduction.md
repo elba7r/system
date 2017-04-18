@@ -9,7 +9,7 @@ In der Hauptsache gibt es drei Arten von Produktionsplanungssystemen
 * **Auftragsfertigung:** Bei diesem System findet die Fertigung erst nach einer festen Bestellung des Kunden statt.
 * **Projektfertigung:** In diesem Fall ist jeder Verkauf ein separates Projekt und muss für die Erfordernisse des Kunden entwickelt und entworfen werden. Häufige Beispiele hierfür sind jedwede Kundengeschäfte im Bereich Möbel, Werkzeugmaschinen, Spezialmaschinen, Metallherstellung etc.
 
-Die meisten kleinen und mittleren Fertigungsaktivitäten basieren auf einer Auftragsfertigung oder auf einer Projektfertigung, und genauso verhält es sich auch in Revalue.
+Die meisten kleinen und mittleren Fertigungsaktivitäten basieren auf einer Auftragsfertigung oder auf einer Projektfertigung, und genauso verhält es sich auch in ERPNext.
 
 Für Systeme auf Basis der Projektfertigung, sollte das Fertigungsmodul zusammen mit dem Projektmodul verwendet werden.
 
@@ -17,6 +17,6 @@ Fertigung und Vorräte
 
 Sie können unfertige Erzeugnisse über das Lager Unfertige Erzeugnisse nachvollziehen.
 
-Revalue unterstützt Sie dabei Materialüberträge nachzuvollziehen, indem Lagerbuchungen aus Ihren Fertigungsaufträgen unter Zuhilfenahme Ihrer Stücklisten erstellt werden.
+ERPNext unterstützt Sie dabei Materialüberträge nachzuvollziehen, indem Lagerbuchungen aus Ihren Fertigungsaufträgen unter Zuhilfenahme Ihrer Stücklisten erstellt werden.
 
 {next}

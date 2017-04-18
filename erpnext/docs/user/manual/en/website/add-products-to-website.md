@@ -1,6 +1,6 @@
 ### Add Products to the Website
 
-Revalue will populate your website with products out of your Item Master. The html code will be
+ERPNext will populate your website with products out of your Item Master. The html code will be
 generated automatically.
 
 #### Step 1: Edit Item
@@ -40,7 +40,7 @@ Click **Save** in the upper right and then click `See on Website` on the left un
 
 ### Item Groups
 
-Items can be grouped together in items groups.  To see a listing of the existing item groups to go: `Stock > Items and Pricing > Item Group`. Out of the box, Revalue comes with a collection of item groups that you can use. Click `Products` to select it and then click `Edit` to open it up.
+Items can be grouped together in items groups.  To see a listing of the existing item groups to go: `Stock > Items and Pricing > Item Group`. Out of the box, ERPNext comes with a collection of item groups that you can use. Click `Products` to select it and then click `Edit` to open it up.
 
 * Click the **Show in Website** check box.
 * Change the route to `products`.

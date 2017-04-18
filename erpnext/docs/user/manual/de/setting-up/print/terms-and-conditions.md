@@ -17,7 +17,7 @@ Der Inhalt der Allgemeinen Geschäftsbedingungen kann nach Ihren Vorstellungen f
 
 <img class="screenshot" alt="Geschäfsbedingungen - HTML bearbeiten" src="{{docs_base_url}}/assets/img/setup/print/terms-2.png">
 
-Dies erlaubt es Ihnen auch die Vorlage für die Allgemeinen Geschäftsbedingungen als Fußzeile zu verwenden, was sonst in Revalue nicht als dedizierte Funktionalität zur Verfügung steht. Da die Inhalte der Allgemeinen Geschäftsbedingungen im Druckformat immer zuletzt erscheinen, sollten die Einzelheiten zur Fußzeile am Ende des Inhaltes eingefügt werden.
+Dies erlaubt es Ihnen auch die Vorlage für die Allgemeinen Geschäftsbedingungen als Fußzeile zu verwenden, was sonst in ERPNext nicht als dedizierte Funktionalität zur Verfügung steht. Da die Inhalte der Allgemeinen Geschäftsbedingungen im Druckformat immer zuletzt erscheinen, sollten die Einzelheiten zur Fußzeile am Ende des Inhaltes eingefügt werden.
 
 ### 3\. Auswahl in der Transaktion
 

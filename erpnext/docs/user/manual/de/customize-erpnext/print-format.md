@@ -3,12 +3,12 @@
 
 Druckformate sind die Erscheinungsbilder der Ausdrucke, wenn Sie eine E-Mail oder eine Transaktion wie eine Ausgangsrechnung drucken. Es gibt zwei Arten von Druckformaten:
 
-* Das automatisch generierte "Standard"-Druckformat: Diese Art der Formatierung folgt den Vorgaben von Revalue.
+* Das automatisch generierte "Standard"-Druckformat: Diese Art der Formatierung folgt den Vorgaben von ERPNext.
 * Das auf dem Dokument "Druckformat" basierende Format: Hier gibt es HTML-Vorlagen, die  mit Daten gefüllt werden.
 
-Revalue bringt eine bestimmte Menge von vordefinierten Vorlagen in drei Stilarten mit: Modern, Classic und Standard.
+ERPNext bringt eine bestimmte Menge von vordefinierten Vorlagen in drei Stilarten mit: Modern, Classic und Standard.
 
-Sie können die Vorlagen verändern und eigene erstellen. Die Revalue-Vorlagen zu bearbeiten, ist nicht erlaubt, weil Sie bei einem Update auf eine neuere Programmversion überschrieben werden können.
+Sie können die Vorlagen verändern und eigene erstellen. Die ERPNext-Vorlagen zu bearbeiten, ist nicht erlaubt, weil Sie bei einem Update auf eine neuere Programmversion überschrieben werden können.
 
 Um Ihre eigenen Versionen zu erstellen, öffnen Sie eine bereits vorhandene Vorlage über:
 

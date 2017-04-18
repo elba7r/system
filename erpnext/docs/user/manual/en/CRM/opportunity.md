@@ -28,7 +28,7 @@ Communication, you can also add the Items for which the Lead or Contact is
 looking for.
 
 #### Make Supplier Quotation
-In some business, user collect the rates from their supplier against the customer requirement and based on the supplier rates they prepare the quotation for the customer. In Revalue user get an option to make supplier quotation from the opportunity.
+In some business, user collect the rates from their supplier against the customer requirement and based on the supplier rates they prepare the quotation for the customer. In ERPNext user get an option to make supplier quotation from the opportunity.
 
 <img class="screenshot" alt="Opportunity" src="{{docs_base_url}}/assets/img/crm/make-sq-from-opportunity.png">
 

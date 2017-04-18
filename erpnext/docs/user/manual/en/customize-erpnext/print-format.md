@@ -2,14 +2,14 @@ Print Formats are the layouts that are generated when you want to Print or
 Email a transaction like a Sales Invoice. There are two types of Print
 Formats,
 
-  * The auto-generated “Standard” Print Format: This type of format follows the same layout as the form and is generated automatically by Revalue.
+  * The auto-generated “Standard” Print Format: This type of format follows the same layout as the form and is generated automatically by ERPNext.
   * Based on the Print Format document. There are templates in HTML that will be rendered with data.
 
-Revalue comes with a number of pre-defined templates in three styles: Modern,
+ERPNext comes with a number of pre-defined templates in three styles: Modern,
 Classic and Standard.
 
 You can modify the templates or create your own. Editing
-Revalue templates is not allowed because they may be over-written in an
+ERPNext templates is not allowed because they may be over-written in an
 upcoming release.
 
 To create your own versions, open an existing template from:

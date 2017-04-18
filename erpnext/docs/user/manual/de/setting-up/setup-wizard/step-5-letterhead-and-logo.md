@@ -19,6 +19,6 @@ Um später einen Briefkopf über das Modul "Einstellungen" auszuwählen, lesen S
 
 ### Anhang als Internetverknüpfung
 
-Sie können jeden beliebigen Anhang in Revalue auch als Internetverknüpfung darstellen. Wenn Sie andere Werkzeuge wie Dropbox oder Google-Docs verwenden um Ihre Dateien zu verwalten, können Sie die öffentliche Verknüpfung einsetzen.
+Sie können jeden beliebigen Anhang in ERPNext auch als Internetverknüpfung darstellen. Wenn Sie andere Werkzeuge wie Dropbox oder Google-Docs verwenden um Ihre Dateien zu verwalten, können Sie die öffentliche Verknüpfung einsetzen.
 
 {next}

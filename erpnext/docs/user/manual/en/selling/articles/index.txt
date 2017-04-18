@@ -1,6 +1,6 @@
 applying-discount
 drop-shipping
-Revalue-for-services-organization
+erpnext-for-services-organization
 shipping-rule
 sales-persons-in-the-sales-transactions
 close-sales-order

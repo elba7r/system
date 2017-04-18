@@ -11,11 +11,11 @@ Advantages of an Open Source software are:
 
 ---
 
-### Revalue Source Code
+### ERPNext Source Code
 
-Revalue source repository is hosted at GitHub and can be found here
+ERPnext source repository is hosted at GitHub and can be found here
 
-- [https://github.com/elba7r/system](https://github.com/elba7r/system)
+- [https://github.com/frappe/erpnext](https://github.com/frappe/erpnext)
 
 
 ---

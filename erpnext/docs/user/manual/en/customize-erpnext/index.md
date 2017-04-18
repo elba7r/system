@@ -1,6 +1,6 @@
-# Customize Revalue
+# Customize ERPNext
 
-Revalue offers many tools to customize the system.
+ERPNext offers many tools to customize the system.
 
 You simplify the forms by hiding features you don’t need using Disable
 Features and Module Setup, add Custom Fields, change form properties, like

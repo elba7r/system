@@ -14,7 +14,7 @@ Beispiel: Sie haben zwei Arten von Verkäufen
 
 Für Ihre Laufkunden haben Sie keine Versandkosten, für Ihre Onlinekunden keine Miete für Geschäftsräume. Wenn Sie für beide getrennt die Profitabilität ausweisen möchten, sollten Sie für beide Kostenstellen einrichten und alle Verkäufe entweder als "Laufkundengeschäft" oder "Onlinegeschäft" markieren. Machen Sie das bei allen Aufwendungen ebenso.
 
-Wenn Sie dann Ihre Analyse durchführen, haben Sie ein besseres Verständnis dafür, welches Ihrer Geschäfte besser läuft. Da Revalue eine Option hat, mehrere verschiedene Firmen zu verwalten, können Sie für jede Firma eine Kostenstelle anlegen und getrennt verwalten.
+Wenn Sie dann Ihre Analyse durchführen, haben Sie ein besseres Verständnis dafür, welches Ihrer Geschäfte besser läuft. Da ERPNext eine Option hat, mehrere verschiedene Firmen zu verwalten, können Sie für jede Firma eine Kostenstelle anlegen und getrennt verwalten.
 
 ### Kostenstellenplan
 
@@ -28,7 +28,7 @@ Kostenstellen helfen Ihnen bei der Erstellung von Budgets für Geschäftstätigk
 
 ### Budgetierung
 
-Revalue hilft Ihnen dabei, Budgets für Ihre Kostenstellen zu erstellen und zu verwalten. Dies ist dann nützlich, wenn Sie zum Beispiel Onlineverkäufe durchführen. Sie haben ein Budget für Werbung in Suchmaschinen und Sie möchten, dass Revalue Sie warnt oder davon abhält, mehr auszugeben, als im Budget festgehalten wurde.
+ERPNext hilft Ihnen dabei, Budgets für Ihre Kostenstellen zu erstellen und zu verwalten. Dies ist dann nützlich, wenn Sie zum Beispiel Onlineverkäufe durchführen. Sie haben ein Budget für Werbung in Suchmaschinen und Sie möchten, dass ERPNext Sie warnt oder davon abhält, mehr auszugeben, als im Budget festgehalten wurde.
 
 Budgets sind auch ein großartiges Hilfsmittel für Planungsvorhaben. Wenn Sie die Planung für das nächste Geschäftsjahr erstellen, stellen Sie typischerweise ein Ziel auf, nach dem sich Ihre Aufwendungen richten. Ein Budget einzurichten stellt nun sicher, dass Ihre Aufwendungen nicht aus dem Ruder laufen, zu keinem Zeitpunkt, so wie Sie es geplant haben.
 
@@ -40,7 +40,7 @@ Sie könne ein Budget in der Kostenstelle einrichten. Wenn Sie saisonale Verkäu
 
 ### Budgetaktionen
 
-Revalue erlaubt es Ihnen:
+ERPNext erlaubt es Ihnen:
 
 * Einen Vorgang aufzuhalten
 * Eine Warung zu senden

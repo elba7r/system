@@ -1,6 +1,6 @@
 A Request for Quotation is a document that an organization submits to one or more suppliers eliciting quotation for items.
 
-In Revalue, You can create request for quotation directly by going to:
+In ERPNext, You can create request for quotation directly by going to:
 
 > Buying > Documents > Request for Quotation > New Request for Quotation
 

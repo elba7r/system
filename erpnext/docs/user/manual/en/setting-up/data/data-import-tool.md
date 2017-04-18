@@ -12,8 +12,8 @@ the data.
 
 ### 1\. Downloading The Template
 
-Data in Revalue is stored in tables, much like a spreadsheet with columns and
-rows of data. Each entity in Revalue can have multiple child tables associated
+Data in ERPNext is stored in tables, much like a spreadsheet with columns and
+rows of data. Each entity in ERPNext can have multiple child tables associated
 with it too. The child tables are linked to the parent tables and are
 implemented where there are multiple values for any property. For example an
 Item can have multiple prices, An Invoice has multiple Items and so on.
@@ -69,7 +69,7 @@ row. See the example:
 
 ### 5. Overwriting
 
-Revalue also allows you to overwrite all / certain columns. If you want to
+ERPNext also allows you to overwrite all / certain columns. If you want to
 update certain columns, you can download the template with data. Remember to
 check on the “Overwrite” box before uploading.
 
@@ -78,13 +78,13 @@ child records of that parent.
 
 ### 6. Upload Limitations
 
-Revalue restricts the amount of data you can upload in one file. Though the
+ERPNext restricts the amount of data you can upload in one file. Though the
 number may vary based on the type of data. It is usually safe to upload around
 1000 rows of a table at one go. If the system will not accept, then you will
 see an error.
 
 Why is this? Uploading a lot of data can cause your system to crash, specially
-if there are other users doing things in parallel. Hence Revalue restricts the
+if there are other users doing things in parallel. Hence ERPNext restricts the
 number of “writes” you can process in one request.
 
 ***
@@ -98,7 +98,7 @@ files. Click on “Add” and select the file you want to attach. Click on
 #### What is a CSV file?
 
 A CSV (Comma Separated Value) file is a data file that you can upload into
-Revalue to update various data. Any spreadsheet file from popular spreadsheet
+ERPNext to update various data. Any spreadsheet file from popular spreadsheet
 applications like MS Excel or Open Office Spreadsheet can be saved as a CSV
 file.
 
@@ -107,7 +107,7 @@ to save your file encoded as UTF-8. For older versions of Excel, there is no
 clear way of saving as UTF-8. So save your file as a CSV, then open it in
 Notepad, and save as “UTF-8”. (Sorry blame Microsoft for this!)
 
-####Help Video on Importing Data in Revalue from Spreadsheet file
+####Help Video on Importing Data in ERPNext from Spreadsheet file
 
 
 

@@ -5,7 +5,7 @@
 
 Datensätze werden ganz allgemein nach "Stammdaten" oder "Transaktionen" eingeteilt. Ein Stammdatensatz ist ein Datensatz der einen "Namen" hat, z. B. von einem Kunden, einem Artikel, einem Lieferanten, einem Mitarbeiter, etc. Eine Transaktion hat demgegenüber eine "Nummer". Beispiele für Transaktionen sind Ausgangsrechnung, Angebot usw. Sie erstellen Transaktionen zu einer Anzahl von Stammdatensätzen.
 
-Revalue erlaubt es Ihnen, Ihren Transaktionen Präfixe voranzustellen, wobei jedes Präfix einen eigenen Nummernkreis darstellt. So hat z. B. der Nummernkreis INV12 die Nummern INV120001, INV120002 usw.
+ERPNext erlaubt es Ihnen, Ihren Transaktionen Präfixe voranzustellen, wobei jedes Präfix einen eigenen Nummernkreis darstellt. So hat z. B. der Nummernkreis INV12 die Nummern INV120001, INV120002 usw.
 
 Sie können für all Ihre Transaktionen viele verschiedene Nummernkreise verwenden. Gewöhnlicherweise wird für jedes Geschäftsjahr ein eigener Nummernkreis verwendet. In Ausgangsrechnungen können Sie z. B. folgende verwenden:
 

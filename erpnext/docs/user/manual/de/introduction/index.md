@@ -13,11 +13,11 @@ Kleine Unternehmen unterscheiden sich nicht gravierend von großen. Sie haben mi
 
 Große Unternehmen haben den Vorteil auf fortgeschrittene Datenverarbeitungssysteme zugreifen zu können, um Ihre Prozesse effektiv zu verwalten. Kleine Unternehmen auf der anderen Seite kämpfen normalerweise mit der Organisation. Oft verwenden Sie einen Mix aus verschiedenen Softwareanwendungen wie Tabellenkalkulationen, Buchhaltungssoftware, einem CRM-System usw. Das Problem dabei ist, dass nicht jeder mit dem selben System arbeitet. Ein ERP-System ändert dies grundlegend.
 
-### Was ist Revalue?
+### Was ist ERPNext?
 
-Revalue versetzt Sie in die Lage, all Ihre Informationen und Geschäftsvorfälle in einer einzigen Anwendung zu verwalten und diese dazu zu verwenden, Arbeitsschritte abzubilden und Entscheidungen auf der Grundlage vorhandener Daten zu treffen.
+ERPNext versetzt Sie in die Lage, all Ihre Informationen und Geschäftsvorfälle in einer einzigen Anwendung zu verwalten und diese dazu zu verwenden, Arbeitsschritte abzubilden und Entscheidungen auf der Grundlage vorhandener Daten zu treffen.
 
-Revalue hilft Ihnen unter anderem dabei:
+ERPNext hilft Ihnen unter anderem dabei:
 
 * Alle Rechnungen und Zahlungen nachzuverfolgen.
 * Zu wissen, welche Menge welchen Produktes am Lager verfügbar ist.

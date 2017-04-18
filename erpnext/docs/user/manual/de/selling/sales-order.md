@@ -36,7 +36,7 @@ Die Tabelle "Packliste" wird automatisch aktualisiert, wenn Sie den Kundenauftra
 
 ### Reservierung und Lager
 
-Wenn Ihr Kundenauftrag Artikel enthält, für die das Lager nachverfolgt wird ("Ist Lagerartikel" ist mit JA markiert), dann fragt sie Revalue nach einem Reservierungslager. Wenn Sie ein Standard-Lager für den Artikel eingestellt haben, wird dieses automatisch verwendet.
+Wenn Ihr Kundenauftrag Artikel enthält, für die das Lager nachverfolgt wird ("Ist Lagerartikel" ist mit JA markiert), dann fragt sie ERPNext nach einem Reservierungslager. Wenn Sie ein Standard-Lager für den Artikel eingestellt haben, wird dieses automatisch verwendet.
 
 Die "reservierte" Menge hilft Ihnen dabei, die Menge abzuschätzen, die Sie basierend auf all Ihren Verpflichtungen einkaufen müssen.
 
@@ -44,7 +44,7 @@ Die "reservierte" Menge hilft Ihnen dabei, die Menge abzuschätzen, die Sie basi
 
 **Vertriebspartner:** Wenn ein Verkauf über einen Vertriebspartner gebucht wurde, können Sie die Einzelheiten des Vertriebspartners mit der Provision und anderen gesammelten Informationen aktualisieren.
 
-**Vertriebsperson:** Revalue erlaubt es Ihnen verschiedene Vertriebspersonen zu markieren, die an diesem Geschäft mitgearbeitet haben. Sie können auch den Anteil an der Zielerreichung auf die Vertriebspersonen aufteilen und nachverfolgen wieviele Prämien sie mit diesem Geschäft verdient haben.
+**Vertriebsperson:** ERPNext erlaubt es Ihnen verschiedene Vertriebspersonen zu markieren, die an diesem Geschäft mitgearbeitet haben. Sie können auch den Anteil an der Zielerreichung auf die Vertriebspersonen aufteilen und nachverfolgen wieviele Prämien sie mit diesem Geschäft verdient haben.
 
 ### Wiederkehrende Kundenaufträge
 
@@ -60,7 +60,7 @@ Hier können Sie folgende Details eingeben: Wie häufig Sie eine Bestellung gene
 
 Wenn Sie den Kundenauftrag aktualisieren, wird eine wiederkehrende ID generiert, die für alle wiederkehrenden Bestellungen dieses speziellen Kundenauftrag gleich ist.
 
-Revalue erstellt automatisch eine neue Bestellung und versendet eine E-Mail-Mitteilung an die E-Mail-Konten, die Sie im Feld "Benachrichtigungs-E-Mail-Adresse" eingestellt haben.
+ERPNext erstellt automatisch eine neue Bestellung und versendet eine E-Mail-Mitteilung an die E-Mail-Konten, die Sie im Feld "Benachrichtigungs-E-Mail-Adresse" eingestellt haben.
 
 <img class="screenshot" alt="Wiederkehrende Kundenaufträge" src="{{docs_base_url}}/assets/img/selling/recurring-sales-order.png">
 

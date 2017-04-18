@@ -10,9 +10,9 @@ src="{{docs_base_url}}/assets/img/setup-wizard/step-8.png">
 
 #### Difference between a customer name and a contact name
 
-A customer name is the name of the organisation and a contact name is the name of the user who is operating the Revalue system.
+A customer name is the name of the organisation and a contact name is the name of the user who is operating the ERPNext system.
 
-For Example: If American Power Mills is an organisation name and their founder Shiv Agarwal has installed Revalue on his system. Then,
+For Example: If American Power Mills is an organisation name and their founder Shiv Agarwal has installed ERPNext on his system. Then,
 
 Customer Name: American Power Mills
 

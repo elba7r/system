@@ -1,7 +1,7 @@
 # Vertriebspartner
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Menschen, die Sie dabei unterstützen Geschäfte abzuschliessen, werden als Vertriebspartner bezeichnet. Vertriebspartner können durch unterschiedliche Namen in Revalue repräsentiert werden. Sie können Sie als Channelpartner, Distributor, Händler, Agent, Einzelhändler, Umsetzungspartner, Wiederverkäufer, usw. bezeichnen.
+Menschen, die Sie dabei unterstützen Geschäfte abzuschliessen, werden als Vertriebspartner bezeichnet. Vertriebspartner können durch unterschiedliche Namen in ERPNext repräsentiert werden. Sie können Sie als Channelpartner, Distributor, Händler, Agent, Einzelhändler, Umsetzungspartner, Wiederverkäufer, usw. bezeichnen.
 
 Für jeden Vertriebspartner, können Sie eine Provision definieren und anbieten. Wenn in Transaktionen ein Vertriebspartner ausgewählt wurde, dann wird die Provison über die Netto-Gesamtsumme des Kundenauftrags oder des Lieferscheins berechnet.
 

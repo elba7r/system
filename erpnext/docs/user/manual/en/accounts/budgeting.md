@@ -1,8 +1,8 @@
-In Revalue, you can set and manage Budgets against a specific Account. This is useful when, for example, you are doing online sales. You have a budget for search ads, and you want Revalue to stop or warn you from over spending, based on that budget.
+In ERPNext, you can set and manage Budgets against a specific Account. This is useful when, for example, you are doing online sales. You have a budget for search ads, and you want ERPNext to stop or warn you from over spending, based on that budget.
 
 Budgets are also great for planning purposes. When you are making plans for the next financial year, you would typically target a revenue based on which you would set your expenses. Setting a budget will ensure that your expenses do not get out of hand, at any point, as per your plans.
 
-In Revalue, budget against an Account is defined via Cost Center. Following are the steps to define a Budget.
+In ERPNext, budget against an Account is defined via Cost Center. Following are the steps to define a Budget.
 
 ###Cost Center
 
@@ -32,7 +32,7 @@ In the Budgets table, select Income / Expense account for which Budget is to be 
 
 ####Step 4: Monthly Distribution
 
-If you have seasonal business, you can also define a Monthly Distribution record, to distribute the budget between months. If you don't set the monthly distribution, Revalue will calculate the budget on yearly
+If you have seasonal business, you can also define a Monthly Distribution record, to distribute the budget between months. If you don't set the monthly distribution, ERPNext will calculate the budget on yearly
 basis or in equal proportion for every month.
 
 <img class="screenshot" alt="Monthly Distribution" src="{{docs_base_url}}/assets/img/accounts/monthly-budget-distribution.png">

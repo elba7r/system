@@ -1,7 +1,7 @@
 # Briefköpfe
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Sie können in Revalue viele verschiedene Briefköpfe verwalten. In einem Briefkopf können Sie:
+Sie können in ERPNext viele verschiedene Briefköpfe verwalten. In einem Briefkopf können Sie:
 
 * Ein Bild mit Ihrem Logo, Ihrem Firmensymbol oder anderen Informationen, die Sie auf dem Briefkopf haben möchten, erstellen.
 * Das Bild an den Datensatz Ihres Briefkopfes anhängen, indem Sie auf das Bildsymbol klicken um automatisch den HTML-Kode zu generieren, den Sie für dem Briefkopf benötigen.

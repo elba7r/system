@@ -2,7 +2,7 @@
 
 Lightweight Directory Access Protocol is a centralised access controll system used by many small medium scale organisations.
 
-By settings up LDAP service, you able to login to Revalue account by using LDAP credentials.
+By settings up LDAP service, you able to login to ERPNext account by using LDAP credentials.
 
 ####Step 1: Create LDAP service
 

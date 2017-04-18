@@ -5,7 +5,7 @@ Wenn Ihr Geschäft mit physichen Waren zu tun hat, ist der Einkauf eine zentrale
 
 In den richtigen Mengen einzukaufen, kann sich auf Ihren Cash Flow und Ihre Profitabilität auswirken.
 
-Revalue beinhaltet einen Satz an Transaktionen, die Ihren Einkaufprozess so effektiv und störungsfrei machen, wie nur möglich.
+ERPNext beinhaltet einen Satz an Transaktionen, die Ihren Einkaufprozess so effektiv und störungsfrei machen, wie nur möglich.
 
 ### Themen
 

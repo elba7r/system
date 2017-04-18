@@ -43,7 +43,7 @@ Fälligkeitsdatum: Das Datum zu dem die Zahlung fällig ist (wenn Sie auf Rechnu
 
 Wenn Sie einen Vertrag mit einem Kunden haben, bei dem Sie dem Kunden monatlich, vierteljährlich, halbjährlich oder jährlich eine Rechnung stellen, dann können Sie das Feld "Wiederkehrende Rechnung" anklicken. Hier können Sie eingeben in welchen Abständen die Rechnungen erstellt werden sollen, und die Gesamtlaufzeit des Vertrages.
 
-Revalue erstellt dann automatisch neue Rechnungen und verschickt Sie an die angegebenen E-Mail-Adressen.
+ERPNext erstellt dann automatisch neue Rechnungen und verschickt Sie an die angegebenen E-Mail-Adressen.
 
 ---
 
@@ -51,7 +51,7 @@ Revalue erstellt dann automatisch neue Rechnungen und verschickt Sie an die ange
 
 Wenn Sie einem Kunden eine Rechnung ausstellen wollen, damit dieser eine Anzahlung leisten kann, d. h. Sie haben Zahlung im Voraus vereinbart, dann sollten Sie ein Angebot erstellen und dieses als "Proforma-Rechnung" (oder ähnlich) bezeichnen, indem Sie die Funktion "Druckkopf" nutzen.
 
-"Proforma" bezieht sich auf eine Formsache. Warum sollte man das tun? Wenn Sie eine Ausgangsrechnung buchen, dann erscheint diese bei den Forderungen und den Erträgen. Das ist genau dann nicht optimal, wenn nicht sicher ist, ob Ihr Kunden die Anzahlung auch wirklich leistet. Wenn Ihr Kunden aber dennoch eine "Rechnung" will, dann geben Sie ihm ein Angebot (in Revalue) das als "Proforma-Rechnung" bezeichnet wird. Auf diese Weise ist jeder glücklich.
+"Proforma" bezieht sich auf eine Formsache. Warum sollte man das tun? Wenn Sie eine Ausgangsrechnung buchen, dann erscheint diese bei den Forderungen und den Erträgen. Das ist genau dann nicht optimal, wenn nicht sicher ist, ob Ihr Kunden die Anzahlung auch wirklich leistet. Wenn Ihr Kunden aber dennoch eine "Rechnung" will, dann geben Sie ihm ein Angebot (in ERPNext) das als "Proforma-Rechnung" bezeichnet wird. Auf diese Weise ist jeder glücklich.
 
 Das ist ein weithin gebräuchliches Verfahren. Wir bei Frappe machen das genauso.
 

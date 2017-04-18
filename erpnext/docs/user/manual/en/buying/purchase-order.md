@@ -9,7 +9,7 @@ Supplier Quotation.
 
 ![Purchase Order]({{docs_base_url}}/assets/img/buying/buying_flow.png)
 
-In Revalue, you can also make a Purchase Order directly by going to:
+In ERPNext, you can also make a Purchase Order directly by going to:
 
 > Buying > Documents > Purchase Order > New Purchase Order
 
@@ -49,7 +49,7 @@ For example you buy Items worth X and sell them for 1.3X. So your Customer
 pays 1.3 times the tax you pay your Supplier. Since you have already paid tax
 to your Supplier for X, what you owe your government is only the tax on 0.3X.
 
-This is very easy to track in Revalue since each tax head is also an Account.
+This is very easy to track in ERPNext since each tax head is also an Account.
 Ideally you must create two Accounts for each type of VAT you pay and collect,
 “Purchase VAT-X” (asset) and “Sales VAT-X” (liability), or something to that
 effect. Please contact your accountant if you need more help or post a query

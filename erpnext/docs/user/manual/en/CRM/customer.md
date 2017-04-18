@@ -22,7 +22,7 @@ have multiple Contacts and Addresses.
 
 ### Contacts and Addresses
 
-Contacts and Addresses in Revalue are stored separately so that you can
+Contacts and Addresses in ERPNext are stored separately so that you can
 attach multiple Contacts or Addresses to Customers and Suppliers.
 
 Read [Contact]({{docs_base_url}}/user/manual/en/CRM/contact.html) to know more.
@@ -31,10 +31,10 @@ Thus we may have identical Customer Names that are uniquely identified by the ID
 
 ### Integration with Accounts
 
-In Revalue, there is a separate Account record for each Customer, for each
+In ERPNext, there is a separate Account record for each Customer, for each
 Company.
 
-When you create a new Customer, Revalue will automatically create an Account
+When you create a new Customer, ERPNext will automatically create an Account
 Ledger for the Customer under “Accounts Receivable” in the Company set in the
 Customer record.
 
@@ -56,7 +56,7 @@ You can set how much credit you want to allow for a Customer by adding the
 “Credit Limit”. You can also set a global “Credit Limit” in the Company
 master. Classifying Customers
 
-Revalue allows you to group your Customers using [Customer Group]({{docs_base_url}}/user/manual/en/CRM/setup/customer-group.html) 
+ERPNext allows you to group your Customers using [Customer Group]({{docs_base_url}}/user/manual/en/CRM/setup/customer-group.html) 
 and also divide them into [Territories]({{docs_base_url}}/user/manual/en/setting-up/territory.html)
 Grouping will help you get better analysis of your data and
 identify which Customers are profitable and which are not. Territories will

@@ -1,7 +1,7 @@
 # Formular anpassen
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Bevor wir uns an das Anpassungswerkzeug heran wagen, klicken Sie [hier](https://kb.frappe.io/kb/customization/form-architecture) um den Aufbau von Formularen in Revalue zu verstehen. Das soll Ihnen dabei helfen das Anpassungswerkzeug effektiver zu nutzen.
+Bevor wir uns an das Anpassungswerkzeug heran wagen, klicken Sie [hier](https://kb.frappe.io/kb/customization/form-architecture) um den Aufbau von Formularen in ERPNext zu verstehen. Das soll Ihnen dabei helfen das Anpassungswerkzeug effektiver zu nutzen.
 
 Das Werkzeug "Formular anpassen" versetzt Sie in die Lage die Einstellungen eines Standardfeldes an Ihre Bedürfnisse anzupassen. Nehmen wir an, dass wir das Feld "Projektname" als zwingend erforderlich im Kundenaufrag kennzeichnen wollen. Im Folgenden finden Sie die Schritte, die dazu notwendig sind.
 

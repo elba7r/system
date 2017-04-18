@@ -7,7 +7,7 @@ Beispiel: Die Standardbezeichung eines **Angebotes** ist der Kundenname. Wenn Si
 
 ### Bezeichnung von Feldern einstellen
 
-Ab der Version 6.0 von Revalue haben alle Transaktionen eine Eigenschaft "Bezeichnung". Wenn Sie keine Eigenschaft "Bezeichnung" finden, können Sie ein **benutzerdefiniertes Feld** "Bezeichnung" hinzufügen und dieses über **Formular anpassen** entsprechend gestalten.
+Ab der Version 6.0 von ERPNext haben alle Transaktionen eine Eigenschaft "Bezeichnung". Wenn Sie keine Eigenschaft "Bezeichnung" finden, können Sie ein **benutzerdefiniertes Feld** "Bezeichnung" hinzufügen und dieses über **Formular anpassen** entsprechend gestalten.
 
 Sie können für diese Eigenschaft den Standardwert übernehmen indem Sie in **Standard** oder **Optionen** den Python-Kode einfügen.
 

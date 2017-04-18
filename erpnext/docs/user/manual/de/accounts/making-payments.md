@@ -36,7 +36,7 @@ Für Zahlungen an Lieferanten gilt:
 
 ### Eine Zahlung per Scheck abgleichen
 
-Wenn Sie Zahlungen per Scheck erhalten oder leisten, geben die Kontoauszüge Ihrer Bank nicht exakt die Daten Ihrer Buchung wieder, weil die Bank normalerweise einige Zeit braucht diese Zahlungen einzulösen. Das gleiche trifft zu, wenn Sie Ihrem Lieferanten einen Scheck zusenden und es einige Tage braucht, bis er vom Lieferanten angenommen und eingereicht wird. In Revalue können Sie Kontoauszüge der Bank und Ihre Buchungssätze über das Werkzeug zum Kontenabgleich in Einklang bringen.
+Wenn Sie Zahlungen per Scheck erhalten oder leisten, geben die Kontoauszüge Ihrer Bank nicht exakt die Daten Ihrer Buchung wieder, weil die Bank normalerweise einige Zeit braucht diese Zahlungen einzulösen. Das gleiche trifft zu, wenn Sie Ihrem Lieferanten einen Scheck zusenden und es einige Tage braucht, bis er vom Lieferanten angenommen und eingereicht wird. In ERPNext können Sie Kontoauszüge der Bank und Ihre Buchungssätze über das Werkzeug zum Kontenabgleich in Einklang bringen.
 
 Dafür gehen Sie zu:
 
@@ -58,7 +58,7 @@ Ausgenommen von Endkundenverkäufen sind in den meisten Fällen die Rechnungsleg
 * Zahlungen können zusammen für mehrere Rechnungen erfolgen.
 * Anzahlungen können zusammen für mehrere Rechnungen erfolgen (und können dann auf die Rechnungen aufgeteilt werden).
 
-Revalue erlaubt es Ihnen alle diese Szenarien zu verwalten. Alle Buchungen des Hauptbuches können zu Ausgangsrechnungen, Eingangsrechnungen und Journalbelegen erfolgen.
+ERPNext erlaubt es Ihnen alle diese Szenarien zu verwalten. Alle Buchungen des Hauptbuches können zu Ausgangsrechnungen, Eingangsrechnungen und Journalbelegen erfolgen.
 
 Der gesamte offene Betrag einer Rechnung ist die Summe aller Buchungen, die zu dieser Rechnung erstellt wurden (oder mit ihr verknüpft sind). Auf diese Weise können Sie in Buchungssätzen Zahlungen kombinieren oder aufteilen um alle Szenarien abzudecken.
 

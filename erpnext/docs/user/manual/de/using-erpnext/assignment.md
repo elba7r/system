@@ -1,7 +1,7 @@
 # Zuweisungen
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Die Option "Zuweisen zu" in Revalue erlaubt es Ihnen ein bestimmtes Dokument einem Benutzer, der weiter an diesem Dokument arbeiten soll, zu zu weisen.
+Die Option "Zuweisen zu" in ERPNext erlaubt es Ihnen ein bestimmtes Dokument einem Benutzer, der weiter an diesem Dokument arbeiten soll, zu zu weisen.
 
 Beispiel: Wenn ein Kundenauftrag vom Vertriebsmanager bestätigt/übertragen werden muss, kann der Benutzer, der zuerst mit dem Vorgang beschäftigt war, diesen Kundenauftrag dem Vertriebsmanager zuordnen. Wenn das Dokument dem Vertriebsmanager zugeordnet wird, wird es dessen Aufgabenübersicht hinzugefügt. In gleicher Art und Weise kann einem Konto der Fertigung oder der Verwaltung, über das ein Lieferschein und eine Ausgangsrechnung zu dieser Kundenbestellung erstellt werden müssen, ein Dokument zugeordnet werden.
 

@@ -4,4 +4,4 @@
 
 **Duration: 4:20**
 
-This video tutorial walks you through setting up User and their permissions in Revalue. Role Permission Manager tool allows you to define restricted access for the user, based on various criterion like, value in the specific field on the form, creator of the document etc.
+This video tutorial walks you through setting up User and their permissions in ERPNext. Role Permission Manager tool allows you to define restricted access for the user, based on various criterion like, value in the specific field on the form, creator of the document etc.

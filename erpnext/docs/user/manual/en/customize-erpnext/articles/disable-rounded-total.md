@@ -16,7 +16,7 @@ Check Disable Rounded Total, and Save Global Defaults.
 
 <img alt="Print Preview" class="screenshot" src="{{docs_base_url}}/assets/img/articles/hide-rounded-total-2.png">
 
-For system to take effect of this setting, you should clear cache and refresh your Revalue account. Then your print formats shall not render value for the Rounded Total in the print formats.
+For system to take effect of this setting, you should clear cache and refresh your ERPNext account. Then your print formats shall not render value for the Rounded Total in the print formats.
    
 <div class=well>Note: This setting will only affect Standard print formats.</div>
 

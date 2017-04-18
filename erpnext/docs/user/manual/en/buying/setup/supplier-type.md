@@ -3,7 +3,7 @@ commonly adds specialized input to deliverables. A supplier is also known as a
 vendor. There are different types of suppliers based on their goods and
 products.
 
-Revalue allows you to create your own categories of suppliers. These
+ERPNext allows you to create your own categories of suppliers. These
 categories are known as Supplier Type. For Example, if your suppliers are
 mainly pharmaceutical companies and FMCG distributors, You can create a new
 Type for them and name them accordingly.
@@ -16,7 +16,7 @@ You can create your own category of Supplier Type.
 
 <img class="screenshot" alt="Supplier Type" src="{{docs_base_url}}/assets/img/buying/supplier-type.png">
 
-You can classify your suppliers from a range of choice available in Revalue.
+You can classify your suppliers from a range of choice available in ERPNext.
 Choose from a set of given options like Distributor, Electrical,Hardware,
 Local, Pharmaceutical, Raw material, Services etc.
 

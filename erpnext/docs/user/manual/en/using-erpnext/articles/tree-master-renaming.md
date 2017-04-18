@@ -1,6 +1,6 @@
 #Tree Master Renaming
 
-There are various master which are maintained in tree structure. Click [here]({{docs_base_url}}/user/manual/en/setting-up/articles/managing-tree-structure-masters.html) to learn more about tree structured masters in Revalue.
+There are various master which are maintained in tree structure. Click [here]({{docs_base_url}}/user/manual/en/setting-up/articles/managing-tree-structure-masters.html) to learn more about tree structured masters in ERPNext.
 
 Following are the steps to be followed for renaming ID of a master which is maintained in tree structure. Let's rename an Account for the instance.
 

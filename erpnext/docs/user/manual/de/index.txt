@@ -11,5 +11,5 @@ support
 human-resources
 customer-portal
 website
-using-Revalue
-customize-Revalue
+using-erpnext
+customize-erpnext

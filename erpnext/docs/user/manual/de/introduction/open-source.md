@@ -1,7 +1,7 @@
 # Freie Software
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Der Quellcode von Revalue ist Open Source. Er ist für alle offen: Zum Verstehen, zum Erweitern und zum Verbessern. Und er ist kostenlos!
+Der Quellcode von ERPNext ist Open Source. Er ist für alle offen: Zum Verstehen, zum Erweitern und zum Verbessern. Und er ist kostenlos!
 
 Vorteile einer freien Software sind:
 
@@ -13,11 +13,11 @@ Vorteile einer freien Software sind:
 
 ---
 
-### Quellcode zu Revalue
+### Quellcode zu ERPNext
 
-Der Speicherort des Revalue-Quellcodes befindet sich auf GitHub. Sie finden ihn hier:
+Der Speicherort des ERPNext-Quellcodes befindet sich auf GitHub. Sie finden ihn hier:
 
-- [https://github.com/elba7r/system](https://github.com/elba7r/system)
+- [https://github.com/frappe/erpnext](https://github.com/frappe/erpnext)
 
 ### Alternativen
 
