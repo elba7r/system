@@ -4,4 +4,4 @@
 
 **Duration: 5:14**
 
-Website can be generated from each ERPNext account. This tutorial covers how items in your stock module can be published on the website.
+Website can be generated from each Revalue account. This tutorial covers how items in your stock module can be published on the website.

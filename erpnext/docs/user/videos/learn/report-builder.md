@@ -4,4 +4,4 @@
 
 **Duration: 4:27**
 
-This tutorial covers creating custom reports in ERPNext using Report Builder.
+This tutorial covers creating custom reports in Revalue using Report Builder.

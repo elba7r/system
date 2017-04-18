@@ -1,15 +1,15 @@
 <!-- no-sidebar -->
 <!-- no-breadcrumbs -->
-<!-- title: Learn ERPNext -->
+<!-- title: Learn Revalue -->
 <div style="max-width: 700px; margin: auto;">
     <div class="row hero" style="padding-top: 50px; border-bottom: 0px;">
         <div class="col-sm-12 hero-content">
-            <h1>ERPNext Video Tutorials</h1>
-            <p>Step-by-step guides to setting up and using ERPNext</p>
+            <h1>Revalue Video Tutorials</h1>
+            <p>Step-by-step guides to setting up and using Revalue</p>
         </div>
     </div>
     <br>
-    <h3>Using ERPNext</h3>
+    <h3>Using Revalue</h3>
     <ul class="list-unstyled video-list">
         <li>
             <a href="{{docs_base_url}}/user/videos/learn/navigation.html">

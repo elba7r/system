@@ -19,6 +19,6 @@ To select letterhead later through the setup module, read [Letter-head]({{docs_b
 
 #### To "attach as web-link"
 
-For any attachments in ERPNext, you can also attach as a web-link. If you are using other tools like Dropbox or Google Docs to manage your files, you can set its public link.
+For any attachments in Revalue, you can also attach as a web-link. If you are using other tools like Dropbox or Google Docs to manage your files, you can set its public link.
 
 {next}

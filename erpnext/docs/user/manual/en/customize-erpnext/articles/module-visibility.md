@@ -12,7 +12,7 @@ If Website is checked in All Application, but still not visible for the User, ch
 
 `Setup > Settings > Show / Hide Modules`
 
-Ensure Website module is checked. If you just enabled/activated it, update Show/Hide Module page, and then Reload tab of your ERPNext account. After reload, changes made in the Setup module will be applied and will be visible in the system.
+Ensure Website module is checked. If you just enabled/activated it, update Show/Hide Module page, and then Reload tab of your Revalue account. After reload, changes made in the Setup module will be applied and will be visible in the system.
 
 On the same lines, you can check for the visibility issue of other modules as well.
 

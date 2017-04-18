@@ -1,7 +1,7 @@
 # Aufgaben
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Ein Projekt wird in Aufgaben unterteilt. In ERPNext können Sie auch Abhängigkeiten zwischen Aufgaben erstellen.
+Ein Projekt wird in Aufgaben unterteilt. In Revalue können Sie auch Abhängigkeiten zwischen Aufgaben erstellen.
 
 <img class="screenshot" alt="Aufgabe" src="{{docs_base_url}}/assets/img/project/task.png">
 
@@ -25,7 +25,7 @@ Sie können eine Liste von abhängigen Aufgaben im Bereich "Hängt ab von" erste
 
 ### Zeitmanagement
 
-ERPNext verwendet [Zeitprotokolle]({{docs_base_url}}/user/manual/de/projects/time-log.html) um den Fortschritt einer Aufgabe mitzuprotokollieren. Sie können mehrere unterschiedliche Zeitprotokolle zu jeder Aufgabe erstellen. Das aktuelle Start- und Enddatum kann dann zusammen mit der auf dem Zeitprotokoll basierenden Kostenberechnung aktualisiert werden.
+Revalue verwendet [Zeitprotokolle]({{docs_base_url}}/user/manual/de/projects/time-log.html) um den Fortschritt einer Aufgabe mitzuprotokollieren. Sie können mehrere unterschiedliche Zeitprotokolle zu jeder Aufgabe erstellen. Das aktuelle Start- und Enddatum kann dann zusammen mit der auf dem Zeitprotokoll basierenden Kostenberechnung aktualisiert werden.
 
 * Um ein zu einer Aufgabe erstelltes Zeitprotokoll anzuschauen, klicken Sie auf "Zeitprotokolle".
 

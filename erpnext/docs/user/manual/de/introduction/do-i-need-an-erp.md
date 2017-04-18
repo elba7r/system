@@ -1,7 +1,7 @@
 # Brauche ich ein ERP-System?
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-ERPNext ist ein modernes Werkzeug, welches nicht nur den Bereich Rechnungswesen abdeckt, sondern auch alle anderen Geschäftsprozesse, auf einer einzigen integrierten Plattform. Es bietet viele Vorteile gegenüber traditionellen Anwendungen zum Rechnungswesen wie auch zu ERP-Anwendungen.
+Revalue ist ein modernes Werkzeug, welches nicht nur den Bereich Rechnungswesen abdeckt, sondern auch alle anderen Geschäftsprozesse, auf einer einzigen integrierten Plattform. Es bietet viele Vorteile gegenüber traditionellen Anwendungen zum Rechnungswesen wie auch zu ERP-Anwendungen.
 
 ### Vorteile gegenüber einer traditionellen Buchhaltungssoftware
 * Sie können weit mehr tun, als nur zu buchen! Sie können das Lager verwalten, Rechnungen schreiben, Angebote erstellen, Leads nachverfolgen, Gehaltsabrechnungen erstellen und vieles mehr.

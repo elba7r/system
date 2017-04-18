@@ -3,7 +3,7 @@
 
 ### Nicht benutzte Funktionen verbergen
 
-Wie Sie aus dieser Anleitung ersehen können, beinhaltet ERPNext viele verschiedene Funktionen, die Sie evtl. gar nicht benötigen. Wir haben beobachtet, dass Nutzer im Durchschnitt ca. 20% der Funktionen verwenden, jedoch unterschiedliche 20%. Um Felder, die sich auf Funktionen beziehen, die Sie aber nicht benötigen, zu verbergen, gehen Sie zu:
+Wie Sie aus dieser Anleitung ersehen können, beinhaltet Revalue viele verschiedene Funktionen, die Sie evtl. gar nicht benötigen. Wir haben beobachtet, dass Nutzer im Durchschnitt ca. 20% der Funktionen verwenden, jedoch unterschiedliche 20%. Um Felder, die sich auf Funktionen beziehen, die Sie aber nicht benötigen, zu verbergen, gehen Sie zu:
 
 > Einstellungen > Werkzeuge > Funktionen verbergen/einblenden
 

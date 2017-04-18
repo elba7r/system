@@ -1,10 +1,10 @@
 #Managing User Sign Up via Website
 
-Users can sign up for ERPNext account via the ERPNext Website.
+Users can sign up for Revalue account via the Revalue Website.
 
 <img src="{{docs_base_url}}/assets/img/website/website-login.png">
 
-As seen above the login / sign-up button appears on the homepage of the website generated using ERPNext.
+As seen above the login / sign-up button appears on the homepage of the website generated using Revalue.
 
 One might want to disable this feature to prevent anonymous users from signing up via the web.
 

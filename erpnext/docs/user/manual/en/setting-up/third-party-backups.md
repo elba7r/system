@@ -1,5 +1,5 @@
 If you wish to store your backups on a periodic basis,on Dropbox, you can do
-it directly through ERPNext.
+it directly through Revalue.
 
 > Setup > Manage 3rd Party Backups
 

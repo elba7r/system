@@ -4,4 +4,4 @@
 
 **Duration: 1:59**
 
-This video walks you through adding Employee in ERPNext.
+This video walks you through adding Employee in Revalue.

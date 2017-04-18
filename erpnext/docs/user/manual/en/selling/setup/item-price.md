@@ -12,7 +12,7 @@ Following are the steps to create new Item Price.
 
 Step 1: Select Price List
 
-You can create multiple Price List in ERPNext to track Selling and Buying Price List of an item separtely. Also if item's selling prices id changing based on territory, or due to other criteria, you can create multiple selling Price List for it.
+You can create multiple Price List in Revalue to track Selling and Buying Price List of an item separtely. Also if item's selling prices id changing based on territory, or due to other criteria, you can create multiple selling Price List for it.
 
 ![Item Price list]({{docs_base_url}}/assets/old_images/erpnext/item-price-list.png)
 
