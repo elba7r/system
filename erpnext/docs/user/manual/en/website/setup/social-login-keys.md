@@ -1,8 +1,8 @@
-Social Login enables users to login to ERPNext via their Google, Facebook or GitHub account.
+Social Login enables users to login to Revalue via their Google, Facebook or GitHub account.
 
 ### Enabling Social Logins.
 
-Checkout the following Video Tutorials to understand how to enable social logins on ERPNext
+Checkout the following Video Tutorials to understand how to enable social logins on Revalue
 
 * for FaceBook - https://www.youtube.com/watch?v=zC6Q6gIfiw8
 * for Google - https://www.youtube.com/watch?v=w_EAttrE9sw 

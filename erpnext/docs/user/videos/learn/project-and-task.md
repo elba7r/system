@@ -4,6 +4,6 @@
 
 **Duration: 3:52**
 
-This is the tutorial on managing Projects and Task in ERPNext.
+This is the tutorial on managing Projects and Task in Revalue.
 
 Project can be divided into multiple assignable Task. Based on Tasks of a Project, you can check its Gantt Chart view. To track actual time spent on Project or Task, user can create Time Logs.

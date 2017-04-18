@@ -1,8 +1,8 @@
 # Artikel
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Ein Artikel ist ein Produkt oder eine Dienstleistung Ihres Unternehmens. Die Bezeichnung Artikel ist genauso anwendbar auf Ihre Kernprodukte wie auch auf Ihr Rohmaterial. Es kann ein Produkt oder eine Dienstleistung sein, welche Sie von Lieferanten kaufen/an Kunden verkaufen. ERPNext versetzt sie in die Lage alle Arten von Artikeln wie Rohmaterial, Unterbeauftragungen, Fertigprodukte, Artikelvarianten und Dienstleistungsartikel zu verwalten.
-ERPNext ist auf die artikelbezogene Verwaltung Ihrer Ver- und Einkäufe optimiert. Wenn Sie sich im Bereich Dienstleistungen befinden, können Sie für jede Dienstleistung, die Sie anbieten, einen eigenen Artikel erstellen. Die Artikelstammdaten zu vervollständigen ist für eine erfolgreiche Einführung von ERPNext ausschlaggebend.
+Ein Artikel ist ein Produkt oder eine Dienstleistung Ihres Unternehmens. Die Bezeichnung Artikel ist genauso anwendbar auf Ihre Kernprodukte wie auch auf Ihr Rohmaterial. Es kann ein Produkt oder eine Dienstleistung sein, welche Sie von Lieferanten kaufen/an Kunden verkaufen. Revalue versetzt sie in die Lage alle Arten von Artikeln wie Rohmaterial, Unterbeauftragungen, Fertigprodukte, Artikelvarianten und Dienstleistungsartikel zu verwalten.
+Revalue ist auf die artikelbezogene Verwaltung Ihrer Ver- und Einkäufe optimiert. Wenn Sie sich im Bereich Dienstleistungen befinden, können Sie für jede Dienstleistung, die Sie anbieten, einen eigenen Artikel erstellen. Die Artikelstammdaten zu vervollständigen ist für eine erfolgreiche Einführung von Revalue ausschlaggebend.
 
 ### Artikeleigenschaften
 
@@ -18,16 +18,16 @@ Um für Ihr Icon ein Bild hochzuladen, das in allen Transaktionen erscheint, spe
 
 ### Lagerbestand: Lager- und Bestandseinstellungen
 
-In ERPNext können Sie verschiedene Typen von Lagern einstellen um Ihre unterschiedlichen Artikel zu lagern. Die Auswahl kann aufgrund der Artikeltypen getroffen werden. Das kann ein Artikel des Anlagevermögens sein, ein Lagerartikel oder auch ein Fertigungsartikel.
+In Revalue können Sie verschiedene Typen von Lagern einstellen um Ihre unterschiedlichen Artikel zu lagern. Die Auswahl kann aufgrund der Artikeltypen getroffen werden. Das kann ein Artikel des Anlagevermögens sein, ein Lagerartikel oder auch ein Fertigungsartikel.
 
-* **Lagerartikel:** Wenn Sie Lagerartikel dieses Typs in Ihrem Lagerbestand verwalten, erzeugt ERPNext für jede Transaktion dieses Artikels eine Buchung im Lagerhauptbuch.
+* **Lagerartikel:** Wenn Sie Lagerartikel dieses Typs in Ihrem Lagerbestand verwalten, erzeugt Revalue für jede Transaktion dieses Artikels eine Buchung im Lagerhauptbuch.
 * **Standardlager:** Das ist das Lager, welches automatisch bei Ihren Transaktionen ausgewählt wird.
 * **Erlaubter Prozentsatz:** Das ist der Prozentsatz der angibt, wieviel Sie bei einem Artikel überberechnen oder überliefern dürfen. Wenn er nicht vorgegeben ist, wird er aus den globalen Einstellungen übernommen.
 * **Bewertungsmethode:** Es gibt zwei Möglichkeiten den Lagerbestand zu bewerten. FIFO (first in - first out) und Gleitender Durchschnitt. Um dieses Thema besser zu verstehen, lesen Sie bitte "Artikelbewertung, FIFO und Gleitender Durchschnitt".
 
 ### Serialisierter und chargenbezogener Lagerbestand
 
-Die Nummerierungen helfen dabei einzelne Artikel oder Chargen individuell nachzuverfolgen. Ebenso können Garantieleistungen und Rückläufe nachverfolgt werden. Für den Fall, dass ein bestimmter Artikel von einem Lieferanten zurück gerufen wird, hilft die Nummer dabei, einzelne Artikel nachzuverfolgen. Das Nummerierungssystem verwaltet weiterhin das Verfalldatum. Bitte beachten Sie, dass Sie Ihre Artikel nicht serialisieren müssen, wenn Sie die Artikel zu Tausenden verkaufen, und sie sehr klein sind, wie z. B. Stifte oder Radiergummis. In der ERPNext-Software müssen Sie die Seriennummer bei bestimmten Buchungen mit angeben. Um Seriennummern zu erstellen, müssen Sie die Seriennummern per Hand in Ihren Buchungen eintragen. Wenn es sich nicht um ein großes und haltbares Verbrauchsgut handelt, es keine Garantie hat und die Möglichkeit eines Rückrufs äußerst gering ist, sollten Sie eine Seriennummerierung vermeiden.
+Die Nummerierungen helfen dabei einzelne Artikel oder Chargen individuell nachzuverfolgen. Ebenso können Garantieleistungen und Rückläufe nachverfolgt werden. Für den Fall, dass ein bestimmter Artikel von einem Lieferanten zurück gerufen wird, hilft die Nummer dabei, einzelne Artikel nachzuverfolgen. Das Nummerierungssystem verwaltet weiterhin das Verfalldatum. Bitte beachten Sie, dass Sie Ihre Artikel nicht serialisieren müssen, wenn Sie die Artikel zu Tausenden verkaufen, und sie sehr klein sind, wie z. B. Stifte oder Radiergummis. In der Revalue-Software müssen Sie die Seriennummer bei bestimmten Buchungen mit angeben. Um Seriennummern zu erstellen, müssen Sie die Seriennummern per Hand in Ihren Buchungen eintragen. Wenn es sich nicht um ein großes und haltbares Verbrauchsgut handelt, es keine Garantie hat und die Möglichkeit eines Rückrufs äußerst gering ist, sollten Sie eine Seriennummerierung vermeiden.
 
 > Wichtig: Sobald Sie einen Artikel als serialisiert oder als Charge oder beides markiert haben, können Sie das nicht mehr ändern, nachdem Sie eine Buchung erstellt haben.
 

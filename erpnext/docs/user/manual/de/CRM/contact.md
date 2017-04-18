@@ -1,7 +1,7 @@
 # Kontakt
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Kontakte und Adressen werden in ERPNext separat abgespeichert, so dass Sie mehrere verschiedene Kontakte oder Adressen den Kunden und Lieferanten zuordnen können.
+Kontakte und Adressen werden in Revalue separat abgespeichert, so dass Sie mehrere verschiedene Kontakte oder Adressen den Kunden und Lieferanten zuordnen können.
 
 Um einen neuen Kontakt zu erstellen, gehe Sie zu
 

@@ -1,7 +1,7 @@
 <!---
 WORK IN PROGRESS
 -->
-# ERPNext User Manual
+# Revalue User Manual
 
 Select your language
 

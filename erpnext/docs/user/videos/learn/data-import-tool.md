@@ -4,4 +4,4 @@
 
 **Duration: 6:32**
 
-This video walks you through on importing data in ERPNext from spreadsheet files. This tools allows you in faster migration of masters and transactions from legacy system into ERPNext. You can also use this tool to export data from ERPNext, and keep it as a backup of specific document type.
+This video walks you through on importing data in Revalue from spreadsheet files. This tools allows you in faster migration of masters and transactions from legacy system into Revalue. You can also use this tool to export data from Revalue, and keep it as a backup of specific document type.

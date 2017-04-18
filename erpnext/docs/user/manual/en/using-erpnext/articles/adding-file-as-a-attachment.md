@@ -1,6 +1,6 @@
 #Adding File as a Attachment
 
-ERPNext allows to attach files with documents. User with a read permission on particular document will also be able to access files attached with it.
+Revalue allows to attach files with documents. User with a read permission on particular document will also be able to access files attached with it.
 
 ###Attach New File
 
@@ -28,7 +28,7 @@ To ensure there are not many files attached to a document, which can affect your
 
 ####File Manager
 
-Check following link to learn how files are managed in ERPNext.
+Check following link to learn how files are managed in Revalue.
 
 <iframe width="660" height="371" src="https://www.youtube.com/embed/4-osLW3E_Rk" frameborder="0" allowfullscreen></iframe>
 

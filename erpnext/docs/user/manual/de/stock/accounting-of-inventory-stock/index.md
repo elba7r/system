@@ -5,7 +5,7 @@ Der Wert des verfügbaren Lagerbestandes wird im Kontenplan des Unternehmens als
 
 ### Ständige Inventur
 
-Bei diesem Prozess bucht das System jede Lagertransaktion um Lagerbestand und Buchbestand zu synchronisieren. Das ist die Standardeinstellung in ERPNext für neue Konten.
+Bei diesem Prozess bucht das System jede Lagertransaktion um Lagerbestand und Buchbestand zu synchronisieren. Das ist die Standardeinstellung in Revalue für neue Konten.
 
 Wenn Sie Artikel kaufen und erhalten, werden diese Artikel als Vermögen des Unternehmens gebucht (Warenbestand/Anlagevermögen). Wenn Sie diese Artikel wieder verkaufen und ausliefern, werden Kosten (Selbstkosten) in Höhe der Bezugskosten der Artikel verbucht. Nach jeder Lagertransaktion werden Buchungen im Hauptbuch erstellt. Dies hat zum Ergebnis, dass der Wert im Lagerbuch immer gleich dem Wert in der Bilanz bleibt. Das verbessert die Aussagekraft der Bilanz und der Gewinn- und Verlustrechnung.
 
