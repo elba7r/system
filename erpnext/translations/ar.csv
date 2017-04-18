@@ -8,14 +8,14 @@ apps/erpnext/erpnext/setup/setup_wizard/industry_type.py +19,Consumer Products,�
 apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.js +68,Please select Party Type first,برجاء اختيار نوع الحزب/الفرع أولا
 DocType: Item,Customer Items,أصناف العميل
 DocType: Project,Costing and Billing,حساب التكلفةواصدارالفواتير
-apps/erpnext/erpnext/accounts/doctype/account/account.py +52,Account {0}: Parent account {1} can not be a ledger,حساب {0}: حساب رئيسي {1} لايمكن ان يكون حساب أستاذ              
+apps/erpnext/erpnext/accounts/doctype/account/account.py +52,Account {0}: Parent account {1} can not be a ledger,حساب {0}: حساب رئيسي {1} لايمكن ان يكون حساب أستاذ
 DocType: Item,Publish Item to hub.erpnext.com,نشر البند إلى hub.erpnext.com
 apps/erpnext/erpnext/config/setup.py +88,Email Notifications,إشعارات البريد الإلكتروني
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,تقييم
 DocType: Item,Default Unit of Measure,وحدة القياس الافتراضية
 DocType: SMS Center,All Sales Partner Contact,بيانات الإتصال لكل شركاء البيع
 DocType: Employee,Leave Approvers,الموافقون او المصدقون علي الاجازة
-DocType: Sales Partner,Dealer,موزع 
+DocType: Sales Partner,Dealer,موزع
 DocType: Employee,Rented,مؤجر
 DocType: Purchase Order,PO-,PO- أمر شراء
 DocType: POS Profile,Applicable for User,متاح للتطبيق للمستخدم
@@ -50,11 +50,11 @@ apps/erpnext/erpnext/templates/pages/projects.js +63,Show open,عرض مفتوح
 apps/erpnext/erpnext/setup/doctype/naming_series/naming_series.py +150,Series Updated Successfully,تم تحديث الترقيم المتسلسل بنجاح
 apps/erpnext/erpnext/templates/includes/cart/cart_dropdown.html +18,Checkout,شراء
 DocType: Pricing Rule,Apply On,طبق على
-DocType: Item Price,Multiple Item prices.,أسعار أصناف متعدده 
+DocType: Item Price,Multiple Item prices.,أسعار أصناف متعدده
 ,Purchase Order Items To Be Received,أمر شراء أصناف سيتم استلامها
 DocType: SMS Center,All Supplier Contact,بيانات اتصال لجميع الموردين
 apps/erpnext/erpnext/projects/doctype/project/project.py +56,Expected End Date can not be less than Expected Start Date,تاريخ الانتهاء المتوقع لا يمكن ان يكون أقل من تاريخ البداية المتوقع
-apps/erpnext/erpnext/utilities/transaction_base.py +107,Row #{0}: Price must be same as {1}: {2} ({3} / {4}) ,({3} / {4}) {2} :{1} الصف #{0}: السعر يجب أن يكون مثل  
+apps/erpnext/erpnext/utilities/transaction_base.py +107,Row #{0}: Price must be same as {1}: {2} ({3} / {4}) ,({3} / {4}) {2} :{1} الصف #{0}: السعر يجب أن يكون مثل
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +256,New Leave Application,طلب اجازه جديد
 apps/erpnext/erpnext/setup/setup_wizard/install_fixtures.py +143,Bank Draft,حوالة بنكية
 DocType: Mode of Payment Account,Mode of Payment Account,طريقة حساب الدفع
@@ -102,7 +102,7 @@ apps/erpnext/erpnext/selling/doctype/quotation/quotation_dashboard.py +8,Related
 apps/erpnext/erpnext/accounts/doctype/account/account.js +26,This is a root account and cannot be edited.,.هذا الحساب أساسي ولا يمكن تعديله
 DocType: BOM,Operations,عمليات
 apps/erpnext/erpnext/setup/doctype/authorization_rule/authorization_rule.py +38,Cannot set authorization on basis of Discount for {0},{0} لا يمكن تعيين إذن أو تفويض على أساس الخصم ل
-DocType: Rename Tool,"Attach .csv file with two columns, one for the old name and one for the new name","واحد للإسم القديم و واحد للإسم الجديد ( .csv )  "ارفق ملف
+DocType: Rename Tool,"Attach .csv file with two columns, one for the old name and one for the new name","واحد للإسم القديم و واحد للإسم الجديد ( .csv ) ارفق ملف "
 DocType: Packed Item,Parent Detail docname,docname تفاصيل الرئيسي
 apps/erpnext/erpnext/public/js/setup_wizard.js +298,Kg,كجم
 DocType: Student Log,Log,سجل
@@ -114,7 +114,7 @@ apps/erpnext/erpnext/accounts/doctype/mode_of_payment/mode_of_payment.py +22,Sam
 DocType: Employee,Married,متزوج
 apps/erpnext/erpnext/accounts/party.py +38,Not permitted for {0},{0} غير مسموح ل
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js +576,Get items from,الحصول على الأصناف من
-apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +413,Stock cannot be updated against Delivery Note {0},{0} لا يمكن تحديث أو تعديل المخزون مقابل اذن استلام 
+apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +413,Stock cannot be updated against Delivery Note {0},{0} لا يمكن تحديث أو تعديل المخزون مقابل اذن استلام
 apps/erpnext/erpnext/templates/pages/home.py +25,Product {0},{0} المنتج
 DocType: Payment Reconciliation,Reconcile,التسوية
 apps/erpnext/erpnext/setup/setup_wizard/industry_type.py +30,Grocery,بقالة
@@ -819,7 +819,7 @@ DocType: Item,Website Warehouse,مستودع الموقع الألكتروني
 DocType: Payment Reconciliation,Minimum Invoice Amount,الحد الأدنى لقيمة الفاتوره
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +107,{0} {1}: Cost Center {2} does not belong to Company {3},{3} لـ {0} {1}: مركز التكلفة {2} لاينتمي لـ شركة
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +84,{0} {1}: Account {2} cannot be a Group,لـ {0} {1}: حساب {2} لايمكن أن يكون مجموعة
-apps/erpnext/erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py +64,Item Row {idx}: {doctype} {docname} does not exist in above '{doctype}' table,العلوي '{doctype}'غير موجود في جدول {docname} {doctype} :{idx} صف البند   
+apps/erpnext/erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py +64,Item Row {idx}: {doctype} {docname} does not exist in above '{doctype}' table,العلوي '{doctype}'غير موجود في جدول {docname} {doctype} :{idx} صف البند
 apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +262,Timesheet {0} is already completed or cancelled,جدول ساعات العمل {0} بالفعل منتهي أو ملغى
 DocType: Purchase Invoice,"The day of the month on which auto invoice will be generated e.g. 05, 28 etc","اليوم والشهر الذي سيتم إنشاء الفاتورة التلقائية فيه علي سبيل المثال 05، 28 الخ"
 DocType: Asset,Opening Accumulated Depreciation,الإهلاك التراكمي/المجمع الإفتتاحي
