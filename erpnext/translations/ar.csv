@@ -737,7 +737,7 @@ apps/erpnext/erpnext/accounts/doctype/pricing_rule/pricing_rule.py +302,"Multipl
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.py +420,Cannot deactivate or cancel BOM as it is linked with other BOMs,لا يمكن عدم تفعيل أو إلغاء قائمة مواد التصنيع المطلوبة للتصنيع طالما أنها مرتبطة ب قائمة مواد تصنيع أخري
 DocType: Opportunity,Maintenance,صيانة
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py +207,Purchase Receipt number required for Item {0},{رقم إيصال الشراء مطلوب للصنف {0
-DocType: Item Attribute Value,Item Attribute Value,"قيمة سمة/خاصية الصنف"
+DocType: Item Attribute Value,Item Attribute Value.,قيمة سمة/خاصية الصنف
 apps/erpnext/erpnext/config/selling.py +148,Sales campaigns.,حملات المبيعات
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.js +42,Make Timesheet,أنشئ جدول ساعات العمل
 DocType: Sales Taxes and Charges Template,"Standard tax template that can be applied to all Sales Transactions. This template can contain list of tax heads and also other expense / income heads like ""Shipping"", ""Insurance"", ""Handling"" etc.",".قالب الضرائب القياسي الذي يمكن تطبيقه على جميع عمليات البيع... يمكن أن يحتوي هذا القالب علي قائمة العناصر الرئيسية للضريبة، وكذلك غيرهم من العناصر الرئيسية للمصاريف/الدخل مثل ""شحن""، ""التأمين""، ""المناولة/المشال""، وغيرها
