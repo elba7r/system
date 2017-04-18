@@ -102,7 +102,7 @@ apps/erpnext/erpnext/selling/doctype/quotation/quotation_dashboard.py +8,Related
 apps/erpnext/erpnext/accounts/doctype/account/account.js +26,This is a root account and cannot be edited.,.هذا الحساب أساسي ولا يمكن تعديله
 DocType: BOM,Operations,عمليات
 apps/erpnext/erpnext/setup/doctype/authorization_rule/authorization_rule.py +38,Cannot set authorization on basis of Discount for {0},{0} لا يمكن تعيين إذن أو تفويض على أساس الخصم ل
-DocType: Rename Tool,"Attach .csv file with two columns, one for the old name and one for the new name","واحد للإسم القديم و واحد للإسم الجديد ( .csv )  "ارفق ملف
+DocType: Rename Tool,"Attach .csv file with two columns, one for the old name and one for the new name","واحد للإسم القديم و واحد للإسم الجديد ( .csv ) ارفق ملف "
 DocType: Packed Item,Parent Detail docname,docname تفاصيل الرئيسي
 apps/erpnext/erpnext/public/js/setup_wizard.js +298,Kg,كجم
 DocType: Student Log,Log,سجل
