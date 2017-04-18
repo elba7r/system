@@ -1,9 +1,9 @@
 # Benutzerdefinierter DocType
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Ein DocType oder Dokumententyp wird dazu verwendet Formulare in ERPNext einzufügen. Formulare wie Kundenauftrag, Ausgangsrechnung und Fertigungsauftrag werden im Hintergrund als DocType verarbeitet. Nehmen wir an, dass wir für ein Buch einen benutzerdefinierten DocType erstellen.
+Ein DocType oder Dokumententyp wird dazu verwendet Formulare in Revalue einzufügen. Formulare wie Kundenauftrag, Ausgangsrechnung und Fertigungsauftrag werden im Hintergrund als DocType verarbeitet. Nehmen wir an, dass wir für ein Buch einen benutzerdefinierten DocType erstellen.
 
-Ein benutzerspezifischer DocType erlaubt es Ihnen nach Ihren Bedürfnissen benutzerspezifische Formulare in ERPNext einzufügen.
+Ein benutzerspezifischer DocType erlaubt es Ihnen nach Ihren Bedürfnissen benutzerspezifische Formulare in Revalue einzufügen.
 
 Um einen neuen DocType zu erstellen, gehen Sie zu:
 

@@ -12,7 +12,7 @@ Um Ihre Konten und Lagerbestände richtig eröffnen zu können, brauchen Sie bel
 
 ### Konten eröffnen
 
-Wir gehen davon aus, dass Sie mit der Buchhaltung in einem neuen Geschäftsjahr beginnen, Sie können aber auch mittendrin starten. Um Ihre Konten einzurichten, brauchen Sie Folgendes für den Tag an dem Sie die Buchhaltung über ERPNext starten.
+Wir gehen davon aus, dass Sie mit der Buchhaltung in einem neuen Geschäftsjahr beginnen, Sie können aber auch mittendrin starten. Um Ihre Konten einzurichten, brauchen Sie Folgendes für den Tag an dem Sie die Buchhaltung über Revalue starten.
 
 * Eröffnungsstände der Kapitalkonten - wie Kapital von Anteilseignern (oder das des Inhabers), Darlehen, Stände von Bankkonten
 * Liste der offenen Rechnungen aus Verkäufen und Einkäufen (Forderungen und Verbindlichkeiten)
@@ -30,7 +30,7 @@ Eine schöne Möglichkeit die Eröffnung zu vereinfachen bietet sich über die V
 
 ### Die Eröffnungsbuchung
 
-In ERPNext werden Eröffnungskonten eingerichtet, indem bestimmte Buchungssätze übertragen werden.
+In Revalue werden Eröffnungskonten eingerichtet, indem bestimmte Buchungssätze übertragen werden.
 
 Hinweis: Stellen Sie sicher, dass im Abschnitt "Weitere Informationen" "Ist Eröffnung" auf "Ja" eingestellt ist.
 

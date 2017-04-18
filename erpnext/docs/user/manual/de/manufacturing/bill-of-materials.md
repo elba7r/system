@@ -1,7 +1,7 @@
 # Stückliste
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Das Herz des Fertigungssystems bildet die Stückliste. Die **Stückliste** ist eine Auflistung aller Materialien (egal ob gekauft oder selbst hergestellt) und Arbeitsgänge die in das fertige Erzeugnis oder Untererzeugnis einfliessen. In ERPNext kann eine Komponente ihre eigene Stückliste haben, und formt somit eine mehrstufige Baumstruktur.
+Das Herz des Fertigungssystems bildet die Stückliste. Die **Stückliste** ist eine Auflistung aller Materialien (egal ob gekauft oder selbst hergestellt) und Arbeitsgänge die in das fertige Erzeugnis oder Untererzeugnis einfliessen. In Revalue kann eine Komponente ihre eigene Stückliste haben, und formt somit eine mehrstufige Baumstruktur.
 
 Um passende Einkaufsanfragen zu erstellen, müssen Sie Ihre Stücklisten immer auf dem aktuellen Stand halten. Um eine neue Stückliste anzulegen, gehen Sie zu:
 

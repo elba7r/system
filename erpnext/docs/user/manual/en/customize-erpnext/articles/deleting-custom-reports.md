@@ -1,6 +1,6 @@
 #Deleting Custom Reports
 
-ERPNext has several [types of reports]({{docs_base_url}}/user/manual/en/customize-erpnext/articles/making-custom-reports-in-erpnext) which can be customize as per the companies/users requirement.
+Revalue has several [types of reports]({{docs_base_url}}/user/manual/en/customize-erpnext/articles/making-custom-reports-in-erpnext) which can be customize as per the companies/users requirement.
 
 If there is a report custom report which needs to be deleted, it can be achieved by following steps. Please note that its applicable only for the Custom Reports, and not for the standard reports.
 

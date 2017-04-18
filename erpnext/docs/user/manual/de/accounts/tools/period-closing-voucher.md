@@ -12,7 +12,7 @@ usw. und Sie können Ihren Gewinn oder Verlust verbuchen.
 
 Wenn Sie das tun, muss der Kontostand Ihres GuV-Kontos 0 werden. Sie starten ein neues Geschäftsjahr (oder eine Periode) mit einer ausgeglichenen Bilanz und einem jungfräulichen GuV-Konto.
 
-Sie sollten nach den Sonderbuchungen zum aktuellen Geschäftsjahr über Journalbuchungen in ERPNext alle Ihre Ertrags- und Aufwandskonten auf 0 setzen, indem Sie hierhin gehen:
+Sie sollten nach den Sonderbuchungen zum aktuellen Geschäftsjahr über Journalbuchungen in Revalue alle Ihre Ertrags- und Aufwandskonten auf 0 setzen, indem Sie hierhin gehen:
 
 > Buchhaltung > Werkzeuge > Periodenabschlussbeleg
 

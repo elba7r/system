@@ -15,15 +15,15 @@ oder einen Upload über ein Datenimportwerkzeug durchführen.
 
 ### Kontakte und Adressen
 
-Kontakte und Adressen werden in ERPNext getrennt gespeichert, damit Sie mehrere verschiedene Kontakte oder Adressen mit Kunden und Lieferanten verknüpfen können.
+Kontakte und Adressen werden in Revalue getrennt gespeichert, damit Sie mehrere verschiedene Kontakte oder Adressen mit Kunden und Lieferanten verknüpfen können.
 
 Lesen Sie hierzu auch [Kontakt]({{docs_base_url}}/user/manual/de/CRM/contact.html).
 
 ### Einbindung in Konten
 
-In ERPNext gibt es für jeden Kunden und für jede Firma einen eigenen Kontodatensatz.
+In Revalue gibt es für jeden Kunden und für jede Firma einen eigenen Kontodatensatz.
 
-Wenn Sie einen neuen Kunden anlegen, erstellt ERPNext automatisch im Kundendatensatz unter den Forderungskonten der Firma ein Kontenblatt für den Kunden.
+Wenn Sie einen neuen Kunden anlegen, erstellt Revalue automatisch im Kundendatensatz unter den Forderungskonten der Firma ein Kontenblatt für den Kunden.
 
 > Hinweis für Fortgeschrittene: Wenn Sie die Kontengruppe, unter der das Kundenkonto erstellt wurde, ändern wollen, können Sie das in den Firmenstammdaten einstellen.
 
@@ -39,7 +39,7 @@ Sie können einstellen, wieviel Ziel Sie für einen Kunden durch hinzufügen der
 
 ### Kundenklassifizierung
 
-ERPNext erlaubt es Ihnen Ihre Kunden in Kundengruppen zu gruppieren und sie in Regionen aufzuteilen. Das Gruppieren hilft Ihnen bei der genaueren Auswertung Ihrer Daten und bei der Identifizierung welche Kunden gewinnbringend sind und welche nicht. Die Regionalisierung hilft Ihnen dabei, Ziele für genau diese Regionen festzulegen. Sie können auch Vertriebspersonen als Ansprechpartner für einen Kunden festlegen.
+Revalue erlaubt es Ihnen Ihre Kunden in Kundengruppen zu gruppieren und sie in Regionen aufzuteilen. Das Gruppieren hilft Ihnen bei der genaueren Auswertung Ihrer Daten und bei der Identifizierung welche Kunden gewinnbringend sind und welche nicht. Die Regionalisierung hilft Ihnen dabei, Ziele für genau diese Regionen festzulegen. Sie können auch Vertriebspersonen als Ansprechpartner für einen Kunden festlegen.
 
 ### Vertriebspartner
 

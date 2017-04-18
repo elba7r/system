@@ -1,9 +1,9 @@
 # SMS-Einstellungen
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Um SMS-Dienste in ERPNext zu integrieren, wenden Sie sich an einen Anbieter eines SMS-Gateways der Ihnen eine HTTP-Schnittstelle (API) zur Verfügung stellt. Er wird Ihnen ein Konto erstellen und Ihnen eindeutige Zugangsdaten zukommen lassen.
+Um SMS-Dienste in Revalue zu integrieren, wenden Sie sich an einen Anbieter eines SMS-Gateways der Ihnen eine HTTP-Schnittstelle (API) zur Verfügung stellt. Er wird Ihnen ein Konto erstellen und Ihnen eindeutige Zugangsdaten zukommen lassen.
 
-Um die SMS-Einstellungen in ERPNext zu konfigurieren lesen Sie sich das Hilfe-Dokument zur HTTP API durch (dieses beschreibt die Methode, wie auf die SMS-Schnittstelle über einen Drittparteien-Anbieter zugegriffen werden kann). In diesem Dokument finden Sie eine URL, die dafür benutzt wird eine SMS mithilfe einer HTTP-Anfrage zu versenden. Wenn Sie diese URL benutzen, können Sie die SMS-Einstellungen in ERPNext konfigurieren.
+Um die SMS-Einstellungen in Revalue zu konfigurieren lesen Sie sich das Hilfe-Dokument zur HTTP API durch (dieses beschreibt die Methode, wie auf die SMS-Schnittstelle über einen Drittparteien-Anbieter zugegriffen werden kann). In diesem Dokument finden Sie eine URL, die dafür benutzt wird eine SMS mithilfe einer HTTP-Anfrage zu versenden. Wenn Sie diese URL benutzen, können Sie die SMS-Einstellungen in Revalue konfigurieren.
 
 Beispiel-URL:
 

@@ -5,7 +5,7 @@ Ein Gehalt ist ein fester Geldbetrag oder eine Ersatzvergütung die vom Arbeitsg
 
 Die Gehaltsabrechnung ist der zugrundeliegende Datensatz zum Verwaltungsakt von Gehältern, Löhnen, Boni, Nettoauszahlungen und Abzügen für einen Mitarbeiter.
 
-Um in ERPNext eine Gehaltsabrechnung durchzuführen
+Um in Revalue eine Gehaltsabrechnung durchzuführen
 
 1. Erstellen Sie Gehaltsstrukturen für alle Arbeitnehmer.
 2. Erstellen Sie über den Prozess Gehaltsabrechnung Gehaltsabrechnungen.
@@ -53,9 +53,9 @@ Um eine neue Gehaltsstruktur zu erstellen, gehen Sie zu:
 
 ### Unbezahlter Urlaub
 
-Unbezahlter Urlaub entsteht dann, wenn ein Mitarbeiter keinen normalen Urlaub mehr hat oder ohne Genehmigung über einen Urlaubsantrag abwesend ist. Wenn Sie möchten, dass ERPNext automatisch unbezahlten Urlaub abzieht, müssen Sie in der Vorlage "Einkommens- und Abzugsart" "Unbezahlten Urlaub anwenden" anklicken. Der Betrag der dem Gehalt gekürzt wird ergibt sich aus dem Verhältnis zwischen den Tagen des unbezahlten Urlaubs und den Gesamtarbeitstagen des Monats (basierend auf der Urlaubstabelle).
+Unbezahlter Urlaub entsteht dann, wenn ein Mitarbeiter keinen normalen Urlaub mehr hat oder ohne Genehmigung über einen Urlaubsantrag abwesend ist. Wenn Sie möchten, dass Revalue automatisch unbezahlten Urlaub abzieht, müssen Sie in der Vorlage "Einkommens- und Abzugsart" "Unbezahlten Urlaub anwenden" anklicken. Der Betrag der dem Gehalt gekürzt wird ergibt sich aus dem Verhältnis zwischen den Tagen des unbezahlten Urlaubs und den Gesamtarbeitstagen des Monats (basierend auf der Urlaubstabelle).
 
-Wenn Sie nicht möchten, dass ERPNext unbezahlten Urlaub verwaltet, klicken Sie die Option in keiner Einkommens und Abzugsart an.
+Wenn Sie nicht möchten, dass Revalue unbezahlten Urlaub verwaltet, klicken Sie die Option in keiner Einkommens und Abzugsart an.
 
 * * *
 

@@ -2,7 +2,7 @@
 
 To prevent stockouts, you can track item's reorder level. When stock level goes below reorder level, purchase manager is notified and instructed to initiate purchase process for the item.
 
-In ERPNext, you can update item's Reorder Level and Reorder Qty in the Item master. If same item has different reorder level, you can also update warehouse-wise reorder level and reorder qty.
+In Revalue, you can update item's Reorder Level and Reorder Qty in the Item master. If same item has different reorder level, you can also update warehouse-wise reorder level and reorder qty.
 
 <img alt="reorder level" class="screenshot" src="{{docs_base_url}}/assets/img/articles/reorder-request-1.png">
 

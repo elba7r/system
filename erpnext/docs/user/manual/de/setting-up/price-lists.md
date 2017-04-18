@@ -1,11 +1,11 @@
 # Preisliste
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-ERPNext lässt es zu, viele verschiedene Verkaufs- und Einkaufspreise für einen Artikel zu verwalten, indem eine Preisliste verwendet wird. "Preisliste" ist hierbei die Bezeichnung, die Sie einer Menge von Artikelpreisen geben können.
+Revalue lässt es zu, viele verschiedene Verkaufs- und Einkaufspreise für einen Artikel zu verwalten, indem eine Preisliste verwendet wird. "Preisliste" ist hierbei die Bezeichnung, die Sie einer Menge von Artikelpreisen geben können.
 
 Warum sollten Sie Preislisten verwenden? Sie haben für verschiedene Regionen (wegen der Versandkosten), für verschiedene Länder oder verschiedene Währungen etc. unterschiedliche Preise.
 
-Ein Artikel kann aufgrund des Kunden, der Währung, der Region, den Versandkosten etc. unterschiedliche Preise haben, die als unterschiedliche Sätze abgespeichert werden können. In ERPNext müssen Sie diese Listen jeweils getrennt abspeichern. Die Einkaufspreisliste unterscheidet sich von der Verkaufspreisliste und beide werden getrennt gespeichert.
+Ein Artikel kann aufgrund des Kunden, der Währung, der Region, den Versandkosten etc. unterschiedliche Preise haben, die als unterschiedliche Sätze abgespeichert werden können. In Revalue müssen Sie diese Listen jeweils getrennt abspeichern. Die Einkaufspreisliste unterscheidet sich von der Verkaufspreisliste und beide werden getrennt gespeichert.
 
 Sie können eine neue Preisliste erstellen über:
 

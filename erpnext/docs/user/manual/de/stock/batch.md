@@ -1,7 +1,7 @@
 # Charge
 <span class="text-muted contributed-by">Beigetragen von CWT Connector & Wire Technology GmbH</span>
 
-Die Funktion Chargenverwaltung in ERPNext versetzt Sie in die Lage, verschiedene Einheiten eines Artikels zu gruppieren und ihnen eine einzigartige Nummer, die man Chargennummer nennt, zuzuweisen.
+Die Funktion Chargenverwaltung in Revalue versetzt Sie in die Lage, verschiedene Einheiten eines Artikels zu gruppieren und ihnen eine einzigartige Nummer, die man Chargennummer nennt, zuzuweisen.
 
 Die Vorgehensweise, das Lager chargenbasiert zu verwalten, wird hauptsächlich in der pharmazeutischen Industrie angewandt. Medikamenten wird hier chargenbasiert eine eindeutige ID zugewiesen. Das hilft dabei, das Verfallsdatum der in einer bestimmten Charge produzierten Mengen aktuell zu halten und nachzuvollziehen.
 

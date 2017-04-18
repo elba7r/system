@@ -1,4 +1,4 @@
-Batch inventory feature in ERPNext allows you to group multiple units of an item, 
+Batch inventory feature in Revalue allows you to group multiple units of an item, 
 and assign them a unique value/number/tag called Batch No.
 
 The practise of stocking based on batch is mainly followed in the pharmaceutical industry. 

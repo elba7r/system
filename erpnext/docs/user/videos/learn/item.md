@@ -4,4 +4,4 @@
 
 **Duration: 3:17**
 
-This tutorial walks you through managing stock and service item in ERPNext. For each item, you can track its standard selling and buying price using Price List.
+This tutorial walks you through managing stock and service item in Revalue. For each item, you can track its standard selling and buying price using Price List.

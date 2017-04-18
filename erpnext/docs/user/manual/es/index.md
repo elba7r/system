@@ -9,4 +9,4 @@ WORK IN PROGRESS
 
 **Trabajo en progreso.**
 
-[The Spanish Translation of the ERPNext manual is in progress. Click here to see the english manual]({{ docs_base_url }}/user/manual/en)
+[The Spanish Translation of the Revalue manual is in progress. Click here to see the english manual]({{ docs_base_url }}/user/manual/en)
