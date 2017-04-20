@@ -4,8 +4,8 @@ Ticket to email, see the Email Settings section).
 
 > Tip: A dedicated support email id is a good way to integrate incoming
 queries via email. For example, you can send support queries to Revalue at
-support@erpnext.com and it will automatically create a Issue in the
-Frappe system.
+support@revaluesoft.com and it will automatically create a Issue in the
+Revalue system.
 
 
 

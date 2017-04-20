@@ -10,11 +10,11 @@ see the demo at:
 ### 2\. Start a Free Account at revaluesoft.com
 
 
-Revaluesoft.com is managed by the organization (Frappe) that publishes ERPNext.
+Revaluesoft.com is managed by the organization (Revalue) that publishes Revalue.
 You can start with your own account by [signing up on the
 website](https://revaluesoft.com>).
 
-You can also decide to host your application at erpnext.com by buying the
+You can also decide to host your application at revaluesoft.com.com by buying the
 hosting plans. This way you support the organization that develops and
 improves Revalue. You also get one-to-one functional (usage) support with the
 hosting plans.

@@ -2,12 +2,12 @@
 
 <h1>GNU General Public License (v3)</h1>
 
-<h2>ERPNext License Info</h2>
+<h2>Revalue License Info</h2>
 
-<p>(c) 2013 Frappe Technologies Pvt Ltd. Mumbai
-ERPNext is a trademark of Frappe Technologies</p>
+<p>(c) 2013 Revalue Technologies Pvt Ltd. Mumbai
+Revalue is a trademark of Revalue Technologies</p>
 
-<p>The ERPNext code is licensed under the GNU General Public License (v3) as mentioned below and the Documentation is licensed under Creative Commons (CC-BY-SA-3.0)</p>
+<p>The Revalue code is licensed under the GNU General Public License (v3) as mentioned below and the Documentation is licensed under Creative Commons (CC-BY-SA-3.0)</p>
 
 <h2>GNU GENERAL PUBLIC LICENSE</h2>
 

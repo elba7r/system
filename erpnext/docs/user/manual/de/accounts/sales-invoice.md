@@ -25,9 +25,9 @@ Sie müssen auch die Kostenstelle angeben, auf die Ihr Ertrag gebucht wird. Erin
 
 So verbuchen Sie einen Verkauf aufgeschlüsselt:
 
-**Soll:** Kunde (Gesamtsumme) 
+**Soll:** Kunde (Gesamtsumme)
 
-**Haben:** Ertrag (Nettosumme, abzüglich Steuern für jeden Artikel) 
+**Haben:** Ertrag (Nettosumme, abzüglich Steuern für jeden Artikel)
 
 **Haben:** Steuern (Verbindlichkeiten gegenüber dem Staat)
 
@@ -53,6 +53,6 @@ Wenn Sie einem Kunden eine Rechnung ausstellen wollen, damit dieser eine Anzahlu
 
 "Proforma" bezieht sich auf eine Formsache. Warum sollte man das tun? Wenn Sie eine Ausgangsrechnung buchen, dann erscheint diese bei den Forderungen und den Erträgen. Das ist genau dann nicht optimal, wenn nicht sicher ist, ob Ihr Kunden die Anzahlung auch wirklich leistet. Wenn Ihr Kunden aber dennoch eine "Rechnung" will, dann geben Sie ihm ein Angebot (in Revalue) das als "Proforma-Rechnung" bezeichnet wird. Auf diese Weise ist jeder glücklich.
 
-Das ist ein weithin gebräuchliches Verfahren. Wir bei Frappe machen das genauso.
+Das ist ein weithin gebräuchliches Verfahren. Wir bei Revalue machen das genauso.
 
 {next}

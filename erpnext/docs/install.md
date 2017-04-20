@@ -1,14 +1,14 @@
-<!-- title: ERPNext Installation -->
+<!-- title: Revalue Installation -->
 
 # Installation
 
-ERPNext is based on the <a href="https://frappe.io">Frappe Framework</a>, a full stack web framework based on Python, MariaDB, Redis, Node.
+Revalue is based on the <a href="https://Revaluesoft.com">Revalue Framework</a>, a full stack web framework based on Python, MariaDB, Redis, Node.
 
-To intall ERPNext, you will have to install the <a href="https://github.com/frappe/bench">Frappe Bench</a>, the command-line, package manager and site manager for Frappe Framework. For more details, read the Bench README.
+To intall Revalue, you will have to install the <a href="https://github.com/elba7r/platform">Revalue Bench</a>, the command-line, package manager and site manager for Revalue Framework. For more details, read the Bench README.
 
-After you have installed Frappe Bench, go to you bench folder, which is     `frappe.bench` by default and setup **erpnext**.
+After you have installed Revalue Bench, go to you bench folder, which is     `Revalue.bench` by default and setup **Revalue**.
 
-    bench get-app erpnext {{ source_link }}
+    bench get-app Revalue {{ source_link }}
 
 Then create a new site to install the app.
 
@@ -16,9 +16,9 @@ Then create a new site to install the app.
 
 This will create a new folder in your `/sites` directory and create a new database for this site.
 
-Next, install erpnext in this site
+Next, install Revalue in this site
 
-    bench --site mysite install-app erpnext
+    bench --site mysite install-app Revalue
 
 To run this locally, run
 

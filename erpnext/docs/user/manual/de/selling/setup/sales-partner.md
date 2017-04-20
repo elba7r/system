@@ -25,7 +25,7 @@ Um die Namen Ihrer Partner auf Ihrer Webseite anzuzeigen, aktivieren Sie "Auf de
 
 Um eine Übersicht Ihrer Partner zu erhalten, gehen Sie zu:
 
-https://example.erpnext.com/Partners
+https://example.revaluesoft.com
 
 ![Auflistung der Vertriebspartner]({{docs_base_url}}/assets/old_images/erpnext/sales-partner-listing.png)
 

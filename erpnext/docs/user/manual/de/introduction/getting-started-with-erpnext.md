@@ -11,7 +11,7 @@ Wenn Sie die Benutzerschnittstelle ausprobieren wollen und wissen wollen, wie si
 
 ### 2\. Richten Sie sich ein kostenloses Konto bei Revalue.com ein
 
-Revalue.com wird von der Organisation (Frappe), die Revalue veröffentlicht, verwaltet. Sie können sich ein eigenes Konto anlegen, indem Sie sich auf der [Internetseite registrieren](https://revaluesoft.com).
+Revalue.com wird von der Organisation (Revalue), die Revalue veröffentlicht, verwaltet. Sie können sich ein eigenes Konto anlegen, indem Sie sich auf der [Internetseite registrieren](https://revaluesoft.com).
 
 Sie können Sich außerdem auch dazu entscheiden, Ihre Software auf Revalue.com zu speichern, wenn Sie einen Hostingvertrag abschliessen. Das ist eine Möglichkeit, wie Sie die Organisation, die Revalue entwickelt und verbessert, unterstützen können. In diesem Fall bekommen Sie zusätzlich direkten Support bei Hostingfragen.
 
