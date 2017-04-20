@@ -8,7 +8,7 @@ $(document).bind('toolbar_setup', function() {
 	frappe.app.name = "ERPNext";
 
 	frappe.help_feedback_link = '<p><a class="text-muted" \
-		href="https://discuss.erpnext.com">Feedback</a></p>'
+		href="https://revaluesoft.com">Feedback</a></p>'
 
 
 	$('.navbar-home').html('<img class="erpnext-icon" src="'+
@@ -24,11 +24,11 @@ $(document).bind('toolbar_setup', function() {
 	// additional help links for erpnext
 	var $help_menu = $('.dropdown-help ul .documentation-links');
 
-	$('<li><a data-link-type="forum" href="https://discuss.erpnext.com" \
+	$('<li><a data-link-type="forum" href="https://revaluesoft.com" \
 		target="_blank">'+__('User Forum')+'</a></li>').insertBefore($help_menu);
-	$('<li><a href="https://gitter.im/frappe/erpnext" \
+	$('<li><a href="https://revaluesoft.com" \
 		target="_blank">'+__('Chat')+'</a></li>').insertBefore($help_menu);
-	$('<li><a href="https://github.com/frappe/erpnext/issues" \
+	$('<li><a href="https://revaluesoft.com" \
 		target="_blank">'+__('Report an Issue')+'</a></li>').insertBefore($help_menu);
 
 });
