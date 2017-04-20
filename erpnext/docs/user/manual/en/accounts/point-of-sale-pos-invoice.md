@@ -8,7 +8,7 @@ For retail operations, the delivery of goods, accrual of sale and payment all ha
 
 In the retails business, invoicing needs to done very quickly, hence should less dependency. In the Revalue, you can create POS Invoices, even when not connected to the internet.
 
-POS Invoices created in the offline mode will be saved locally in the browser. If internet connection is lost which creating POS Invoice, you will still be able can proceed forward. Once internet connection is available again, offline invoices will be synced, and pushed onto your Revalue account. To learn more on how POS Invoices can be created when offline, [check here.](https://frappe.io/blog/blog/erpnext-features/offline-pos-in-erpnext-7)
+POS Invoices created in the offline mode will be saved locally in the browser. If internet connection is lost which creating POS Invoice, you will still be able can proceed forward. Once internet connection is available again, offline invoices will be synced, and pushed onto your Revalue account. To learn more on how POS Invoices can be created when offline, [check here.](https://revaluesoft.com)
 
 #### POS Profile
 
@@ -63,7 +63,7 @@ ready to make the Payment. Payment process is divided into 3 steps -
   1. Click on “Make Payment” to get the Payment window.
   2. Select your “Mode of Payment”.
   3. Click on “Pay” button to Save the document.
-  
+
 <img class="screenshot" alt="POS Payment" src="{{docs_base_url}}/assets/img/accounts/pos-payment.png">
 
 Submit the document to finalise the record. After the document is submitted,
@@ -92,12 +92,12 @@ All the records from the POS stores into the browser's local storegae and sync s
 
 Debits:
 
-  * Customer (grand total) 
+  * Customer (grand total)
   * Bank / Cash (payment)
 
 Credits:
 
-  * Income (net total, minus taxes for each Item) 
+  * Income (net total, minus taxes for each Item)
   * Taxes (liabilities to be paid to the government)
   * Customer (payment)
   * Write Off (optional)

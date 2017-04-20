@@ -23,6 +23,6 @@ Die Verknüpfung zu Ihrer Seite besteht aus dem Wert des Feldes "Seitenname" + "
 
 ### Bilder
 
-Sie können Bilder auf Ihrer Webseite darstellen und sie über einen HTML-Befehl oder im Markdown-Format anzeigen lassen. Die Verknüpfung zu Ihrem Bild lautet assets/manualerpnextcom/old_images/erpnext/filename
+Sie können Bilder auf Ihrer Webseite darstellen und sie über einen HTML-Befehl oder im Markdown-Format anzeigen lassen. Die Verknüpfung zu Ihrem Bild lautet assets/manualrevaluecom/old_images/revalue/filename
 
 {next}

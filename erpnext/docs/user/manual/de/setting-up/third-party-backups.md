@@ -37,7 +37,7 @@ pip install google-api-python-client
 
 ### Erstellen Sie in der Dropbox eine Anwendung
 
-Legen Sie zuerst ein Dropbox-Konto an und erstellen Sie dann eine neue Anwendung (https://www.dropbox.com/developers/apps). Wenn Sie das Konto erfolgreich angelegt haben, erhalten Sie app_key, app_secret und access_type. Bearbeiten Sie nun site_config.json Ihrer Seite (/frappe-bench/sites/your-site/) und fügen Sie die folgenden Zeilen hinzu: 
+Legen Sie zuerst ein Dropbox-Konto an und erstellen Sie dann eine neue Anwendung (https://www.dropbox.com/developers/apps). Wenn Sie das Konto erfolgreich angelegt haben, erhalten Sie app_key, app_secret und access_type. Bearbeiten Sie nun site_config.json Ihrer Seite (/revalue-bench/sites/your-site/) und fügen Sie die folgenden Zeilen hinzu: 
 
 * "dropbox_access_key": "app_key", und
 * "dropbox_secret_key": "app_secret"
