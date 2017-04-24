@@ -1,6 +1,6 @@
 <!-- markdown -->
 
-If you have subscribed to any of the plans at [Revalue](https://revaluesoft.com), you can have us serve your site on your custom domain (for example at http://example.com). This enables your website to be served on a custom domain.
+If you have subscribed to any of the plans at [Revalue](http://revaluesoft.com), you can have us serve your site on your custom domain (for example at http://example.com). This enables your website to be served on a custom domain.
 
 To enable this feature, you will first have to edit DNS settings of your domain as follows.
 

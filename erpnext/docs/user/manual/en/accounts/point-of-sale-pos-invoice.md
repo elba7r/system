@@ -8,7 +8,7 @@ For retail operations, the delivery of goods, accrual of sale and payment all ha
 
 In the retails business, invoicing needs to done very quickly, hence should less dependency. In the Revalue, you can create POS Invoices, even when not connected to the internet.
 
-POS Invoices created in the offline mode will be saved locally in the browser. If internet connection is lost which creating POS Invoice, you will still be able can proceed forward. Once internet connection is available again, offline invoices will be synced, and pushed onto your Revalue account. To learn more on how POS Invoices can be created when offline, [check here.](https://revaluesoft.com)
+POS Invoices created in the offline mode will be saved locally in the browser. If internet connection is lost which creating POS Invoice, you will still be able can proceed forward. Once internet connection is available again, offline invoices will be synced, and pushed onto your Revalue account. To learn more on how POS Invoices can be created when offline, [check here.](http://revaluesoft.com)
 
 #### POS Profile
 

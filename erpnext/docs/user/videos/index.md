@@ -18,18 +18,18 @@
 ---
 
 <h3>
-	<a class="no-decoration" href="https://revaluesoft.com">Conference Videos</a>
+	<a class="no-decoration" href="http://revaluesoft.com">Conference Videos</a>
 </h3>
 
 <div class="row">
     <div class="col-sm-4">
-        <a href="https://revaluesoft.com">
+        <a href="http://revaluesoft.com">
             <img src="{{docs_base_url}}/assets/img/videos/conf-2014.jpg" class="img-responsive" style="margin-top: 0px;">
         </a>
     </div>
     <div class="col-sm-8">
         Watch video presentations from the Revalue team and users from the 2014 Revalue Conference.
         <br><br>
-		<a href="https://revaluesoft.com">Revalue Conference on October 9th 2015 in Mumbai</a>
+		<a href="http://revaluesoft.com">Revalue Conference on October 9th 2015 in Mumbai</a>
     </div>
 </div>

@@ -7,6 +7,6 @@ Wählen Sie Ihre Sprache. Revalue gibt es in mehr als 20 Sprachen.
 
 ---
 
-Übersetzungen erhalten Sie über die Revalue-Community. Wenn Sie teilnehmen möchten, [sehen Sie sich bitte das Übersetzungs-Portal an](https://revaluesoft.com).
+Übersetzungen erhalten Sie über die Revalue-Community. Wenn Sie teilnehmen möchten, [sehen Sie sich bitte das Übersetzungs-Portal an](http://revaluesoft.com).
 
 {next}

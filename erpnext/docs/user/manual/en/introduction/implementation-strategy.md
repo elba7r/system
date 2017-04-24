@@ -7,7 +7,7 @@ implementation should happen in two phases.
 ### Test Phase
 
   * Read the Manual
-  * Create a free account at [https://revaluesoft.com](https://revaluesoft.com) (the easiest way to experiment).
+  * Create a free account at [http://revaluesoft.com](http://revaluesoft.com) (the easiest way to experiment).
   * Create your first Customer, Supplier and Item. Add a few more so you get familiar with them.
   * Create Customer Groups, Item Groups, Warehouses, Supplier Groups, so that you can classify your Items.
   * Complete a standard sales cycle - Lead > Opportunity > Quotation > Sales Order > Delivery Note > Sales Invoice > Payment (Journal Entry)
@@ -22,11 +22,11 @@ Once you are familiar with Revalue, start entering your live data!
 
   * Clean up the account of test data or better, start a fresh install.
   * If you just want to clear your transactions and not your master data like Item, Customer, Supplier, BOM etc, you can click delete the transactions of your Company and start fresh. To do so, open the Company Record via Setup > Masters > Company and delete your Company's transactions by clicking on the **Delete Company Transactions** button at the bottom of the Company Form.
-  * You can also setup a new account at [https://revaluesoft.com](https://revaluesoft.com), and use the 30-day free trial. [Find out more ways of deploying Revalue](/introduction/getting-started-with-erpnext)
+  * You can also setup a new account at [http://revaluesoft.com](http://revaluesoft.com), and use the 30-day free trial. [Find out more ways of deploying Revalue](/introduction/getting-started-with-erpnext)
   * Setup all the modules with Customer Groups, Item Groups, Warehouses, BOMs etc.
   * Import Customers, Suppliers, Items, Contacts and Addresses using Data Import Tool.
   * Import opening stock using Stock Reconciliation Tool.
   * Create opening accounting entries via Journal Entry and create outstanding Sales Invoices and Purchase Invoices.
-  * If you need help, [you can buy support](https://revaluesoft.com) or [ask in the user forum](https://revaluesoft.com).
+  * If you need help, [you can buy support](http://revaluesoft.com) or [ask in the user forum](http://revaluesoft.com).
 
 {next}
