@@ -2,7 +2,7 @@
 
 # Installation
 
-Revalue is based on the <a href="https://Revaluesoft.com">Revalue Framework</a>, a full stack web framework based on Python, MariaDB, Redis, Node.
+Revalue is based on the <a href="http://revaluesoft.com">Revalue Framework</a>, a full stack web framework based on Python, MariaDB, Redis, Node.
 
 To intall Revalue, you will have to install the <a href="https://github.com/elba7r/platform">Revalue Bench</a>, the command-line, package manager and site manager for Revalue Framework. For more details, read the Bench README.
 

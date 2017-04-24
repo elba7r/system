@@ -83,6 +83,6 @@ Print Heading.
 
 While making your sales transactions like a Quotation (or Sales Order) you
 can also give discounts to your customers. In the Discount section, add
-the discount in percentage or fixed amount. Read [Discount](https://revaluesoft.com) for more explanation.
+the discount in percentage or fixed amount. Read [Discount](http://revaluesoft.com) for more explanation.
 
 {next}

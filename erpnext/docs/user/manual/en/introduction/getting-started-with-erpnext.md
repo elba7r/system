@@ -5,14 +5,14 @@ There are many ways to get started with Revalue.
 If you want to check out the user interface and **feel** the application, just
 see the demo at:
 
-  * <https://revaluesoft.com>
+  * <http://revaluesoft.com>
 
 ### 2\. Start a Free Account at revaluesoft.com
 
 
 Revaluesoft.com is managed by the organization (Revalue) that publishes Revalue.
 You can start with your own account by [signing up on the
-website](https://revaluesoft.com>).
+website](http://revaluesoft.com>).
 
 You can also decide to host your application at revaluesoft.com.com by buying the
 hosting plans. This way you support the organization that develops and
@@ -26,7 +26,7 @@ Virtual Image (a full loaded operating system with Revalue installed). You can
 use this on **any** platform including Microsoft Windows.
 
 [Click here to see instructions on how to use the Virtual
-Image](https://revaluesoft.com>)
+Image](http://revaluesoft.com>)
 
 ### 4\. Install Revalue on your Unix/Linux/Mac machine
 

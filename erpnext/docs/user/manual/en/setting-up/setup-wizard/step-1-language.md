@@ -6,6 +6,6 @@ Select your language. Revalue is available in more than 20 languages.
 
 ---
 
-Translations are contributed by the Revalue Community. If you want to contribute, [please checkout the translator portal](https://revaluesoft.com).
+Translations are contributed by the Revalue Community. If you want to contribute, [please checkout the translator portal](http://revaluesoft.com).
 
 {next}

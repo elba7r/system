@@ -9,7 +9,7 @@ Bevor Sie damit beginnen, Ihre Arbeiten über Revalue abzuwickeln, müssen Sie s
 ### Testphase
 
 * Lesen Sie das Handbuch.
-* Legen Sie ein kostenloses Konto auf [https://revaluesoft.com](https://revaluesoft.com) an. (Das ist der einfachste Weg um zu experimentieren.)
+* Legen Sie ein kostenloses Konto auf [http://revaluesoft.com](http://revaluesoft.com) an. (Das ist der einfachste Weg um zu experimentieren.)
 * Legen Sie Ihre ersten Kunden, Lieferanten und Artikel an. Erstellen Sie weitere, um sich mit diesen Verfahren vertraut zu machen.
 * Legen Sie Kundengruppen, Artikelgruppen, Lager und Lieferantengruppen an, damit Sie Ihre Artikel klassifizieren können.
 * Durchlaufen Sie einen Standard-Vertriebszyklus: Lead -> Opportunity -> Angebot -> Kundenauftrag -> Lieferschein -> Ausgangsrechnung -> Zahlung (Journalbuchung/Buchungssatz)
@@ -24,11 +24,11 @@ Wenn Sie sich  mit Revalue vertraut gemacht haben, beginnen Sie mit dem Eingeben
 
 * Säubern Sie Ihr Testkonto oder legen Sie besser noch eine frische Installation an.
 * Wenn Sie nur Ihre Transaktionen, nicht aber Ihre Stammdaten wie Artikel, Kunde, Lieferant, Stückliste, etc. löschen wollen, brauchen Sie nur auf die Firma klicken, für die Sie diese Transaktionen erstellt haben, und mit einer frischen Stückliste starten. Um eine Firma zu löschen, öffnen Sie den Datensatz zur Firma über Einstellungen > Vorlagen > Firma und löschen Sie die Firma indem Sie die **"Löschen"-Schaltfläche** am unteren Ende anklicken.
-* Sie können auch auf [https://revaluesoft.com](https://revaluesoft.com) ein neues Konto erstellen, und die Dreißig-Tage-Probezeit nutzen. [Finden Sie hier mehr zum Thema Einsatz von Revalue heraus](/introduction/getting-started-with-Revalue).
+* Sie können auch auf [http://revaluesoft.com](http://revaluesoft.com) ein neues Konto erstellen, und die Dreißig-Tage-Probezeit nutzen. [Finden Sie hier mehr zum Thema Einsatz von Revalue heraus](/introduction/getting-started-with-Revalue).
 * Richten Sie Kundengruppen, Artikelgruppen, Lager und Stücklisten für alle Module ein.
 * Importieren Sie Kunden, Lieferanten, Artikel, Kontakte und Adressen mit Hilfe des Datenimportwerkzeuges.
 * Importieren Sie den Anfangsbestand des Lagers über das Werkzeug zum Lagerabgleich.
 * Erstellen Sie Eröffnungsbuchungen über Journalbuchungen/Buchungssätze und geben Sie offene Ausgangs- und Eingangsrechnungen ein.
-* Wenn Sie Hilfe benötigen, [können Sie sich Supportdienstleistungen kaufen](https://revaluesoft.com), oder [im Benutzerforum nachlesen](https://revaluesoft.com).
+* Wenn Sie Hilfe benötigen, [können Sie sich Supportdienstleistungen kaufen](http://revaluesoft.com), oder [im Benutzerforum nachlesen](http://revaluesoft.com).
 
 {next}
