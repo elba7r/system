@@ -4426,41 +4426,41 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +185,Row {0
 apps/erpnext/erpnext/accounts/doctype/account/account.py +218,Account {0} does not exist,حساب {0} غير موجود
 DocType: Account,Cash,نقدي
 DocType: Employee,Short biography for website and other publications.,نبذة عن سيرة حياة لموقع الويب وغيرها من المطبوعات.
-DocType: Customer, Taxi Dealer, قسم السائقين
-DocType: Customer, Driver Status, حالة السائق
-DocType: Customer, Data Uploading, رفع البيانات
-DocType: Customer, Registration, تسجيل
-DocType: Customer, Captain, كابتن
-DocType: Customer, Inactive, غير فعال
-DocType: Customer, Taxi Company Register, التسجيل في الشركه
-DocType: Customer, Car Type,نوع السياره
-DocType: Customer, Car Model,موديل السياره
-DocType: Customer, Car Colour,لون السياره
-DocType: Customer, Car Brand, ماركة السياره
-DocType: Customer, Driver Type,نوع السائق
-DocType: Customer, Loyal,موثوق
-DocType: Customer, Stranger,غريب
-DocType: Customer, Taxi Company,شركة التاكسي
-DocType: Customer, Photos Status,حالة الصور
-DocType: Customer, Car Licence front,وجه رخصة السياره
-DocType: Customer, Car Licence back,ظهر رخصة السياره
-DocType: Customer, I.D Front,وجه البطاقه الشخصيه
-DocType: Customer, I.D Back,ظهر البطاقه الشخصيه
-DocType: Customer, Driving Licence Front,وجه رخصة القياده
-DocType: Customer, Driving Licence Back,ظهر رخصة القياده
-DocType: Customer, Criminal Record,السجل الجنائي
-DocType: Customer, Drug Test,اختبار المخدرات
-DocType: Customer, Car Test,اختبار السياره
-DocType: Customer, Screen Shot,سكرين شوت
-DocType: Lead, Car Brand, ماركة السياره
-DocType: Lead, Car Type, نوع السياره
-DocType: Lead, Car Model, موديل السياره
-DocType: Lead, Car Colour, لون السياره
-DocType: Lead, Taxi Company, شركة التاكسي
-DocType: Lead, PQ, بي كيو
-DocType: Lead, Careem, كريم
-DocType: Lead, Uber, اوبر
-DocType: Lead, White, أبيض
-DocType: Lead, R. Careem, مسجل كريم
-DocType: Lead, R. Uber, مسجل اوبر
-DocType: Lead, R. PQ, مسجل بي كيو
+DocType: Customer,Taxi Dealer,قسم السائقين
+DocType: Customer,Driver Status,حالة السائق
+DocType: Customer,Data Uploading,رفع البيانات
+DocType: Customer,Registration,تسجيل
+DocType: Customer,Captain,كابتن
+DocType: Customer,Inactive,غير فعال
+DocType: Customer,Taxi Company Register,التسجيل في الشركه
+DocType: Customer,Car Type,نوع السياره
+DocType: Customer,Car Model,موديل السياره
+DocType: Customer,Car Colour,لون السياره
+DocType: Customer,Car Brand, ماركة السياره
+DocType: Customer,Driver Type,نوع السائق
+DocType: Customer,Loyal,موثوق
+DocType: Customer,Stranger,غريب
+DocType: Customer,Taxi Company,شركة التاكسي
+DocType: Customer,Photos Status,حالة الصور
+DocType: Customer,Car Licence front,وجه رخصة السياره
+DocType: Customer,Car Licence back,ظهر رخصة السياره
+DocType: Customer,I.D Front,وجه البطاقه الشخصيه
+DocType: Customer,I.D Back,ظهر البطاقه الشخصيه
+DocType: Customer,Driving Licence Front,وجه رخصة القياده
+DocType: Customer,Driving Licence Back,ظهر رخصة القياده
+DocType: Customer,Criminal Record,السجل الجنائي
+DocType: Customer,Drug Test,اختبار المخدرات
+DocType: Customer,Car Test,اختبار السياره
+DocType: Customer,Screen Shot,سكرين شوت
+DocType: Lead,Car Brand,ماركة السياره
+DocType: Lead,Car Type,نوع السياره
+DocType: Lead,Car Model,موديل السياره
+DocType: Lead,Car Colour,لون السياره
+DocType: Lead,Taxi Company,شركة التاكسي
+DocType: Lead,PQ,بي كيو
+DocType: Lead,Careem,كريم
+DocType: Lead,Uber,اوبر
+DocType: Lead,White,أبيض
+DocType: Lead,R. Careem,مسجل كريم
+DocType: Lead,R. Uber,مسجل اوبر
+DocType: Lead,R. PQ,مسجل بي كيو
