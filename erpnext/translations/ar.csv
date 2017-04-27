@@ -4474,3 +4474,4 @@ DocType: Customer,Register Number,رقم التسجيل
 DocType: Customer,Revenue,الارباح
 DocType: Customer,Driver Commission,عمولة السائق
 DocType: Customer,Office Commission,عمولة المكتب
+DocType: Customer,Driver Accounting,حسابات السائق
