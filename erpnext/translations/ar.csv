@@ -4464,3 +4464,13 @@ DocType: Lead,White,أبيض
 DocType: Lead,R. Careem,مسجل كريم
 DocType: Lead,R. Uber,مسجل اوبر
 DocType: Lead,R. PQ,مسجل بي كيو
+DocType: Customer,PQ,بي كيو
+DocType: Customer,Careem,كريم
+DocType: Customer,Uber,اوبر
+DocType: Customer,White,أبيض
+DocType: Customer,Other,أخر
+DocType: Customer,Select,اختار
+DocType: Customer,Register Number,رقم التسجيل
+DocType: Customer,Revenue,الارباح
+DocType: Customer,Driver Commission,عمولة السائق
+DocType: Customer,Office Commission,عمولة المكتب
