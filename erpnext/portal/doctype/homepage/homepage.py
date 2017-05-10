@@ -12,7 +12,7 @@ class Homepage(Document):
 		if not self.products:
 			self.setup_items()
 		if not self.description:
-			self.description = frappe._("This is an example website auto-generated from ERPNext")
+			self.description = frappe._("This is an example website auto-generated from Revalue")
 		delete_page_cache('home')
 
 	def setup_items(self):
@@ -25,4 +25,3 @@ class Homepage(Document):
 				doc.save()
 			self.append('products', dict(item_code=d.name,
 				item_name=d.item_name, description=d.description, image=d.image))
-
