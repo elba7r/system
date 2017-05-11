@@ -17,7 +17,7 @@ sub-contracting feature of Revalue.
 
 ![Subcontract]({{docs_base_url}}/assets/old_images/erpnext/subcontract.png)
 
-  
+
 
 __Step 1:__ Make a Bill of Materials for the processed Item, with the unprocessed
 Items as sub-items. For example, If you are manufacturing a pen, the processed
@@ -39,6 +39,6 @@ valuation purpose when you receive the finished Item in your stock.
 
 ### Video Help
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/ThiMCC2DtKo" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 {next}
