@@ -4,9 +4,9 @@ Social Login enables users to login to Revalue via their Google, Facebook or Git
 
 Checkout the following Video Tutorials to understand how to enable social logins on Revalue
 
-* for FaceBook - https://www.youtube.com/watch?v=zC6Q6gIfiw8
-* for Google - https://www.youtube.com/watch?v=w_EAttrE9sw 
-* for GitHub - https://www.youtube.com/watch?v=bG71DxxkVjQ
+* for FaceBook - https://www.youtube.com/watch?v=
+* for Google - https://www.youtube.com/watch?v=
+* for GitHub - https://www.youtube.com/watch?v=
 
 For Google the *Authorized redirect URI* is [yoursite]/api/method/frappe.www.login.login_via_google
 

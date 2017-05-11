@@ -22,7 +22,7 @@ Item can have multiple prices, An Invoice has multiple Items and so on.
   * Check fields to be included in the template.
   * Click on "Download Blank Template".
   * For bulk editing, you can click on "Download With Data".
-  
+
 <img alt="Download Template" class="screenshot" src="{{docs_base_url}}/assets/img/setup/data-import/data-import-tool-template.gif">
 
 ### 2\. Fill in the Template
@@ -111,6 +111,6 @@ Notepad, and save as “UTF-8”. (Sorry blame Microsoft for this!)
 
 
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/Ta2Xx3QoK3E" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 {next}

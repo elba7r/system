@@ -24,7 +24,7 @@ After submitting a Sales Order, create Puchase Order.
 
 <img class="screenshot" alt="Setup Drop Shipping on Sales Order Item" src="{{docs_base_url}}/assets/img/selling/drop-ship-sales-order.png">
 
-From Sales Order, all items, having **Supplier delivers to Customer**  checked or **Supplier**(matching with supplier selected on For Supplier popup) mentioned, will get mapped onto Purchase Order. 
+From Sales Order, all items, having **Supplier delivers to Customer**  checked or **Supplier**(matching with supplier selected on For Supplier popup) mentioned, will get mapped onto Purchase Order.
 
 It will automatically set Customer, Customer Address and Contact Person.
 
@@ -43,4 +43,4 @@ You can notify, Suppliers by sending a email after submitting Purchase Order by 
 
 ###Video Help on Drop Ship
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/hUc0hu_XLdo" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>

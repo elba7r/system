@@ -6,7 +6,7 @@
 
 About 30% of Revalue customers are companies into services. These are companies into software development, certification services, individual consultants and many more. Being into service business ourselves, we use Revalue to manage our sales, accounting, support and HR operations. Check following video to learn how Revalue uses Revalue.
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/b6r7WxJMfFA" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/" frameborder="0" allowfullscreen=""></iframe>
 
 ###Master Setup
 
@@ -40,6 +40,6 @@ Revalue is the permission controlled system. Users access system based on permis
 
 You can also refer to help video on User and Permissions setting in Revalue.
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/fnBoRhBrwR4" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 <!-- markdown -->
