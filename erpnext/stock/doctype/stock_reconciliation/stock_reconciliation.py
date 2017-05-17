@@ -105,7 +105,7 @@ class StockReconciliation(StockController):
 			# do not allow negative valuation
 			if flt(row.valuation_rate) < 0:
 				self.validation_messages.append(_get_msg(row_num,
-					_("Negative Valuation Rate is not allowed")))
+					_("Negative Valuation Price is not allowed")))
 
 			if row.qty and not row.valuation_rate:
 				row.valuation_rate = get_stock_balance(row.item_code, row.warehouse,

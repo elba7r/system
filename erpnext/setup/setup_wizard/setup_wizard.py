@@ -199,7 +199,7 @@ def set_defaults(args):
 def create_feed_and_todo():
 	"""update Activity feed and create todo for creation of item, customer, vendor"""
 	add_info_comment(**{
-		"subject": _("ERPNext Setup Complete!")
+		"subject": _("Revalue Setup Complete!")
 	})
 
 def create_email_digest():
@@ -604,5 +604,3 @@ def create_room(args):
 				room.save()
 			except frappe.DuplicateEntryError:
 				pass
-
-

@@ -51,7 +51,7 @@ class CForm(Document):
 				where name not in (%s) and ifnull(c_form_no, '') = %s""" %
 				('%s', ', '.join(['%s']*len(inv)), '%s'), tuple([self.modified] + inv + [self.name]))
 		else:
-			frappe.throw(_("Please enter atleast 1 invoice in the table"))
+			frappe.throw(_("Please enter at least 1 invoice in the table"))
 
 	def set_total_invoiced_amount(self):
 		total = sum([flt(d.grand_total) for d in self.get('invoices')])

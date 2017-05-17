@@ -36,7 +36,7 @@ def get_columns(filters):
 
 	columns = [_("Item") + ":Link/Item:100", _("Item Name") + "::150",_("Item Group") + ":Link/Item Group:125", _("Description") + "::150", _("UOM") + ":Link/UOM:80",
 		_("Last Purchase Rate") + ":Currency:90", _("Valuation Rate") + ":Currency:80",	_("Sales Price List") + "::180",
-		_("Purchase Price List") + "::180", _("BOM Rate") + ":Currency:90"]
+		_("Purchase Price List") + "::180", _("BOM Price") + ":Currency:90"]
 
 	return columns
 
