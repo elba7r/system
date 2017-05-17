@@ -87,7 +87,7 @@ class LeaveApplication(Document):
 			frappe.throw(_("Application period cannot be outside leave allocation period"))
 
 		elif allocation_based_on_from_date != allocation_based_on_to_date:
-			frappe.throw(_("Application period cannot be across two alocation records"))
+			frappe.throw(_("Application period cannot be across two allocation records"))
 
 	def validate_back_dated_application(self):
 		future_allocation = frappe.db.sql("""select name, from_date from `tabLeave Allocation`

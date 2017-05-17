@@ -126,7 +126,7 @@ class StockEntry(StockController):
 				d.t_warehouse = self.to_warehouse
 
 			if not (d.s_warehouse or d.t_warehouse):
-				frappe.throw(_("Atleast one warehouse is mandatory"))
+				frappe.throw(_("At least one warehouse is mandatory"))
 
 			if self.purpose in source_mandatory and not d.s_warehouse:
 				if self.from_warehouse:
@@ -233,7 +233,7 @@ class StockEntry(StockController):
 		for d in self.get('items'):
 			transferred_serial_no = frappe.db.get_value("Stock Entry Detail",{"parent": previous_se,
 				"item_code": d.item_code}, "serial_no")
-			
+
 			if transferred_serial_no:
 				d.serial_no = transferred_serial_no
 
@@ -559,7 +559,7 @@ class StockEntry(StockController):
 							item["from_warehouse"] = self.pro_doc.wip_warehouse
 
 						item["to_warehouse"] = self.to_warehouse if self.purpose=="Subcontract" else ""
-					
+
 					self.add_to_stock_entry_detail(item_dict)
 
 					scrap_item_dict = self.get_bom_scrap_material(self.fg_completed_qty)
@@ -567,7 +567,7 @@ class StockEntry(StockController):
 						if self.pro_doc and self.pro_doc.scrap_warehouse:
 							item["to_warehouse"] = self.pro_doc.scrap_warehouse
 					self.add_to_stock_entry_detail(scrap_item_dict, bom_no=self.bom_no)
-					
+
 			# fetch the serial_no of the first stock entry for the second stock entry
 			if self.production_order and self.purpose == "Manufacture":
 				self.set_serial_nos(self.production_order)
@@ -632,10 +632,10 @@ class StockEntry(StockController):
 		for item in item_dict.values():
 			item.from_warehouse = self.from_warehouse or item.default_warehouse
 		return item_dict
-	
+
 	def get_bom_scrap_material(self, qty):
 		from erpnext.manufacturing.doctype.bom.bom import get_bom_items_as_dict
-		
+
 		# item dict = { item_code: {qty, description, stock_uom} }
 		item_dict = get_bom_items_as_dict(self.bom_no, self.company, qty=qty,
 			fetch_exploded = 0, fetch_scrap_items = 1)
@@ -643,7 +643,7 @@ class StockEntry(StockController):
 		for item in item_dict.values():
 			item.from_warehouse = ""
 		return item_dict
-	
+
 	def get_transfered_raw_materials(self):
 		transferred_materials = frappe.db.sql("""
 			select

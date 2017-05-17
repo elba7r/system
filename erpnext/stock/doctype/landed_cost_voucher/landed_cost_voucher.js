@@ -51,7 +51,7 @@ erpnext.stock.LandedCostVoucher = erpnext.stock.StockController.extend({
 							__("Charges are updated in Purchase Receipt against each item"),
 						'</li>',
 						'<li>',
-							__("Item valuation rate is recalculated considering landed cost voucher amount"),
+							__("Item valuation Price is recalculated considering landed cost voucher amount"),
 						'</li>',
 						'<li>',
 							__("Stock Ledger Entries and GL Entries are reposted for the selected Purchase Receipts"),
