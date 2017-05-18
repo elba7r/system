@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DocType: Employee,Salary Mode,طريقة تحصيل الراتب
 DocType: Employee,Divorced,مطلق
 apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py +84,Warning: Same item has been entered multiple times.,تحذير: تم إدخال الصنف نفسه عدة مرات
