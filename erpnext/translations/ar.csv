@@ -2877,7 +2877,7 @@ DocType: Sales Invoice,Time Sheets,جداول ساعات العمل
 DocType: Payment Gateway Account,Default Payment Request Message,رسالة طلب الدفع الإفتراضيه
 DocType: Item Group,Check this if you want to show in website,علم علي هذه إذا كنت تريد أن تظهر في الموقع الألكتروني
 apps/erpnext/erpnext/config/accounts.py +136,Banking and Payments,البنوك والمدفوعات
-,Welcome to ERPNext,مرحبا بكم في ريفاليو
+,Welcome to Revalue,مرحبا بكم في ريفاليو
 apps/erpnext/erpnext/config/learn.py +107,Lead to Quotation,من مبادرة بيع إلي عرض أسعار
 DocType: Lead,From Customer,من العميل
 apps/erpnext/erpnext/demo/setup/setup_data.py +315,Calls,المكالمات
