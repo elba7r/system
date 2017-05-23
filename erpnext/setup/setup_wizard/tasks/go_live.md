@@ -1,4 +1,4 @@
-Ready to go live with ERPNext? 🏁🏁🏁
+Ready to go live with Revalue? 🏁🏁🏁
 
 Here are the steps:
 
@@ -7,12 +7,12 @@ Here are the steps:
 4. Add your open invoices (both sales and purchase)
 3. Add your opening account balances by making a **Journal Entry**
 
-If you need help for going live, sign up for an account at erpnext.com or find a partner to help you with this.
+If you need help for going live, sign up for an account at Revalue.com or find a partner to help you with this.
 
 Or you can watch these videos 📺:
 
-Setup your chart of accounts: https://www.youtube.com/watch?v=AcfMCT7wLLo
+Setup your chart of accounts: https://www.youtube.com/watch?v=
 
-Add Open Stock: https://www.youtube.com/watch?v=nlHX0ZZ84Lw
+Add Open Stock: https://www.youtube.com/watch?v=
 
-Add Opening Balances: https://www.youtube.com/watch?v=nlHX0ZZ84Lw
+Add Opening Balances: https://www.youtube.com/watch?v=
