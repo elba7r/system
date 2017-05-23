@@ -1,1 +1,11 @@
 DocType: Company,Domain,Select
+DocType: Purchase Receipt Item,Rate and Amount,Price and Amount
+DocType: Item,Standard Selling Rate,Standard Selling Price
+DocType: Selling Settings,Validate Selling Price for Item against Purchase Rate or Valuation Rate,Validate Selling Price for Item against Purchase Price or Valuation Rate
+DocType: Purchase Invoice Item,Rate,Price
+DocType: Stock Entry,Update Rate and Availability,Update Price and Availability
+DocType: Stock Settings,Auto insert Price List rate if missing,Auto insert Price List Price if missing
+DocType: BOM,Last Purchase Rate,Last Purchase Price
+DocType: BOM,Rate Of Materials Based On,Price Of Materials Based On
+DocType: Pricing Rule,Margin Rate or Amount,Margin Price or Amount
+DocType: Purchase Invoice Item,Price List Rate,Price List Price
