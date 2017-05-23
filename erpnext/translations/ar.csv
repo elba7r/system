@@ -3573,7 +3573,7 @@ apps/erpnext/erpnext/stock/utils.py +99,Item {0} ignored since it is not a stock
 DocType: Appraisal,APRSL,APRSL
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.js +34,Submit this Production Order for further processing.,.إدخل أمر الإنتاج هذا لمزيد من المعالجة
 apps/erpnext/erpnext/accounts/doctype/pricing_rule/pricing_rule.js +21,"To not apply Pricing Rule in a particular transaction, all applicable Pricing Rules should be disabled.",إذا أردت عدم تطبيق قاعدة التسعير في معاملة معينة، يجب تعطيل جميع قواعد التسعير المعمول بها
-DocType: Company,Domain,Domain مجال
+DocType: Company,Select,اختار
 apps/erpnext/erpnext/hr/doctype/job_opening/job_opening.py +23,Jobs,وظائف
 ,Sales Order Trends,ترندات أوامر البيع
 DocType: Employee,Held On,عقدت و أقيمت في
