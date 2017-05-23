@@ -11,7 +11,7 @@ function load_erpnext_slides() {
 	$.extend(erpnext.wiz, {
 		select_domain: {
 			domains: ["all"],
-			title: __('Select your Domain'),
+			title: __('Your Business'),
 			fields: [
 				{fieldname:'domain', label: __('Domain'), fieldtype:'Select',
 					options: [
@@ -100,7 +100,7 @@ function load_erpnext_slides() {
 						fy = ["01-01", "12-31"];
 						next_year = current_year;
 					}
-					
+
 					var year_start_date = current_year + "-" + fy[0];
 					if(year_start_date > get_today()) {
 						next_year = current_year

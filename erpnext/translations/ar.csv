@@ -3250,7 +3250,7 @@ DocType: Serial No,AMC Expiry Date,تاريخ إنتهاء عقد الصيانة
 ,Sales Register,سجل المبيعات
 DocType: Daily Work Summary Settings Company,Send Emails At,إرسال رسائل البريد الإلكتروني في
 DocType: Quotation,Quotation Lost Reason,سبب خسارة عرض الأسعار
-apps/erpnext/erpnext/public/js/setup_wizard.js +14,Select your Domain,الخاص بك Domain حدد نطاق الموقع الألكتروني
+apps/erpnext/erpnext/public/js/setup_wizard.js +14,Your Business,عملك
 DocType: Address,Plant,مصنع
 apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.py +340,Transaction reference no {0} dated {1},{مرجع العمليه رقم {0} تاريخه {1
 apps/erpnext/erpnext/setup/doctype/supplier_type/supplier_type.js +5,There is nothing to edit.,لا يوجد شيء لتحديثه
