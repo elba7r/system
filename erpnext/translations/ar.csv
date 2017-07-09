@@ -455,7 +455,7 @@ DocType: Production Order,Not Started,لم تبدأ
 DocType: Lead,Channel Partner,شريك قناةالبيع
 DocType: Account,Old Parent,الحساب الرئيسي القديم
 DocType: Notification Control,Customize the introductory text that goes as a part of that email. Each transaction has a separate introductory text.,. تعديل أو تفصيل النص الإفتتاحي الذي يذهب كجزء من هذا البريد الإلكتروني. كل معاملة/عملية لها نص إفتتاحي منفصل
-DocType: Sales Taxes and Charges Template,Sales Master Manager,مدير ماستر المبيعات 
+DocType: Sales Taxes and Charges Template,Sales Master Manager,مدير ماستر المبيعات
 apps/erpnext/erpnext/config/manufacturing.py +84,Global settings for all manufacturing processes.,.الإعدادات العامه لكل عمليات التصنيع
 DocType: Accounts Settings,Accounts Frozen Upto,حسابات مجمدة حتى
 DocType: SMS Log,Sent On,أرسلت في
@@ -1090,7 +1090,7 @@ apps/erpnext/erpnext/controllers/item_variant.py +63,Invalid Attribute,سمه غ
 apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.py +201,{0} {1} must be submitted,ـ {0} {1} يجب أن يتم إدخالهم
 apps/erpnext/erpnext/stock/dashboard/item_dashboard.js +146,Quantity must be less than or equal to {0},{يجب أن تكون الكمية أقل من أو يساوي {0
 DocType: SMS Center,Total Characters,مجموع الحروف
-apps/erpnext/erpnext/controllers/buying_controller.py +156,Please select BOM in BOM field for Item {0},{0} في حقل جدول المواد للصنف BOM من فضلك حدد جدول المواد  
+apps/erpnext/erpnext/controllers/buying_controller.py +156,Please select BOM in BOM field for Item {0},{0} في حقل جدول المواد للصنف BOM من فضلك حدد جدول المواد
 DocType: C-Form Invoice Detail,C-Form Invoice Detail,C-Form  تفاصيل الفاتورة شهادة الجمارك
 DocType: Payment Reconciliation Invoice,Payment Reconciliation Invoice,دفع فاتورة التسوية
 apps/erpnext/erpnext/selling/report/sales_person_wise_transaction_summary/sales_person_wise_transaction_summary.py +42,Contribution %,% المساهمة
@@ -1284,7 +1284,7 @@ DocType: Workstation,Workstation Name,إسم محطة العمل
 DocType: Grade Interval,Grade Code,كودالصف
 DocType: POS Item Group,POS Item Group,مجموعة صنف لنقاط البيع
 apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +17,Email Digest:,البريد الألكتروتي لملخص العمليات والقرارات
-apps/erpnext/erpnext/manufacturing/doctype/bom/bom.py +498,BOM {0} does not belong to Item {1},{1} ـ {0} لاينتمي للصنف BOM جدول المواد 
+apps/erpnext/erpnext/manufacturing/doctype/bom/bom.py +498,BOM {0} does not belong to Item {1},{1} ـ {0} لاينتمي للصنف BOM جدول المواد
 DocType: Sales Partner,Target Distribution,مستهدف التوزيع
 DocType: Salary Slip,Bank Account No.,رقم حساب البنك
 DocType: Naming Series,This is the number of the last created transaction with this prefix,هذا هو رقم آخر عملية تم إنشاؤها بإستخدام هذه البادئة
@@ -4075,7 +4075,7 @@ DocType: Upload Attendance,Upload Attendance,رفع و تحميل الحضور
 apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.js +113,BOM and Manufacturing Quantity are required,جدول المواد و كمية التصنيع مطلوبين
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +44,Ageing Range 2,مدى العمر 2
 DocType: SG Creation Tool Course,Max Strength,أعلى قوة
-apps/erpnext/erpnext/manufacturing/doctype/bom_replace_tool/bom_replace_tool.py +21,BOM replaced,تم إستبداله BOM جدول المواد  
+apps/erpnext/erpnext/manufacturing/doctype/bom_replace_tool/bom_replace_tool.py +21,BOM replaced,تم إستبداله BOM جدول المواد
 ,Sales Analytics,تحليلات المبيعات
 apps/erpnext/erpnext/stock/dashboard/item_dashboard.js +114,Available {0},{0} متاح
 DocType: Manufacturing Settings,Manufacturing Settings,إعدادات التصنيع
