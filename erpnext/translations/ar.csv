@@ -1329,7 +1329,7 @@ DocType: Asset,Depreciation Schedules,جداول الإهلاك
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +87,Application period cannot be outside leave allocation period,فترة طلب الأجازة لا يمكن أن تكون خارج فترة الأجزات المخصصة
 DocType: Activity Cost,Projects,المشاريع
 DocType: Payment Request,Transaction Currency,عملة العملية
-apps/erpnext/erpnext/controllers/buying_controller.py +24,From {0} | {1} {2},{من {0} | {1} {2
+apps/erpnext/erpnext/controllers/buying_controller.py +24,From {0} | {1} {2},من {0} | {1} {2}
 DocType: Production Order Operation,Operation Description,وصف العملية
 DocType: Item,Will also apply to variants,سوف تطبق أيضا على المتغيرات
 apps/erpnext/erpnext/accounts/doctype/fiscal_year/fiscal_year.py +34,Cannot change Fiscal Year Start Date and Fiscal Year End Date once the Fiscal Year is saved.,.لا يمكن تغيير تاريخ بدء السنة المالية و تاريخ انتهاء السنة المالية متى تم حفظ السنة المالية
