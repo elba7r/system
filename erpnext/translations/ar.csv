@@ -1072,7 +1072,7 @@ apps/erpnext/erpnext/hr/doctype/appraisal/appraisal.py +30,End Date can not be l
 DocType: Sales Person,Select company name first.,إختار إسم الشركة أولاً
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +154,Dr,المدين
 apps/erpnext/erpnext/config/buying.py +23,Quotations received from Suppliers.,عروض أسعار مستلمة من الموردين
-apps/erpnext/erpnext/controllers/selling_controller.py +23,To {0} | {1} {2},من {0} | {1} {2}
+apps/erpnext/erpnext/controllers/selling_controller.py +23,To {0} | {1} {2},الى {0} | {1} {2}
 apps/erpnext/erpnext/stock/report/stock_ageing/stock_ageing.py +40,Average Age,متوسط العمر
 DocType: Opportunity,Your sales person who will contact the customer in future,مندوب مبيعاتك الذي سيتصل بالعميل في المستقبل
 apps/erpnext/erpnext/public/js/setup_wizard.js +261,List a few of your suppliers. They could be organizations or individuals.,.سجل عدد قليل من الموردين الخاصين بك . يمكن أن يكونوا شركات أو أفراد.
