@@ -631,7 +631,7 @@ DocType: Production Order Operation,In minutes,بالدقائق
 DocType: Issue,Resolution Date,تاريخ الحل
 DocType: Student Batch Name,Batch Name,اسم الدفعه
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +303,Timesheet created:,:تم إنشاء الجدول الزمني لساعات العمل أو الدوام
-apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +775,Please set default Cash or Bank account in Mode of Payment {0},{الرجاء تحديد حساب النقديةأوالبنك الإفتراضي في طريقة الدفع {0
+apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +775,Please set default Cash or Bank account in Mode of Payment {0},برجاء تحديد الحساب النقدي او البنك الافتراضي في طريقة الدفع {0}
 apps/erpnext/erpnext/schools/doctype/student_applicant/student_applicant.js +17,Enroll,تسجيل
 apps/erpnext/erpnext/hr/doctype/process_payroll/process_payroll.py +275,Journal Entry Submitted,تم إدخال قيد اليوميه
 DocType: Selling Settings,Customer Naming By,تسمية العملاء بواسطة
