@@ -1905,7 +1905,7 @@ apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.js +960,"Row #
 DocType: Salary Component,Deduction,إقتطاع
 apps/erpnext/erpnext/projects/doctype/timesheet/timesheet.py +109,Row {0}: From Time and To Time is mandatory.,.صف {0}: من الوقت وإلى وقت إلزامي
 DocType: Stock Reconciliation Item,Amount Difference,قيمة الفرق
-apps/erpnext/erpnext/stock/get_item_details.py +261,Item Price added for {0} in Price List {1},{تم إضافت سعر الصنف لـ {0} في قائمة الأسعار {1
+apps/erpnext/erpnext/stock/get_item_details.py +261,Item Price added for {0} in Price List {1},Item Price added for {0} in Price List {1}
 DocType: Address Template,Address Template,نموزج عنوان
 apps/erpnext/erpnext/setup/doctype/sales_person/sales_person_tree.js +8,Please enter Employee Id of this sales person,لمندوب المبيعات هذا ID الرجاء إدخال رقم الموظف
 DocType: Territory,Classification of Customers by region,تصنيف العملاء حسب الإقليم
@@ -2658,7 +2658,7 @@ apps/erpnext/erpnext/support/page/support_analytics/support_analytics.js +31,Sel
 apps/erpnext/erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py +43,Reorder Level,مستوى إعادة الطلب
 DocType: Company,Chart Of Accounts Template,نموزج دليل الحسابات
 DocType: Attendance,Attendance Date,تاريخ الحضور
-apps/erpnext/erpnext/stock/get_item_details.py +257,Item Price updated for {0} in Price List {1},{سعر الصنف تم تحديثه لـ {0} في قائمة الأسعار {1
+apps/erpnext/erpnext/stock/get_item_details.py +257,Item Price updated for {0} in Price List {1},Item Price updated for {0} in Price List {1}
 DocType: Salary Structure,Salary breakup based on Earning and Deduction.,.تقسيم الراتب على أساس الدخل والخصم
 apps/erpnext/erpnext/accounts/doctype/account/account.py +131,Account with child nodes cannot be converted to ledger,لا يمكن تحويل حساب له حسابات تابعة إلى دفتر أستاذ
 DocType: Address,Preferred Shipping Address,عنوان الشحن المفضل
