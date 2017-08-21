@@ -282,7 +282,7 @@
  "module": "Schools", 
  "name": "Announcement", 
  "name_case": "", 
- "owner": "demo@erpnext.com", 
+ "owner": "demo@revaluesoft.com", 
  "permissions": [
   {
    "amend": 1, 
