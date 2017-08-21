@@ -9,14 +9,14 @@ $(document).ready(function() {
         frappe.call({
             "method": "login",
             args: {
-                usr: "demo@erpnext.com",
+                usr: "demo@revaluesoft.com",
                 pwd: "demo",
                 lead_email: $("#lead-email").val(),
             },
             callback: function(r) {
                 $(me).prop("disabled", false);
                 if(r.exc) {
-                    alert("Error, please contact support@erpnext.com");
+                    alert("Error, please contact support@revaluesoft.com");
                 } else {
                     console.log("Logged In");
                     window.location.href = "desk";
