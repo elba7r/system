@@ -1,6 +1,6 @@
 # Setup Wizard
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/oIOf_zCFWKQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 2:28**
 

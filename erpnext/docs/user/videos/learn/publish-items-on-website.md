@@ -1,6 +1,6 @@
 # Publish Items on Website
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/W31LBBNzbgc" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 5:14**
 
