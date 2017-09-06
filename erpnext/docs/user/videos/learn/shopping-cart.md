@@ -1,6 +1,6 @@
 # Shopping Cart
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/xkrYO-KFukM" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 6:32**
 

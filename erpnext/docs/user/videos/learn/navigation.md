@@ -1,6 +1,6 @@
 # User Interface and Navigation
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/YDoI2DF4Lmc?list=PL3lFfCEoMxvxDHtYyQFJeUYkWzQpXwFM9" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 1:17**
 

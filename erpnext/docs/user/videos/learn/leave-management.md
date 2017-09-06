@@ -1,6 +1,6 @@
 # Leave Management
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/fc0p_AXebc8" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 2:49**
 

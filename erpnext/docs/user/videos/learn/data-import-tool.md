@@ -1,6 +1,6 @@
 # Data Import Tool
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/Ta2Xx3QoK3E" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 6:32**
 

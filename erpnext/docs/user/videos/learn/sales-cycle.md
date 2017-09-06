@@ -1,6 +1,6 @@
 # Sales Cycle
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/7AMq4lqkN4A" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/fdn3-ic7FfY" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 4:28**
 
