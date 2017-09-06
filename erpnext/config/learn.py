@@ -24,7 +24,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Report Builder"),
-					"youtube_id": ""
+					"youtube_id": "co-rH0mNXmQ"
 				},
 			]
 
@@ -65,7 +65,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("File Manager"),
-					"youtube_id": ""
+					"youtube_id": "wxs-aVQSFM8"
 				},
 			]
 		},
@@ -115,7 +115,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Customer and Supplier"),
-					"youtube_id": ""
+					"youtube_id": "A10yG5VGQrQ"
 				},
 				{
 					"type": "help",
@@ -125,7 +125,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Point-of-Sale"),
-					"youtube_id": ""
+					"youtube_id": "zU8YXEc_fJo"
 				},
 				{
 					"type": "help",
@@ -135,7 +135,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Drop Ship"),
-					"youtube_id": ""
+					"youtube_id": "56_kXOb_xy0"
 				},
 			]
 		},
@@ -190,7 +190,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Customer and Supplier"),
-					"youtube_id": ""
+					"youtube_id": "A10yG5VGQrQ"
 				},
 				{
 					"type": "help",
@@ -215,17 +215,17 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Bill of Materials"),
-					"youtube_id": ""
+					"youtube_id": "26TiAo5BgAA"
 				},
 				{
 					"type": "help",
 					"label": _("Production Planning Tool"),
-					"youtube_id": ""
+					"youtube_id": "WGGSID4FTBU"
 				},
 				{
 					"type": "help",
 					"label": _("Production Order"),
-					"youtube_id": ""
+					"youtube_id": "dMY40WOWyXI"
 				},
 
 			]
