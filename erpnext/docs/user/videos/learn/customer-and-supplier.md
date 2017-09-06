@@ -1,6 +1,6 @@
 # Customer and Supplier
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/anoGi_RpQ20" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/A10yG5VGQrQ" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 3:21**
 

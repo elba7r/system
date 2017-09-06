@@ -1,6 +1,6 @@
 # Point of Sale
 
-<iframe width="660" height="371" src="https://www.youtube.com/embed/4WkelWkbP_c" frameborder="0" allowfullscreen></iframe>
+<iframe width="660" height="371" src="https://www.youtube.com/embed/zU8YXEc_fJo" frameborder="0" allowfullscreen></iframe>
 
 **Duration: 2:34**
 
