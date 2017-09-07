@@ -120,7 +120,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Sales Order to Payment"),
-					"youtube_id": ""
+					"youtube_id": "fdn3-ic7FfY"
 				},
 				{
 					"type": "help",
@@ -200,7 +200,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Purchase Order to Payment"),
-					"youtube_id": ""
+					"youtube_id": "fdn3-ic7FfY"
 				},
 				{
 					"type": "help",
