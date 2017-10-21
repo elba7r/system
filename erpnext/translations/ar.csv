@@ -2099,7 +2099,7 @@ DocType: Journal Entry,Reference Number,رقم المرجع
 DocType: Employee,Employment Details,تفاصيل التوظيف
 DocType: Employee,New Workplace,مكان العمل الجديد
 apps/erpnext/erpnext/crm/doctype/opportunity/opportunity_list.js +17,Set as Closed,حدد كمغلق
-apps/erpnext/erpnext/stock/get_item_details.py +112,No Item with Barcode {0},{لا يوجد صنف بالباركود {0
+apps/erpnext/erpnext/stock/get_item_details.py +112,No Item with Barcode {0},لا يوجد صنف بالباركود {0}
 apps/erpnext/erpnext/stock/doctype/packing_slip/packing_slip.js +51,Case No. cannot be 0,رقم العبوة لا يمكن ان يكون 0
 DocType: Item,Show a slideshow at the top of the page,إظهر عرض الشرائح في أعلى الصفحة
 apps/erpnext/erpnext/stock/doctype/item/item.py +134,Stores,محلات
