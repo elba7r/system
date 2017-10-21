@@ -1,6 +1,13 @@
 frappe.provide("erpnext.pos");
 {% include "erpnext/public/js/controllers/taxes_and_totals.js" %}
 
+
+var quant ;
+var bar ;
+var bar1 ;
+var barv ;
+var bar22 ;
+
 frappe.pages['pos'].on_page_load = function(wrapper) {
 	var page = frappe.ui.make_app_page({
 		parent: wrapper,
@@ -20,6 +27,7 @@ frappe.pages['pos'].refresh = function(wrapper) {
 
 erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 	init: function(wrapper){
+		this.freeze = false;
 		this.page = wrapper.page;
 		this.wrapper = $(wrapper).find('.page-content');
 		this.set_indicator();
@@ -70,12 +78,14 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 	onload: function(){
 		var me = this;
 		this.get_data_from_server(function(){
+			me.make_control();
 			me.create_new();
 		});
 	},
 
 	make_menu_list: function(){
 		var me = this;
+		this.page.clear_menu();
 
 		this.page.add_menu_item(__("New Sales Invoice"), function() {
 			me.save_previous_entry();
@@ -96,6 +106,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 		});
 
 		this.page.add_menu_item(__("Sync Offline Invoices"), function(){
+			me.freeze_screen = true;
 			me.sync_sales_invoice()
 		});
 
@@ -201,18 +212,32 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 			this.set_missing_values();
 			this.refresh(false);
 			this.disable_input_field();
-			this.list_dialog.hide();
+			this.list_dialog && this.list_dialog.hide();
 		}
 	},
 
 	delete_records: function() {
 		var me = this;
+		this.validate_list()
 		this.remove_doc_from_localstorage()
 		this.update_localstorage();
 		this.render_offline_data();
-		this.dialog_actions();
+		//this.dialog_actions();
 		this.toggle_primary_action();
 	},
+
+	validate_list: function() {
+		var me = this;
+		this.si_docs = this.get_submitted_invoice()
+		$.each(this.removed_items, function(index, name){
+			$.each(me.si_docs, function(key, data){
+				if(me.si_docs[key][name] && me.si_docs[key][name].offline_pos_name == name ){
+					frappe.throw(__("Submitted orders can not be deleted"))
+				}
+			})
+		})
+	},
+	
 
 	toggle_primary_action: function() {
 		var me = this;
@@ -285,6 +310,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 
 	init_master_data: function(r){
 		var me = this;
+		this.doc = JSON.parse(localStorage.getItem('doc'));
 		this.meta = r.message.meta;
 		this.item_data = r.message.items;
 		this.customers = r.message.customers;
@@ -308,7 +334,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 	create_new: function(){
 		var me = this;
 		this.frm = {}
-		this.name = '';
+		this.name = null;
 		this.load_data(true);
 		this.setup();
 	},
@@ -328,12 +354,16 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 			locals["DocType"][data.name] = data;
 		})
 
-		this.print_template_data = frappe.render_template("print_template",
-			{content: this.print_template, title:"POS",
-			base_url: frappe.urllib.get_base_url(), print_css: frappe.boot.print_css})
+		this.print_template_data = frappe.render_template("print_template", {
+			content: this.print_template, 
+			title:"POS",
+			base_url: frappe.urllib.get_base_url(), 
+			print_css: frappe.boot.print_css
+		})
 	},
 
 	setup: function(){
+		
 		this.wrapper.html(frappe.render_template("pos", this.frm.doc));
 		this.set_transaction_defaults("Customer");
 		this.make();
@@ -354,6 +384,17 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 		this.make_customer();
 		this.make_item_list();
 		this.make_discount_field()
+	},
+
+	make_control: function() {
+		this.frm = {}
+		this.frm.doc = this.doc
+		this.set_transaction_defaults("Customer");
+		this.frm.doc["allow_user_to_edit_rate"] = this.pos_profile_data["allow_user_to_edit_rate"] ? true : false,
+		this.wrapper.html(frappe.render_template("pos", this.frm.doc));
+		this.make_search();
+		this.make_customer();
+		
 	},
 
 	make_search: function() {
@@ -565,18 +606,32 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 		search_status = true
 
 		if(key){
+			
 			return $.grep(this.item_data, function(item){
 				if(search_status){
-					if(in_list(me.batch_no_data[item.item_code], me.search.$input.val())){
+					bar = me.search.$input.val();
+
+                    if (bar.substring(0,2) == 23){
+						barv = bar.substring(0,2);
+					    bar1 = bar.substring(1,7);
+						quant = bar.substring(7,12);
+						if(item.barcode == bar1){
+							search_status = false;
+							return item.barcode == bar1;
+						}
+					
+
+					}if(in_list(me.batch_no_data[item.item_code], me.search.$input.val())){
 						search_status = false;
 						return me.item_batch_no[item.item_code] = me.search.$input.val()
 					} else if( me.serial_no_data[item.item_code]
 						&& in_list(Object.keys(me.serial_no_data[item.item_code]), me.search.$input.val())) {
-						search_status = false;
+	    				search_status = false;
 						me.item_serial_no[item.item_code] = [me.search.$input.val(), me.serial_no_data[item.item_code][me.search.$input.val()]]
 						return true
 					} else if(item.barcode == me.search.$input.val()) {
 						search_status = false;
+
 						return item.barcode == me.search.$input.val();
 					} else if(reg.test(item.item_code.toLowerCase()) || reg.test(item.description.toLowerCase()) ||
 					reg.test(item.item_name.toLowerCase()) || reg.test(item.item_group.toLowerCase()) ){
@@ -587,7 +642,10 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 		}else{
 			return this.item_data;
 		}
+        	
 	},
+
+
 
 	bind_qty_event: function() {
 		var me = this;
@@ -714,7 +772,97 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 
 		if (no_of_items != 0) {
 			$.each(this.frm.doc["items"] || [], function(i, d) {
-				if (d.item_code == me.items[0].item_code) {
+				var quant12 = quant;
+				var bar2 = barv;
+				
+				if ((bar2 == 23) && (d.item_code == me.items[0].item_code)){
+					
+
+					if (quant12.substring(0,4)== 0000){
+						caught = true;
+						d.qty += flt('0.00' + flt(quant12));
+						d.amount = flt(d.rate) * flt(d.qty);
+						if(me.item_serial_no[d.item_code]){
+							d.serial_no += '\n' + me.item_serial_no[d.item_code][0]
+							d.warehouse = me.item_serial_no[d.item_code][1]
+						}
+	
+						if(me.item_batch_no.length){
+							d.batch_no = me.item_batch_no[d.item_code]
+						}
+						 quant = 0;
+						 barv = 0;
+						 bar2 = 0;
+						 quant12 = 0;	
+					} else if (quant12.substring(0,3)== 000){
+						caught = true;
+						d.qty += flt('0.0' + flt(quant12));
+						d.amount = flt(d.rate) * flt(d.qty);
+						if(me.item_serial_no[d.item_code]){
+							d.serial_no += '\n' + me.item_serial_no[d.item_code][0]
+							d.warehouse = me.item_serial_no[d.item_code][1]
+						}
+	
+						if(me.item_batch_no.length){
+							d.batch_no = me.item_batch_no[d.item_code]
+						}
+						 quant = 0;
+						 barv = 0;
+						 bar2 = 0;
+						 quant12 = 0;	
+					}  else if (quant12.substring(0,2)== 00){
+						caught = true;
+						d.qty += flt('0.' + flt(quant12));
+						d.amount = flt(d.rate) * flt(d.qty);
+						if(me.item_serial_no[d.item_code]){
+							d.serial_no += '\n' + me.item_serial_no[d.item_code][0]
+							d.warehouse = me.item_serial_no[d.item_code][1]
+						}
+	
+						if(me.item_batch_no.length){
+							d.batch_no = me.item_batch_no[d.item_code]
+						}
+						 quant = 0;
+						 barv = 0;
+						 bar2 = 0;
+						 quant12 = 0;		
+					}  else if (quant12.substring(0,1)== 0){
+						caught = true;
+						d.qty += flt(quant12.substring(1,2) + '.' + quant12.substring(2,5));
+						d.amount = flt(d.rate) * flt(d.qty);
+						if(me.item_serial_no[d.item_code]){
+							d.serial_no += '\n' + me.item_serial_no[d.item_code][0]
+							d.warehouse = me.item_serial_no[d.item_code][1]
+						}
+		
+						if(me.item_batch_no.length){
+							d.batch_no = me.item_batch_no[d.item_code]
+						}
+						 quant = 0;
+						 barv = 0;
+						 bar2 = 0;
+						 quant12 = 0;		 	
+					}else {
+						caught = true;
+						d.qty += flt(quant12.substring(0,2) + '.' + quant12.substring(2,5));
+						d.amount = flt(d.rate) * flt(d.qty);
+						if(me.item_serial_no[d.item_code]){
+							d.serial_no += '\n' + me.item_serial_no[d.item_code][0]
+							d.warehouse = me.item_serial_no[d.item_code][1]
+						}
+	
+						if(me.item_batch_no.length){
+							d.batch_no = me.item_batch_no[d.item_code]
+						}
+						 quant = 0;
+						 barv = 0;
+						 bar2 = 0;
+						 quant12 = 0;	
+					}
+					
+					
+							
+				} else if (d.item_code == me.items[0].item_code)  {
 					caught = true;
 					d.qty += 1;
 					d.amount = flt(d.rate) * flt(d.qty);
@@ -738,26 +886,174 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 	},
 
 	add_new_item_to_grid: function() {
-		var me = this;
-		this.child = frappe.model.add_child(this.frm.doc, this.frm.doc.doctype + " Item", "items");
-		this.child.item_code = this.items[0].item_code;
-		this.child.item_name = this.items[0].item_name;
-		this.child.stock_uom = this.items[0].stock_uom;
-		this.child.description = this.items[0].description;
-		this.child.qty = 1;
-		this.child.item_group = this.items[0].item_group;
-		this.child.cost_center = this.pos_profile_data['cost_center'] || this.items[0].cost_center;
-		this.child.income_account = this.pos_profile_data['income_account'] || this.items[0].income_account;
-		this.child.warehouse = (this.item_serial_no[this.child.item_code]
-			? this.item_serial_no[this.child.item_code][1] : (this.pos_profile_data['warehouse'] || this.items[0].default_warehouse) );
-		this.child.price_list_rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
-		this.child.rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
-		this.child.actual_qty = me.get_actual_qty(this.items[0]);
-		this.child.amount = flt(this.child.qty) * flt(this.child.rate);
-		this.child.batch_no = this.item_batch_no[this.child.item_code];
-		this.child.serial_no = (this.item_serial_no[this.child.item_code]
-			? this.item_serial_no[this.child.item_code][0] : '');
-		this.child.item_tax_rate = JSON.stringify(this.tax_data[this.child.item_code]);
+        var quant123 = quant;
+		var bar22 = barv;
+
+		if (bar22 == 23){
+
+            if (quant123.substring(0,4)== 0000){
+
+				var me = this;
+				
+				this.child = frappe.model.add_child(this.frm.doc, this.frm.doc.doctype + " Item", "items");
+				this.child.item_code = this.items[0].item_code;
+				this.child.item_name = this.items[0].item_name;
+				this.child.stock_uom = this.items[0].stock_uom;
+				this.child.description = this.items[0].description;
+				this.child.qty = flt('0.00' + flt(quant123));
+				this.child.item_group = this.items[0].item_group;
+				this.child.cost_center = this.pos_profile_data['cost_center'] || this.items[0].cost_center;
+				this.child.income_account = this.pos_profile_data['income_account'] || this.items[0].income_account;
+				this.child.warehouse = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][1] : (this.pos_profile_data['warehouse'] || this.items[0].default_warehouse) );
+				this.child.price_list_rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.actual_qty = me.get_actual_qty(this.items[0]);
+				this.child.amount = flt(this.child.qty) * flt(this.child.rate);
+				this.child.batch_no = this.item_batch_no[this.child.item_code];
+				this.child.serial_no = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][0] : '');
+				this.child.item_tax_rate = JSON.stringify(this.tax_data[this.child.item_code]);
+				barv = 0 ;
+				quant123 = 0;
+				
+				
+			} else if (quant123.substring(0,3)== 000){
+
+				var me = this;
+				
+				this.child = frappe.model.add_child(this.frm.doc, this.frm.doc.doctype + " Item", "items");
+				this.child.item_code = this.items[0].item_code;
+				this.child.item_name = this.items[0].item_name;
+				this.child.stock_uom = this.items[0].stock_uom;
+				this.child.description = this.items[0].description;
+				this.child.qty = flt('0.0' + flt(quant123));
+				this.child.item_group = this.items[0].item_group;
+				this.child.cost_center = this.pos_profile_data['cost_center'] || this.items[0].cost_center;
+				this.child.income_account = this.pos_profile_data['income_account'] || this.items[0].income_account;
+				this.child.warehouse = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][1] : (this.pos_profile_data['warehouse'] || this.items[0].default_warehouse) );
+				this.child.price_list_rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.actual_qty = me.get_actual_qty(this.items[0]);
+				this.child.amount = flt(this.child.qty) * flt(this.child.rate);
+				this.child.batch_no = this.item_batch_no[this.child.item_code];
+				this.child.serial_no = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][0] : '');
+				this.child.item_tax_rate = JSON.stringify(this.tax_data[this.child.item_code]);
+				barv = 0 ;
+				quant123 = 0;
+								
+			}  else if (quant123.substring(0,2)== 00){
+
+				var me = this;
+				
+				this.child = frappe.model.add_child(this.frm.doc, this.frm.doc.doctype + " Item", "items");
+				this.child.item_code = this.items[0].item_code;
+				this.child.item_name = this.items[0].item_name;
+				this.child.stock_uom = this.items[0].stock_uom;
+				this.child.description = this.items[0].description;
+				this.child.qty = flt('0.' + flt(quant123));
+				this.child.item_group = this.items[0].item_group;
+				this.child.cost_center = this.pos_profile_data['cost_center'] || this.items[0].cost_center;
+				this.child.income_account = this.pos_profile_data['income_account'] || this.items[0].income_account;
+				this.child.warehouse = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][1] : (this.pos_profile_data['warehouse'] || this.items[0].default_warehouse) );
+				this.child.price_list_rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.actual_qty = me.get_actual_qty(this.items[0]);
+				this.child.amount = flt(this.child.qty) * flt(this.child.rate);
+				this.child.batch_no = this.item_batch_no[this.child.item_code];
+				this.child.serial_no = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][0] : '');
+				this.child.item_tax_rate = JSON.stringify(this.tax_data[this.child.item_code]);
+				barv = 0 ;
+				quant123 = 0;
+
+			}  else if (quant123.substring(0,1)== 0){
+				
+				var me = this;
+						
+				this.child = frappe.model.add_child(this.frm.doc, this.frm.doc.doctype + " Item", "items");
+				this.child.item_code = this.items[0].item_code;
+				this.child.item_name = this.items[0].item_name;
+				this.child.stock_uom = this.items[0].stock_uom;
+				this.child.description = this.items[0].description;
+				this.child.qty = flt(quant123.substring(1,2) + '.' + quant123.substring(2,5));
+				this.child.item_group = this.items[0].item_group;
+				this.child.cost_center = this.pos_profile_data['cost_center'] || this.items[0].cost_center;
+				this.child.income_account = this.pos_profile_data['income_account'] || this.items[0].income_account;
+				this.child.warehouse = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][1] : (this.pos_profile_data['warehouse'] || this.items[0].default_warehouse) );
+				this.child.price_list_rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.actual_qty = me.get_actual_qty(this.items[0]);
+				this.child.amount = flt(this.child.qty) * flt(this.child.rate);
+				this.child.batch_no = this.item_batch_no[this.child.item_code];
+				this.child.serial_no = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][0] : '');
+				this.child.item_tax_rate = JSON.stringify(this.tax_data[this.child.item_code]);
+				barv = 0 ;
+				quant123 = 0;	
+				
+						
+			}else {
+
+				var me = this;
+				
+				this.child = frappe.model.add_child(this.frm.doc, this.frm.doc.doctype + " Item", "items");
+				this.child.item_code = this.items[0].item_code;
+				this.child.item_name = this.items[0].item_name;
+				this.child.stock_uom = this.items[0].stock_uom;
+				this.child.description = this.items[0].description;
+				this.child.qty = flt(quant123.substring(0,2) + '.' + quant123.substring(2,5));
+				this.child.item_group = this.items[0].item_group;
+				this.child.cost_center = this.pos_profile_data['cost_center'] || this.items[0].cost_center;
+				this.child.income_account = this.pos_profile_data['income_account'] || this.items[0].income_account;
+				this.child.warehouse = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][1] : (this.pos_profile_data['warehouse'] || this.items[0].default_warehouse) );
+				this.child.price_list_rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+				this.child.actual_qty = me.get_actual_qty(this.items[0]);
+				this.child.amount = flt(this.child.qty) * flt(this.child.rate);
+				this.child.batch_no = this.item_batch_no[this.child.item_code];
+				this.child.serial_no = (this.item_serial_no[this.child.item_code]
+					? this.item_serial_no[this.child.item_code][0] : '');
+				this.child.item_tax_rate = JSON.stringify(this.tax_data[this.child.item_code]);
+				barv = 0 ;
+				quant123 = 0;
+				
+				
+			}
+
+			
+		}else{
+			var me = this;
+			
+			this.child = frappe.model.add_child(this.frm.doc, this.frm.doc.doctype + " Item", "items");
+			this.child.item_code = this.items[0].item_code;
+			this.child.item_name = this.items[0].item_name;
+			this.child.stock_uom = this.items[0].stock_uom;
+			this.child.description = this.items[0].description;
+			this.child.qty = 1;
+			this.child.item_group = this.items[0].item_group;
+			this.child.cost_center = this.pos_profile_data['cost_center'] || this.items[0].cost_center;
+			this.child.income_account = this.pos_profile_data['income_account'] || this.items[0].income_account;
+			this.child.warehouse = (this.item_serial_no[this.child.item_code]
+				? this.item_serial_no[this.child.item_code][1] : (this.pos_profile_data['warehouse'] || this.items[0].default_warehouse) );
+			this.child.price_list_rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+			this.child.rate = flt(this.price_list_data[this.child.item_code], 9) / flt(this.frm.doc.conversion_rate, 9);
+			this.child.actual_qty = me.get_actual_qty(this.items[0]);
+			this.child.amount = flt(this.child.qty) * flt(this.child.rate);
+			this.child.batch_no = this.item_batch_no[this.child.item_code];
+			this.child.serial_no = (this.item_serial_no[this.child.item_code]
+				? this.item_serial_no[this.child.item_code][0] : '');
+			this.child.item_tax_rate = JSON.stringify(this.tax_data[this.child.item_code]);
+           
+
+		}
+    
+		
 	},
 
 	update_paid_amount_status: function(update_paid_amount){
@@ -947,6 +1243,8 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 			this.update_localstorage();
 			this.set_primary_action();
 		}
+
+		return invoice_data;
 	},
 
 	update_invoice: function(){
@@ -981,24 +1279,28 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 	set_interval_for_si_sync: function(){
 		var me = this;
 		setInterval(function(){
+			me.freeze_screen = false;
 			me.sync_sales_invoice()
 		}, 60000)
 	},
 
 	sync_sales_invoice: function(){
 		var me = this;
-		this.si_docs = this.get_submitted_invoice();
+		this.si_docs = this.get_submitted_invoice() || [];
+
+		freeze_screen = this.freeze_screen || false;
 
 		if(this.si_docs.length){
 			frappe.call({
 				method: "erpnext.accounts.doctype.sales_invoice.pos.make_invoice",
+			    freeze: freeze_screen,
 				args: {
 					doc_list: me.si_docs
 				},
 				callback: function(r){
 					if(r.message){
-						me.removed_items = r.message;
-						me.remove_doc_from_localstorage();
+						me.removed_items = r.message.invoice;
+				//		me.remove_doc_from_localstorage();
 					}
 				}
 			})
@@ -1012,7 +1314,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 		if(docs){
 			invoices = $.map(docs, function(data){
 				for(key in data){
-					if(data[key].docstatus == 1 && index < 50){
+					if(data[key].docstatus == 1 && index < 3000){
 						index++
 						data[key].docstatus = 0;
 						return data
@@ -1036,6 +1338,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 					}
 				}
 			})
+			this.removed_items = [];
 			this.si_docs = this.new_si_docs;
 			this.update_localstorage();
 		}

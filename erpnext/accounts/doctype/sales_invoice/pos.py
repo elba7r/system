@@ -3,6 +3,7 @@
 
 from __future__ import unicode_literals
 import frappe, json
+from frappe import _
 from frappe.utils import nowdate
 from erpnext.setup.utils import get_exchange_rate
 from erpnext.stock.get_item_details import get_pos_profile
@@ -247,7 +248,7 @@ def get_pricing_rule_data(doc):
 	return pricing_rules
 
 @frappe.whitelist()
-def make_invoice(doc_list):
+def make_invoice(doc_list={}):
 	if isinstance(doc_list, basestring):
 		doc_list = json.loads(doc_list)
 
@@ -260,12 +261,15 @@ def make_invoice(doc_list):
 				si_doc = frappe.new_doc('Sales Invoice')
 				si_doc.offline_pos_name = name
 				si_doc.update(doc)
-				submit_invoice(si_doc, name)
-				name_list.append(name)
+				si_doc.set_posting_time = 1
+				si_doc.due_date = doc.get('posting_date')
+				name_list = submit_invoice(si_doc, name, doc, name_list)
 			else:
 				name_list.append(name)
 
-	return name_list
+	return{
+        'invoice': name_list,
+	} 
 
 def validate_records(doc):
 	validate_customer(doc)
@@ -296,18 +300,28 @@ def validate_item(doc):
 			item_doc.save(ignore_permissions=True)
 			frappe.db.commit()
 
-def submit_invoice(si_doc, name):
+def submit_invoice(si_doc, name, doc, name_list):
 	try:
 		si_doc.insert()
 		si_doc.submit()
 		frappe.db.commit()
+		name_list.append(name)
 	except Exception, e:
 		if frappe.message_log: frappe.message_log.pop()
 		frappe.db.rollback()
-		save_invoice(e, si_doc, name)
+		frappe.log_error(frappe.get_traceback())
+		name_list = save_invoice(e, si_doc, name, name_list)
 
-def save_invoice(e, si_doc, name):
-	if not frappe.db.exists('Sales Invoice', {'offline_pos_name': name}):
-		si_doc.docstatus = 0
-		si_doc.flags.ignore_mandatory = True
-		si_doc.insert()
+	return name_list
+def save_invoice(e, si_doc, name, name_list):
+    	try:
+		if not frappe.db.exists('Sales Invoice', {'offline_pos_name': name}):
+			si_doc.docstatus = 0
+			si_doc.flags.ignore_mandatory = True
+			si_doc.due_date = si_doc.posting_date
+			si_doc.insert()
+			name_list.append(name)
+	except Exception:
+		frappe.log_error(frappe.get_traceback())
+
+	return name_list
