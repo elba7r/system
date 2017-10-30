@@ -716,7 +716,7 @@ DocType: Payment Entry,Received Amount (Company Currency),(القيمة المس
 apps/erpnext/erpnext/crm/doctype/opportunity/opportunity.py +180,Lead must be set if Opportunity is made from Lead,يجب تحديد مبادرة البيع إذ كانة فرصة البيع تم تكوينها من مبادرة بيع
 apps/erpnext/erpnext/hr/doctype/holiday_list/holiday_list.py +29,Please select weekly off day,الرجاء إختيار يوم عطلة إسبوعية
 DocType: Production Order Operation,Planned End Time,وقت الإنتهاء المخطط
-,Sales Person Target Variance Item Group-Wise,إنحراف تارجت مندوب المبيعات حسب مجموعة الصنف
+,Sales Person Target Variance (Item Group-Wise),إنحراف تارجت مندوب المبيعات حسب مجموعة الصنف
 apps/erpnext/erpnext/accounts/doctype/account/account.py +96,Account with existing transaction cannot be converted to ledger,لا يمكن تحويل حساب جرت عليه أي عملية إلى دفتر أستاذ
 DocType: Delivery Note,Customer's Purchase Order No,رقم طلب شراء العميل
 DocType: Budget,Budget Against,الموازنه مقابل
@@ -3472,7 +3472,7 @@ apps/erpnext/erpnext/setup/doctype/naming_series/naming_series.py +189,Please se
 ,Qty to Transfer,الكمية للنقل و التحويل
 apps/erpnext/erpnext/config/selling.py +13,Quotes to Leads or Customers.,.عروض أسعار لمبادرة البيع أو العملاء
 DocType: Stock Settings,Role Allowed to edit frozen stock,الدور الوظيفي للسماح بتعديل مخزون مجمد
-,Territory Target Variance Item Group-Wise,إنحراف تارجت المنطقه حسب مجموعة الصنف
+,Territory Target Variance (Item Group-Wise),إنحراف تارجت المنطقه حسب مجموعة الصنف
 apps/erpnext/erpnext/setup/setup_wizard/install_fixtures.py +102,All Customer Groups,جميع مجموعات العملاء
 apps/erpnext/erpnext/accounts/doctype/budget/budget.py +106,Accumulated Monthly,مجمع شهرياً
 apps/erpnext/erpnext/controllers/accounts_controller.py +644,{0} is mandatory. Maybe Currency Exchange record is not created for {1} to {2}.,ـ {0} إلزامي. ربما لم يتم إنشاء سجل سعر تحويل العملة لـ {1} إلى {2}
@@ -4472,3 +4472,15 @@ DocType: Customer,Office Commission,عمولة المكتب
 DocType: Customer,Driver Accounting,حسابات السائق
 Doctype: Item,Barcode,الباركود
 Doctype: Item,Valuation Rate,سعر التقييم
+,Item-wise Price List Rate,سعر قائمة الاسعار بناء على الصنف
+apps/erpnext/erpnext/config/learn.py +112,Customer Relationship Management,ادارة علاقات العملاء
+apps/erpnext/erpnext/config/learn.py +97,Budgeting,اعداد الميزانية
+apps/erpnext/erpnext/config/learn.py +102,creating depreciation,انشاء استهلاك
+apps/erpnext/erpnext/config/learn.py +132,Sales Cycle,دورة المبيعات
+apps/erpnext/erpnext/config/learn.py +152,Setting Taxes,اعداد الضرائب
+apps/erpnext/erpnext/config/learn.py +202,Fixed Asset Management,ادارة الاصول الثابته
+apps/erpnext/erpnext/config/learn.py +222,Request For Quotation,طلب عرض اسعار
+apps/erpnext/erpnext/config/learn.py +227,Buying Cycle,دورة الشراء
+apps/erpnext/erpnext/config/learn.py +232,Setting Taxes,اعداد الضرائب
+apps/erpnext/erpnext/config/learn.py +288,Managing Projects & Tasks,ادارة المشاريع و المهام
+apps/erpnext/erpnext/config/learn.py +293,Timesheet Billing,الفوترة بناء على جدول ساعات العمل
