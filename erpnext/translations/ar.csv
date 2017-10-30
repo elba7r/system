@@ -561,7 +561,7 @@ apps/erpnext/erpnext/accounts/doctype/fiscal_year/fiscal_year.py +38,Fiscal Year
 DocType: Issue,Resolution,الحل
 DocType: C-Form,IV, ًرابعا
 apps/erpnext/erpnext/templates/pages/order.html +53,Delivered: {0},تم تسليم: {0}
-apps/erpnext/erpnext/accounts/report/purchase_register/purchase_register.py +69,Payable Account,حساب المدفوعات
+apps/erpnext/erpnext/accounts/report/purchase_register/purchase_register.py +69,Payable Account,تقرير حساب المدفوعات / الموردين
 DocType: Payment Entry,Type of Payment,نوع طريقة الدفع
 DocType: Sales Order,Billing and Delivery Status,حالة الفواتير و التسليم
 DocType: Job Applicant,Resume Attachment,مرفق السيره الذاتيه
@@ -1994,7 +1994,7 @@ apps/erpnext/erpnext/config/stock.py +304,Serialized Inventory,المخزون ا
 DocType: Activity Type,Default Billing Price,سعر إصدار الفواتير الإفتراضي
 DocType: Sales Invoice,Total Billing Amount,اجمالي قيمة الفواتير
 apps/erpnext/erpnext/hr/doctype/daily_work_summary_settings/daily_work_summary_settings.py +17,There must be a default incoming Email Account enabled for this to work. Please setup a default incoming Email Account (POP/IMAP) and try again.,.و كرر المحاولة (POP/IMAP) يجب ان يكون هناك حساب بريد الكتروني وارد مفعل إفتراضي لكي يعمل. من فضلك قم بإعداد حساب بريد الكتروني وارد
-apps/erpnext/erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py +59,Receivable Account,حساب القبض
+apps/erpnext/erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py +59,Receivable Account, تقرير حساب القبض / العملاء
 apps/erpnext/erpnext/controllers/accounts_controller.py +559,Row #{0}: Asset {1} is already {2},الصف #{0}: الأصل {1} هو بالفعل {2}
 DocType: Quotation Item,Stock Balance,رصيد المخزون
 apps/erpnext/erpnext/config/selling.py +302,Sales Order to Payment,طلب مبيعات إلي الدفع
@@ -2351,7 +2351,7 @@ DocType: Opportunity,Potential Sales Deal,صفقة المبيعات المحتم
 DocType: Payment Entry,Cheque/Reference Date,تاريخ الشيك/المرجع
 DocType: Purchase Invoice,Total Taxes and Charges,إجمالي الضرائب والرسوم
 DocType: Employee,Emergency Contact,جهة الإتصال في حالات الطوارئ
-DocType: Bank Reconciliation Detail,Payment Entry,تسجيل المدفوعات
+DocType: Bank Reconciliation Detail,Payment Entry,تسجيل المدفوعات / المتحصلات
 DocType: Item,Quality Parameters,معايير الجودة
 ,sales-browser,متصفح-المبيعات
 apps/erpnext/erpnext/accounts/doctype/account/account.js +56,Ledger,دفتر الأستاذ
