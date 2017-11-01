@@ -392,7 +392,7 @@ DocType: GL Entry,Debit Amount,القيمة المدينة
 apps/erpnext/erpnext/accounts/party.py +242,There can only be 1 Account per Company in {0} {1},يمكن أن يكون هناك حساب 1 فقط لكل شركة في {0} {1}
 apps/erpnext/erpnext/templates/includes/footer/footer_extension.html +4,Your email address,عنوان البريد الإلكتروني الخاص بك
 apps/erpnext/erpnext/hr/doctype/salary_slip/salary_slip.py +355,Please see attachment,يرجى الاطلاع على المرفقات
-DocType: Purchase Order,% Received,٪ تم إستلام 
+DocType: Purchase Order,% Received,٪ تم إستلام
 apps/erpnext/erpnext/schools/doctype/student_group_creation_tool/student_group_creation_tool.js +3,Create Student Groups,إنشاء مجموعات الطلاب
 apps/erpnext/erpnext/setup/setup_wizard/setup_wizard.py +21,Setup Already Complete!!,!! الإعدادات تمت بالفعل
 ,Finished Goods,المخزون تام الصنع
@@ -463,7 +463,7 @@ DocType: SMS Log,Sent On,أرسلت في
 apps/erpnext/erpnext/stock/doctype/item/item.py +644,Attribute {0} selected multiple times in Attributes Table,الخاصية أو الصفة المميزة {0} أختيرت عدة مرات في جدول الخواص و الصفات المميزة
 DocType: HR Settings,Employee record is created using selected field. ,.سجل/ملف الموظف تم إنشائه باستخدام الحقل الذي تم إختياره
 DocType: Sales Order,Not Applicable,لا ينطبق
-apps/erpnext/erpnext/config/hr.py +70,Holiday master.,.ماستر الأجازات 
+apps/erpnext/erpnext/config/hr.py +70,Holiday master.,.ماستر الأجازات
 DocType: Request for Quotation Item,Required Date,التاريخ المطلوب
 DocType: Delivery Note,Billing Address,عنوان إرسال الفواتير
 apps/erpnext/erpnext/stock/doctype/purchase_receipt/purchase_receipt.js +841,Please enter Item Code.,.الرجاء إدخال كود الصنف
@@ -1089,7 +1089,7 @@ DocType: Upload Attendance,Attendance From Date,الحضور من تاريخ
 DocType: Appraisal Template Goal,Key Performance Area,منطقة مؤشرات الأداء
 apps/erpnext/erpnext/setup/setup_wizard/industry_type.py +54,Transportation,النقل
 apps/erpnext/erpnext/controllers/item_variant.py +63,Invalid Attribute,سمه غير صالحه
-apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.py +201,{0} {1} must be submitted,{0} {1} يجب إدخال 
+apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.py +201,{0} {1} must be submitted,{0} {1} يجب إدخال
 apps/erpnext/erpnext/stock/dashboard/item_dashboard.js +146,Quantity must be less than or equal to {0},يجب أن تكون الكمية أقل من أو يساوي {0}
 DocType: SMS Center,Total Characters,مجموع الحروف
 apps/erpnext/erpnext/controllers/buying_controller.py +156,Please select BOM in BOM field for Item {0},يرجى تحديد البوم في حقل البوم للصنف {0}
