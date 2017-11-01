@@ -487,7 +487,7 @@ DocType: Salary Structure,Salary Component for timesheet based payroll.,مفرد
 DocType: Sales Order Item,Used for Production Plan,تستخدم لخطة الإنتاج
 DocType: Manufacturing Settings,Time Between Operations (in mins),(الوقت بين العمليات (بالدقائق
 DocType: Customer,Buyer of Goods and Services.,.المشتري للسلع والخدمات
-DocType: Journal Entry,Accounts Payable,تقرير حسابات المدفوعات / الموردين
+DocType: Journal Entry,Accounts Payable,حسابات المدفوعات / الموردين
 apps/erpnext/erpnext/manufacturing/doctype/bom_replace_tool/bom_replace_tool.py +29,The selected BOMs are not for the same item,المختارة ليست لنفس الصنف  BOMs جداول المواد
 DocType: Pricing Rule,Valid Upto,صالحة لغاية
 DocType: Training Event,Workshop,ورشة عمل
@@ -1208,7 +1208,7 @@ DocType: Purchase Invoice,Rejected Warehouse,مستودع مرفوض
 DocType: GL Entry,Against Voucher,مقابل سند
 DocType: Item,Default Buying Cost Center,مركز تكلفة المشتريات الافتراضي
 apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of Revalue, we recommend that you take some time and watch these help videos.",".نوصي بأن تأخذ بعض الوقت لمشاهدة أشرطة الفيديو هذه للمساعدة Revalue للحصول علي أفضل النتائج من نظام"
-apps/erpnext/erpnext/accounts/page/pos/pos.js +73, to ,إلى
+apps/erpnext/erpnext/accounts/page/pos/pos.js +73,to ,إلى
 DocType: Item,Lead Time in days,مدة التوريد المتوقعة بالأيام
 ,Accounts Payable Summary,ملخص حسابات المدفوعات
 apps/erpnext/erpnext/hr/doctype/process_payroll/process_payroll.py +235,Payment of salary from {0} to {1},دفع الراتب من {0} إلى {1}
@@ -1862,7 +1862,7 @@ apps/erpnext/erpnext/accounts/doctype/asset/asset.py +141,Expected value after u
 DocType: Purchase Receipt,Vehicle Number,رقم المركبة
 DocType: Purchase Invoice,The date on which recurring invoice will be stop,التاريخ الذي سيتم فيه إيقاف الفاتورة المتكررة
 apps/erpnext/erpnext/hr/doctype/leave_allocation/leave_allocation.py +98,Total allocated leaves {0} cannot be less than already approved leaves {1} for the period,مجموع الأجازات المخصصة {0} لا يمكن أن يكون أقل من الأجازات التي تم بالفعل الموافقة عليها {1} لهذه الفترة
-DocType: Journal Entry,Accounts Receivable,تقرير حسابات القبض / العملاء
+DocType: Journal Entry,Accounts Receivable,حسابات القبض / العملاء
 ,Supplier-Wise Sales Analytics,تحليل المبيعات حسب المورد
 apps/erpnext/erpnext/schools/doctype/fees/fees.js +41,Enter Paid Amount,إدخل القيمة المدفوعة
 DocType: Address Template,This format is used if country specific format is not found,هذاالشكل/الفورمات يستخدم إذا لم يتم العثور على فورمات خاصة بالبلد
@@ -2104,7 +2104,7 @@ apps/erpnext/erpnext/stock/doctype/packing_slip/packing_slip.js +51,Case No. can
 DocType: Item,Show a slideshow at the top of the page,إظهر عرض الشرائح في أعلى الصفحة
 apps/erpnext/erpnext/stock/doctype/item/item.py +134,Stores,محلات
 DocType: Serial No,Delivery Time,وقت التسليم
-apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +27,Ageing Based On,العمر بناءاً على
+apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +27,Ageing Based On,العمر بناء على
 DocType: Item,End of Life,نهاية العمر
 apps/erpnext/erpnext/demo/setup/setup_data.py +319,Travel,سفر
 apps/erpnext/erpnext/hr/doctype/salary_slip/salary_slip.py +173,No active or default Salary Structure found for employee {0} for the given dates,لا يوجد هيكل إفتراضي للراتب أو أن الهيكل غير مفعل للموظف {0} في التواريخ المعطاة
@@ -2930,7 +2930,7 @@ DocType: Journal Entry,Stock Entry,حركة المخزون
 DocType: Payment Entry,Payment References,مراجع الدفع
 DocType: C-Form,C-FORM-,C-FORM نموذج-س
 DocType: Vehicle,Insurance Details,تفاصيل التأمين
-DocType: Account,Payable,حساب المدفوعات
+DocType: Account,Payable,المدفوعات
 apps/erpnext/erpnext/shopping_cart/cart.py +347,Debtors ({0}),المدينين ({0})
 DocType: Pricing Rule,Margin,الهامش
 DocType: Salary Slip,Arrear Amount,المبالغ المتأخرة
@@ -3621,7 +3621,7 @@ apps/erpnext/erpnext/schools/doctype/student_applicant/student_applicant.js +4,A
 DocType: Customer,Sales Partner and Commission,شريك البيع و العموله
 ,Project Quantity,كمية المشروع
 DocType: Opportunity,To Discuss,إلي المناقشة
-apps/erpnext/erpnext/stock/stock_ledger.py +350,{0} units of {1} needed in {2} to complete this transaction.,.ـ {0} الوحدات التي في {1} مطلوبة في {2} لإتمام هذه العمليه
+apps/erpnext/erpnext/stock/stock_ledger.py +350,{0} units of {1} needed in {2} to complete this transaction.,.{0} الوحدات التي في {1} مطلوبة في {2} لإتمام هذه العمليه
 DocType: SMS Settings,SMS Settings,SMS إعدادات الرسائل النصيه القصيره
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +69,Temporary Accounts,حسابات مؤقتة
 apps/erpnext/erpnext/setup/setup_wizard/install_fixtures.py +166,Black,أسود
@@ -3955,7 +3955,7 @@ apps/erpnext/erpnext/stock/doctype/delivery_note/delivery_note.py +245,Sales Inv
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py +25,Fiscal Year {0} does not exist,السنة المالية {0} غير موجودة
 apps/erpnext/erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py +30,Completion Date,تاريخ الإنتهاء
 DocType: Purchase Invoice Item,Amount (Company Currency),(القيمة (عملة الشركة
-apps/erpnext/erpnext/stock/stock_ledger.py +354,{0} units of {1} needed in {2} on {3} {4} for {5} to complete this transaction.,ـ {0} وحدات من {1} لازمة في {2} على {3} {4} لـ {5} لإتمام هذه العملية
+apps/erpnext/erpnext/stock/stock_ledger.py +354,{0} units of {1} needed in {2} on {3} {4} for {5} to complete this transaction.,{0} وحدات من {1} لازمة في {2} على {3} {4} لـ {5} لإتمام هذه العملية
 DocType: Fee Structure,Student Category,فئة أو تصنيف الطالب
 apps/erpnext/erpnext/schools/doctype/program_enrollment_tool/program_enrollment_tool.py +14,Mandatory feild - Get Students From,حقل إلزامي - إحصل على الطلاب من
 DocType: Announcement,Student,طالب
