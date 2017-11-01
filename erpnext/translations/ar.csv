@@ -4484,3 +4484,4 @@ apps/erpnext/erpnext/config/learn.py +227,Buying Cycle,دورة الشراء
 apps/erpnext/erpnext/config/learn.py +232,Setting Taxes,اعداد الضرائب
 apps/erpnext/erpnext/config/learn.py +288,Managing Projects & Tasks,ادارة المشاريع و المهام
 apps/erpnext/erpnext/config/learn.py +293,Timesheet Billing,الفوترة بناء على جدول ساعات العمل
+,Item Price-Item-wise Price List Rate,سعر قائمة الاسعار بناء على الصنف
