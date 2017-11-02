@@ -4485,3 +4485,12 @@ apps/erpnext/erpnext/config/learn.py +232,Setting Taxes,اعداد الضرائ�
 apps/erpnext/erpnext/config/learn.py +288,Managing Projects & Tasks,ادارة المشاريع و المهام
 apps/erpnext/erpnext/config/learn.py +293,Timesheet Billing,الفوترة بناء على جدول ساعات العمل
 ,Item Price-Item-wise Price List Rate,سعر قائمة الاسعار بناء على الصنف
+DocType: Timesheet,Timesheet,جدول ساعات العمل
+DocType: Task,Task,المهمة
+DocType: Purchase Order,Purchase Order,أمر شراء
+DocType: Warranty Claim,Warranty Claim,مطالبة الضمان
+DocType: Sales Invoice,Sales Invoice,فاتورة مبيعات
+DocType: To Do,To Do,قائمة المهام
+DocType: Opportunity,Opportunity,فرصة بيع
+DocType: Sales Order,Sales Order,أمر بيع
+DocType: Expense Claim,Expense Claim,مطالبة بالمصروف

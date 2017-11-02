@@ -1,0 +1,9 @@
+DocType: Timesheet,جدول ساعات العمل,Timesheet
+DocType: Task,المهمة,Task
+DocType: Purchase Order,أمر شراء,Purchase Order
+DocType: Warranty Claim,مطالبة الضمان,Warranty Claim
+DocType: Sales Invoice,فاتورة مبيعات,Sales Invoice
+DocType: To Do,قائمة المهام,To Do
+DocType: Opportunity,فرصة بيع,Opportunity
+DocType: Sales Order,أمر بيع,Sales Order
+DocType: Expense Claim,مطالبة بالمصروف,Expense Claim
