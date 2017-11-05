@@ -1300,7 +1300,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 				callback: function(r){
 					if(r.message){
 						me.removed_items = r.message.invoice;
-				//		me.remove_doc_from_localstorage();
+						me.remove_doc_from_localstorage();
 					}
 				}
 			})
@@ -1314,7 +1314,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 		if(docs){
 			invoices = $.map(docs, function(data){
 				for(key in data){
-					if(data[key].docstatus == 1 && index < 3000){
+					if(data[key].docstatus == 1 && index < 50){
 						index++
 						data[key].docstatus = 0;
 						return data

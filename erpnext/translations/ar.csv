@@ -607,7 +607,7 @@ DocType: Student,Sibling Details,تفاصيل الأخوة
 DocType: Vehicle Service,Vehicle Service,خدمة السيارة
 DocType: Employee,Reason for Resignation,سبب الإستقالة
 apps/erpnext/erpnext/config/hr.py +147,Template for performance appraisals.,نموزج لتقييم الأداء
-DocType: Sales Invoice,Credit Note Issued,سند دائن (دفع) مصدر
+DocType: Sales Invoice,Credit Note Issued,سند دائن مصدر
 DocType: Project Task,Weight,وزن
 DocType: Payment Reconciliation,Invoice/Journal Entry Details,تفاصيل الفاتورة / قيد اليومية
 apps/erpnext/erpnext/accounts/utils.py +53,{0} '{1}' not in Fiscal Year {2},ـ {0} '{1}' ليست في السنة المالية {2}
@@ -2309,7 +2309,7 @@ DocType: Salary Component Account,Salary Component Account,حساب مكون ا�
 DocType: Global Defaults,Hide Currency Symbol,إخفاء رمز العملة
 apps/erpnext/erpnext/config/accounts.py +289,"e.g. Bank, Cash, Credit Card",على سبيل المثال البنك، نقدا، بطاقة الائتمان
 DocType: Lead Source,Source Name,اسم المصدر
-DocType: Journal Entry,Credit Note,(سند دائن (دفع
+DocType: Journal Entry,Credit Note,سند دائن
 DocType: Warranty Claim,Service Address,عنوان الخدمة
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +47,Furnitures and Fixtures,أثاث وتركيبات
 DocType: Item,Manufacture,صناعة
@@ -3720,7 +3720,7 @@ apps/erpnext/erpnext/config/selling.py +143,Default settings for selling transac
 DocType: BOM Replace Tool,Current BOM,الحالية BOM البوم
 apps/erpnext/erpnext/public/js/utils.js +39,Add Serial No,إضافة رقم سيريال
 apps/erpnext/erpnext/config/support.py +22,Warranty,الضمان
-DocType: Purchase Invoice,Debit Note Issued,سند مدين (قبض) مصدر
+DocType: Purchase Invoice,Debit Note Issued,سند مدين مصدر
 DocType: Production Order,Warehouses,المستودعات
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +110,Print and Stationary,مطبوعات و أدوات مكتبية
 apps/erpnext/erpnext/accounts/doctype/asset_movement/asset_movement.py +18,{0} asset cannot be transferred,ـ {0} أصل لا يمكن نقله أو تحويله
@@ -4205,7 +4205,7 @@ apps/erpnext/erpnext/stock/doctype/item/item.js +21,Balance,رصيد
 DocType: Room,Seating Capacity,عدد المقاعد ـ السعة
 DocType: Issue,ISS-,ISS-
 DocType: Project,Total Expense Claim (via Expense Claims),(إجمالي المطالبة بالمصروف (من خلال المطالبة بالمصروف
-DocType: Journal Entry,Debit Note,(سند مدين (قبض
+DocType: Journal Entry,Debit Note,سند مدين
 DocType: Stock Entry,As per Stock UOM,وفقا لوحدة قياس المخزون
 apps/erpnext/erpnext/stock/doctype/batch/batch_list.js +7,Not Expired,لم تنتهي صلاحيته
 DocType: Student Log,Achievement,إنجاز
