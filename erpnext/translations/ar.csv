@@ -3033,7 +3033,7 @@ apps/erpnext/erpnext/config/setup.py +37,Country wise default Address Templates,
 DocType: Sales Order Item,Supplier delivers to Customer,المورد يسلم للعميل
 apps/erpnext/erpnext/utilities/bot.py +34,[{0}](#Form/Item/{0}) is out of stock,(ـ [{0}] #النموزج/الصنف/{0})غير متوفر في المخزون
 apps/erpnext/erpnext/controllers/recurring_document.py +174,Next Date must be greater than Posting Date,يجب أن يكون تاريخ القادم أكبر من تاريخ الإصدار
-apps/erpnext/erpnext/public/js/controllers/transaction.js +878,Show tax break-up,مشاهدة الإعفاءات الضريبية
+apps/erpnext/erpnext/public/js/controllers/transaction.js +878,Show tax break-up,مشاهدة تفاصيل الضرائب و الرسوم
 apps/erpnext/erpnext/accounts/party.py +308,Due / Reference Date cannot be after {0},تاريخ الإستحقاق / تاريخ المرجع لا يمكن أن يكون بعد {0}
 apps/erpnext/erpnext/config/setup.py +51,Data Import and Export,إستيراد وتصدير البيانات
 apps/erpnext/erpnext/accounts/doctype/account/account.py +188,"Stock entries exist against Warehouse {0}, hence you cannot re-assign or modify it","توجد مدخلات مخزون مقابل المستودع {0} , وبالتالي لايمكنك إعادة تعيينه أو تعديله"
