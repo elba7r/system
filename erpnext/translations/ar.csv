@@ -3326,7 +3326,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +201,Row {0
 DocType: Purchase Taxes and Charges Template,Purchase Taxes and Charges Template,نموزج الضرائب و الرسوم علي المشتريات
 DocType: Upload Attendance,Download Template,تحميل نموزج
 DocType: Timesheet,TS-,TS-
-apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +57,{0} {1}: Either debit or credit amount is required for {2},ـ {0} {1}: إما القيمه الدائنه أو المدينه مطلوبه لـ {2}
+apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +57,{0} {1}: Either debit or credit amount is required for {2},{0} {1}: إما القيمه الدائنه أو المدينه مطلوبه لـ {2}
 DocType: GL Entry,Remarks,ملاحظات
 DocType: Payment Entry,Account Paid From,مدفوع من حساب
 DocType: Purchase Order Item Supplied,Raw Material Item Code,كود صنف الماده الخام
