@@ -438,7 +438,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 		if(this.default_customer){
 			this.search.$input.focus();
 		}else{
-			this.party_field.$input.focus();
+			this.search.$input.focus();
 		}
 	},
 
@@ -472,6 +472,7 @@ erpnext.pos.PointOfSale = erpnext.taxes_and_totals.extend({
 			},
 			change: function(event, ui) {
 				if(!ui.item) {
+					window.confirm("برجاء الضغط على Cancel و التأكد من أختيار عميل من القائمه \n أو اضغط على OK اذا كنت متأكد من رغبتك في انشاء عميل جديد");
 					me.frm.doc.customer = $(this).val();
 				}
 			}
