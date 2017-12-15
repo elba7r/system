@@ -2251,9 +2251,9 @@ DocType: Delivery Note,DN-,DN-
 DocType: Sales Partner,A third party distributor / dealer / commission agent / affiliate / reseller who sells the companies products for a commission.,موزع طرف ثالث / وكيل / وسيط تجاري بالعمولة / شريك / بائع التجزئة الذي يبيع منتجات الشركات مقابل عمولة
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +363,{0} against Purchase Order {1},ـ {0} قابل أمر شراء {1}
 DocType: SMS Settings,"Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)","(.كلمة السر=1234 ألخ ،revalue=المستخدم،revalue=إدخل متغيرات/بارامترات لرابط ثابت هنا (مثال.الراسل"
-apps/erpnext/erpnext/accounts/utils.py +42,{0} {1} not in any active Fiscal Year. For more details check {2}.,لـ {0} {1} {ليست في أي سنة مالية مفعلة. لمزيد من التفاصيل راجع {2
+apps/erpnext/erpnext/accounts/utils.py +42,{0} {1} not in any active Fiscal Year. For more details check {2}.لـ {0} {1} {ليست في أي سنة مالية مفعلة. لمزيد من التفاصيل راجع {2
 DocType: Task,Actual Start Date (via Time Sheet),(تاريخ البدء الفعلي (من خلال جدول ساعات العمل
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,هذا مثال لموقع ألكتروني تم إنشاؤه آليا بواسطة نظام ريفاليو
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from Revalue,هذا مثال لموقع ألكتروني تم إنشاؤه آليا بواسطة نظام ريفاليو
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +37,Ageing Range 1,مدي العمر 1
 DocType: Purchase Taxes and Charges Template,"Standard tax template that can be applied to all Purchase Transactions. This template can contain list of tax heads and also other expense heads like ""Shipping"", ""Insurance"", ""Handling"" etc.
 
