@@ -306,7 +306,7 @@ def update_serial_nos_after_submit(controller, parentfield):
 		update_rejected_serial_nos = True if (controller.doctype in ("Purchase Receipt", "Purchase Invoice") 
 			and d.rejected_qty) else False
 		accepted_serial_nos_updated = False
-		warehouse = d.t_warehouse if controller.doctype == "Stock Entry" else d.warehouse
+		warehouse = d.t_warehouse if controller.doctype == "Stock Entry" or controller.doctype == "OPM Stock Entry" else d.warehouse
 
 		for sle in stock_ledger_entries:
 			if sle.voucher_detail_no==d.name:

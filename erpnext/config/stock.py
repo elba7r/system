@@ -11,6 +11,12 @@ def get_data():
 					"name": "Stock Entry",
 					"description": _("Record item movement."),
 				},
+                                {
+                                        "type": "doctype",
+                                        "name": "OPM Stock Entry",
+                                        "description": _("Record item movement."),
+                                },
+
 				{
 					"type": "doctype",
 					"name": "Delivery Note",
