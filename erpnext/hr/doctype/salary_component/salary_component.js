@@ -6,11 +6,12 @@ frappe.ui.form.on('Salary Component', {
 		frm.set_query("default_account", "accounts", function(doc, cdt, cdn) {
 			var d = locals[cdt][cdn];
 			return {
-				filters: {
-					"root_type": "Expense",
-					"is_group": 0,
-					"company": d.company
-				}
+				filters: [
+					['Account', 'root_type', 'in', 'Expense, Liability'],
+					['Account', 'is_group', '=', 0],
+					['Account', 'company', '=', d.company]
+				]
+		
 			}
 		})
 	}

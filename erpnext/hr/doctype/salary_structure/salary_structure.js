@@ -162,7 +162,13 @@ var calculate_totals = function(doc) {
 		total_earn += flt(tbl1[i].amount);
 	}
 	for(var j = 0; j < tbl2.length; j++){
+		
 		total_ded += flt(tbl2[j].amount);
+		
+		
+
+		
+		
 	}
 	doc.total_earning = total_earn;
 	doc.total_deduction = total_ded;

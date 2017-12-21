@@ -126,8 +126,9 @@ var calculate_earning_total = function(doc, dt, dn, reset_amount) {
 			tbl[i].amount = tbl[i].default_amount;
 			refresh_field('amount', tbl[i].name, 'earnings');
 		}
-		total_earn += flt(tbl[i].amount);
-		
+		if(!tbl[i].do_not_include_in_total) {
+			total_earn += flt(tbl[i].amount);
+		}		
 	}
 	doc.gross_pay = total_earn + flt(doc.arrear_amount) + flt(doc.leave_encashment_amount);
 	refresh_many(['amount','gross_pay']);
@@ -146,7 +147,9 @@ var calculate_ded_total = function(doc, dt, dn, reset_amount) {
 			tbl[i].amount = tbl[i].default_amount;
 			refresh_field('amount', tbl[i].name, 'deductions');
 		}
-		total_ded += flt(tbl[i].amount);
+		if(!tbl[i].do_not_include_in_total) {
+			total_ded += flt(tbl[i].amount);
+		}
 	}
 	doc.total_deduction = total_ded;
 	refresh_field('total_deduction');
