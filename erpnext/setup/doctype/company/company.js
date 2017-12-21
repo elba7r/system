@@ -131,6 +131,7 @@ erpnext.company.setup_queries = function(frm) {
 	$.each([
 		["default_bank_account", {"account_type": "Bank"}],
 		["default_cash_account", {"account_type": "Cash"}],
+                ["default_payroll_payable_account", {"root_type": "Liability","account_type": "Payroll"}],
 		["default_receivable_account", {"account_type": "Receivable"}],
 		["default_payable_account", {"account_type": "Payable"}],
 		["default_expense_account", {"root_type": "Expense"}],

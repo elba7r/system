@@ -67,7 +67,10 @@ class SalarySlip(TransactionBase):
 				'amount': amount,
 				'default_amount': amount,
 				'depends_on_lwp' : struct_row.depends_on_lwp,
-				'salary_component' : struct_row.salary_component
+				'salary_component' : struct_row.salary_component,
+				'abbr' : struct_row.abbr,
+				'hide_print' : struct_row.hide_print,
+		    	'do_not_include_in_total' : struct_row.do_not_include_in_total
 			})
 		else:
 			component_row.amount = amount
@@ -315,7 +318,8 @@ class SalarySlip(TransactionBase):
 				d.amount = 0
 			elif not d.amount:
 				d.amount = d.default_amount
-			self.set(total_field, self.get(total_field) + flt(d.amount))
+			if not d.do_not_include_in_total:
+    				self.set(total_field, self.get(total_field) + flt(d.amount))
 
 	def calculate_net_pay(self):
 		if self.salary_structure:
