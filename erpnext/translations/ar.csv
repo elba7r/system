@@ -4494,3 +4494,4 @@ DocType: To Do,To Do,قائمة المهام
 DocType: Opportunity,Opportunity,فرصة بيع
 DocType: Sales Order,Sales Order,أمر بيع
 DocType: Expense Claim,Expense Claim,مطالبة بالمصروف
+DocType: Journal Entry Account,Supported by Doc,مؤيد بسند
