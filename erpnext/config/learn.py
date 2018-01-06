@@ -24,7 +24,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Report Builder"),
-					"youtube_id": "co-rH0mNXmQ"
+					"youtube_id": "WQALaSBQtdU"
 				},
 			]
 
@@ -65,7 +65,7 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("File Manager"),
-					"youtube_id": "wxs-aVQSFM8"
+					"youtube_id": "aYgtAALuZD4"
 				},
 			]
 		},
@@ -75,32 +75,32 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Chart of Accounts"),
-					"youtube_id": "nib2UfaVNfw"
+					"youtube_id": "KqPDP1be5iY"
 				},
 				{
 					"type": "help",
 					"label": _("Setting up Taxes"),
-					"youtube_id": "sg6tkLh_qX4"
+					"youtube_id": "KQem5_xbing"
 				},
 				{
 					"type": "help",
 					"label": _("Opening Accounting Balance"),
-					"youtube_id": "9_yyE7G_mrk"
+					"youtube_id": "5YOChjierWo"
 				},
 				{
 					"type": "help",
 					"label": _("Advance Payments"),
-					"youtube_id": "fn-ei6_s2DQ"
+					"youtube_id": "0Sknwz_0Pl8"
 				},
 				{
 					"type": "help",
 					"label": _("Budgeting"),
-					"youtube_id": "EJwu_CKfrRM"
+					"youtube_id": "cs7u-DNFibQ"
 				},
 				{
 					"type": "help",
 					"label": _("creating depreciation"),
-					"youtube_id": "9DAPXdjOYeE"
+					"youtube_id": "wTG_lFl-K-k"
 				},
 			]
 		},
@@ -110,12 +110,12 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Customer Relationship Management"),
-					"youtube_id": "GW04eUr8TPA"
+					"youtube_id": "bWogz2jjHOk"
 				},
 				{
 					"type": "help",
 					"label": _("Newsletters"),
-					"youtube_id": "pLHZx9KeLI4"
+					"youtube_id": "LO6FjwVyW5Y"
 				},
 			]
 		},
@@ -125,32 +125,32 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Customer"),
-					"youtube_id": "sYK31gejHVQ"
+					"youtube_id": "xpFSanUMMBg"
 				},
 				{
 					"type": "help",
 					"label": _("Sales Cycle"),
-					"youtube_id": "gumxGZQe82E"
+					"youtube_id": "oAOB6Dmhqyw"
 				},
 				{
 					"type": "help",
 					"label": _("Point-of-Sale"),
-					"youtube_id": "zU8YXEc_fJo"
+					"youtube_id": "IDh4IQijqzc"
 				},
 				{
 					"type": "help",
 					"label": _("Product Bundle"),
-					"youtube_id": "oN5gimBPxQo"
+					"youtube_id": "b66HCNLHZm0"
 				},
 				{
 					"type": "help",
 					"label": _("Drop Ship"),
-					"youtube_id": "56_kXOb_xy0"
+					"youtube_id": "7nI3gYXo2wY"
 				},
 				{
 					"type": "help",
 					"label": _("Setting Taxes"),
-					"youtube_id": "sg6tkLh_qX4"
+					"youtube_id": "LFUw1KG4cy0"
 				},
 			]
 		},
@@ -160,52 +160,52 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Items and Pricing"),
-					"youtube_id": "fom4ukmp0x8"
+					"youtube_id": "_GVGyix0mhs"
 				},
 				{
 					"type": "help",
 					"label": _("Item Variants"),
-					"youtube_id": "G2Se9YYplro"
+					"youtube_id": "pMWymLVLtzY"
 				},
 				{
 					"type": "help",
 					"label": _("Opening Stock Balance"),
-					"youtube_id": "MKmb9La0uro"
+					"youtube_id": "AFBiCjdS2g8"
 				},
 				{
 					"type": "help",
 					"label": _("Making Stock Entries"),
-					"youtube_id": "S-x4ivOyguo"
+					"youtube_id": "XF2WvH_JMK8"
 				},
 				{
 					"type": "help",
 					"label": _("Serialized Inventory"),
-					"youtube_id": "Y5opw7BbEsA"
+					"youtube_id": "JVQu3glss7c"
 				},
 				{
 					"type": "help",
 					"label": _("Batch Inventory"),
-					"youtube_id": "uRn_6DFWvAM"
+					"youtube_id": "f3aEEynoKKk"
 				},
 				{
 					"type": "help",
 					"label": _("Managing Subcontracting"),
-					"youtube_id": "_vgONrkLtFY"
+					"youtube_id": "Lz8ibJm4wTI"
 				},
 				{
 					"type": "help",
 					"label": _("Quality Inspection"),
-					"youtube_id": "Gc6CQw_TFYY"
+					"youtube_id": "_c0c1figZ-g"
 				},
 				{
 					"type": "help",
 					"label": _("Fixed Asset Management"),
-					"youtube_id": "H3Ic1VYbacE"
+					"youtube_id": "yBlkUkFrMAg"
 				},
 				{
 					"type": "help",
 					"label": _("Stock Reconciliation"),
-					"youtube_id": "PJvy--nCDoY"
+					"youtube_id": "zhycQkGAVbc"
 				},
 			]
 		},
@@ -215,22 +215,22 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Supplier"),
-					"youtube_id": "7wnFHDhYGEs"
+					"youtube_id": "mzvWG80WRNk"
 				},
 				{
 					"type": "help",
 					"label": _("Request For Quotation"),
-					"youtube_id": "-uLTiSakHnk"
+					"youtube_id": "cYVJE9tXAcw"
 				},
 				{
 					"type": "help",
 					"label": _("Buying Cycle"),
-					"youtube_id": "hsO9qOqD1X8"
+					"youtube_id": "n4TP9hzh_GE"
 				},
 				{
 					"type": "help",
 					"label": _("Setting Taxes"),
-					"youtube_id": "sg6tkLh_qX4"
+					"youtube_id": "KQem5_xbing"
 				},
 			]
 		},
@@ -240,17 +240,17 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Bill of Materials"),
-					"youtube_id": "26TiAo5BgAA"
+					"youtube_id": "7OYqOnGaY8k"
 				},
 				{
 					"type": "help",
 					"label": _("Production Planning Tool"),
-					"youtube_id": "WGGSID4FTBU"
+					"youtube_id": "7bV0pjExl2k"
 				},
 				{
 					"type": "help",
 					"label": _("Production Order"),
-					"youtube_id": "dMY40WOWyXI"
+					"youtube_id": "oMgftB4rYNA"
 				},
 
 			]
@@ -261,22 +261,22 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Setting up Employees"),
-					"youtube_id": "MSkuMQ3r8iY"
+					"youtube_id": "lPBQ0lov1SQ"
 				},
 				{
 					"type": "help",
 					"label": _("Leave Management"),
-					"youtube_id": "KB9zRz8Xq_A"
+					"youtube_id": "J6m3Dd7mXv4"
 				},
 				{
 					"type": "help",
 					"label": _("Expense Claims"),
-					"youtube_id": "SJJ08nE45yE"
+					"youtube_id": "BaJd7tHj868"
 				},
 				{
 					"type": "help",
 					"label": _("Processing Payroll"),
-					"youtube_id": "tWETdJWB6_8"
+					"youtube_id": "W1ZbhjgBsVw"
 				},
 			]
 		},
@@ -286,12 +286,12 @@ def get_data():
 				{
 					"type": "help",
 					"label": _("Managing Projects & Tasks"),
-					"youtube_id": "R713ScNrTHY"
+					"youtube_id": "pyEIezEhk6Q"
 				},
 				{
 					"type": "help",
 					"label": _("Timesheet Billing"),
-					"youtube_id": "Oih4btpi7TQ"
+					"youtube_id": "lcSzd6aG7o8"
 				},
 			]
 		},
