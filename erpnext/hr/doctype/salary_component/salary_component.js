@@ -7,7 +7,7 @@ frappe.ui.form.on('Salary Component', {
 			var d = locals[cdt][cdn];
 			return {
 				filters: [
-					['Account', 'root_type', 'in', 'Expense, Liability'],
+					['Account', 'root_type', 'in', 'Expense, Liability, Asset'],
 					['Account', 'is_group', '=', 0],
 					['Account', 'company', '=', d.company]
 				]
